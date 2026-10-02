@@ -1,0 +1,4 @@
+dog bat dog
+dog bat cat
+7
+00007

@@ -1,0 +1,7 @@
+clear_screen = true
+timeout_ms = 5000
+strict_progression = true
+solution_unlock_after_failures = 3
+show_warnings_on_pass = true
+clippy_hints = false
+max_errors_shown = 3

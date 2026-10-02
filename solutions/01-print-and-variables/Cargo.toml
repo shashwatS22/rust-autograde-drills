@@ -1,0 +1,7 @@
+[package]
+name = "sol-01-print-and-variables"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]

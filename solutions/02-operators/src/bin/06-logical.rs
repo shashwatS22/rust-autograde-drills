@@ -1,0 +1,8 @@
+fn main() {
+    let a = true;
+    let b = false;
+    println!("{}", a && b);
+    println!("{}", a || b);
+    println!("{}", !a);
+    println!("{}", !b);
+}

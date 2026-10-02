@@ -1,0 +1,11 @@
+[package]
+name = "sol-16-modules-errors-io"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]
+
+[lib]
+name = "level_16_modules_errors_io"
+path = "src/lib.rs"

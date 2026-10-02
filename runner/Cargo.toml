@@ -1,0 +1,25 @@
+[package]
+name = "runner"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "watch"
+path = "src/bin/watch.rs"
+
+[[bin]]
+name = "cli"
+path = "src/bin/cli.rs"
+
+[dependencies]
+anyhow = "1"
+notify = "7"
+notify-debouncer-full = "0.4"
+owo-colors = "4"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+toml = "0.8"
+walkdir = "2"
+time = { version = "0.3", features = ["formatting", "macros"] }
