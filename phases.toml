@@ -1,0 +1,24 @@
+[[phase]]
+name = "1 — Rust fundamentals"
+level_start = 1
+level_end = 16
+
+[[phase]]
+name = "3 — Core Rust"
+level_start = 17
+level_end = 29
+
+[[phase]]
+name = "4 — Backend"
+level_start = 30
+level_end = 36
+
+[[phase]]
+name = "5 — Systems"
+level_start = 37
+level_end = 43
+
+[[phase]]
+name = "6 — Browser"
+level_start = 44
+level_end = 48

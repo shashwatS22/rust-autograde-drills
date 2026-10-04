@@ -1,0 +1,10 @@
+[package]
+name = "level-48-leptos-server-fns"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]
+leptos = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }

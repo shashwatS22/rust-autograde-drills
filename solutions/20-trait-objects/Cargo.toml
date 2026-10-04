@@ -1,0 +1,8 @@
+[package]
+name = "sol-20-trait-objects"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]
+

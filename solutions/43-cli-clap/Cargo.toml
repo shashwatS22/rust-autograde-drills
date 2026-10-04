@@ -1,0 +1,8 @@
+[package]
+name = "sol-43-cli-clap"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]
+clap = { workspace = true }

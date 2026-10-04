@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["runner", "playground", "levels/*", "solutions/*"]
+members = ["runner", "playground", "levels/*", "solutions/*", "projects/*"]
 default-members = ["runner"]
 
 [workspace.package]
@@ -12,3 +12,29 @@ publish = false
 debug = 0
 incremental = true
 opt-level = 0
+
+[workspace.dependencies]
+tokio = { version = "1.48", features = ["full", "test-util"] }
+axum = { version = "0.8", features = ["macros"] }
+tower = { version = "0.5", features = ["util"] }
+tower-http = { version = "0.6", features = ["trace", "cors"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sqlx = { version = "0.8", features = ["runtime-tokio", "sqlite"] }
+thiserror = "2.0"
+anyhow = "1.0"
+rayon = "1.10"
+clap = { version = "4.5", features = ["derive"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+http-body-util = "0.1"
+hyper = "1.6"
+jsonwebtoken = "9"
+argon2 = "0.5"
+dotenvy = "0.15"
+cc = "1.2"
+criterion = { version = "0.5", features = ["html_reports"] }
+leptos = { version = "0.7", features = ["ssr"] }
+wasm-bindgen = "0.2"
+js-sys = "0.3"
+web-sys = { version = "0.3", features = ["Document", "Element", "HtmlElement", "Window"] }

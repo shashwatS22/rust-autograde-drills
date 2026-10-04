@@ -1,0 +1,8 @@
+[package]
+name = "level-28-channels-and-sync"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]
+

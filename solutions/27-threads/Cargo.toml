@@ -1,0 +1,8 @@
+[package]
+name = "sol-27-threads"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]
+

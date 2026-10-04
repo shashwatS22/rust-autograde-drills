@@ -64,6 +64,7 @@ impl Outcome {
 
 pub fn run(ws: &Workspace, cfg: &Config, id: &str, use_solution: bool) -> Result<Outcome> {
     let ex = ws.exercise_from_id(id)?;
+    let cfg = cfg.for_level(&ws.root, &ex.level_dir);
     let hint = ws.load_hint(&ex);
     let checks_path = ws.checks_path(&ex);
     let is_checks = checks_path.exists();

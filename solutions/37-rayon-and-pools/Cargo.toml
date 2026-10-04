@@ -1,0 +1,8 @@
+[package]
+name = "sol-37-rayon-and-pools"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]
+rayon = { workspace = true }

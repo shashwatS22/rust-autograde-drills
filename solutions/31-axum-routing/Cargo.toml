@@ -1,0 +1,12 @@
+[package]
+name = "sol-31-axum-routing"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]
+axum = { workspace = true }
+tokio = { workspace = true }
+tower = { workspace = true }
+http-body-util = { workspace = true }
+hyper = { workspace = true }

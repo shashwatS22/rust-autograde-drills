@@ -1,0 +1,11 @@
+[package]
+name = "level-41-ffi"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[build-dependencies]
+cc = { workspace = true }
+
+[dependencies]
+cc = { workspace = true }

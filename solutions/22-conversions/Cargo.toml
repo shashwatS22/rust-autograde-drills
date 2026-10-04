@@ -1,0 +1,8 @@
+[package]
+name = "sol-22-conversions"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]
+

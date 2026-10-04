@@ -1,6 +1,7 @@
 pub mod build;
 pub mod config;
 pub mod maint;
+pub mod phases;
 pub mod grade;
 pub mod progress;
 pub mod report;

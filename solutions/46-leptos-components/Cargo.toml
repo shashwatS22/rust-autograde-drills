@@ -1,0 +1,8 @@
+[package]
+name = "sol-46-leptos-components"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]
+leptos = { workspace = true }

@@ -10,3 +10,4 @@ gen-expected = ["run", "--release", "-p", "runner", "--bin", "cli", "--", "gen-e
 verify = ["run", "--release", "-p", "runner", "--bin", "cli", "--", "verify"]
 verify-readmes = ["run", "--release", "-p", "runner", "--bin", "cli", "--", "verify-readmes"]
 play = ["run", "-p", "playground"]
+warm = ["run", "--release", "-p", "runner", "--bin", "cli", "--", "warm"]

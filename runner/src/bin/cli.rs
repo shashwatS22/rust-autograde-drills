@@ -114,6 +114,30 @@ fn main() -> Result<()> {
             }
         }
         "verify-readmes" => verify_readmes(&ws)?,
+        "warm" => {
+            let nn = args.next().context("usage: warm <NN>")?;
+            let level = find_level_by_num(&ws, &nn)?;
+            let pkg = Workspace::package_name(&level);
+            let names = ws.list_exercises_in_level(&level)?;
+            let mut cmd = std::process::Command::new("cargo");
+            cmd.arg("build")
+                .arg("--manifest-path")
+                .arg(root.join("Cargo.toml"))
+                .arg("-p")
+                .arg(&pkg);
+            for name in &names {
+                cmd.arg("--bin").arg(name);
+            }
+            cmd.env(
+                "CARGO_TARGET_DIR",
+                ws.exercises_target_dir(),
+            );
+            let status = cmd.status().context("cargo warm build")?;
+            if !status.success() {
+                std::process::exit(1);
+            }
+            println!("Warmed level {level} ({pkg}), {} bins.", names.len());
+        }
         "help" | _ => print_help(),
     }
     Ok(())
@@ -121,7 +145,7 @@ fn main() -> Result<()> {
 
 fn print_help() {
     println!(
-        "Commands: grade, grade-level, progress, solution, reset, reset-checks, gen-expected, verify, verify-readmes"
+        "Commands: grade, grade-level, progress, solution, reset, reset-checks, gen-expected, verify, verify-readmes, warm"
     );
 }
 

@@ -41,8 +41,11 @@ fn main() -> Result<()> {
                 *last16.lock().unwrap() = Some(id.clone());
                 id
             } else if let Some(level) = ws2.is_level_non_bin_source(&path) {
+                let fallback = ws2
+                    .default_regrade_id(&level)
+                    .unwrap_or_else(|| format!("{level}/01-inline-module"));
                 let guard = last16.lock().unwrap();
-                guard.clone().unwrap_or_else(|| format!("{level}/01-inline-module"))
+                guard.clone().unwrap_or(fallback)
             } else {
                 continue;
             };

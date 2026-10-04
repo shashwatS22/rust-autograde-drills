@@ -1,0 +1,9 @@
+[package]
+name = "level-30-serde"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]
+serde = { workspace = true }
+serde_json = { workspace = true }

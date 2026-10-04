@@ -1,0 +1,8 @@
+[package]
+name = "level-24-smart-pointers"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]
+

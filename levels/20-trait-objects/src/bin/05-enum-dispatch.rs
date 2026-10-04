@@ -1,0 +1,21 @@
+//! 20-trait-objects / 05-enum-dispatch
+//!
+//! TASK
+//! Complete `05-enum-dispatch` (enum dispatch).
+//!
+//! SIGNATURE
+//! fn sound(p: Pet) -> &'static str
+//!
+//! This exercise is graded by the checks at the bottom of the file, not by
+//! printed output. Leave `main` empty.
+//!
+fn sound(p: Pet) -> &'static str {
+    todo!()
+}
+
+fn main() {}
+
+// ---- CHECKS: DO NOT EDIT ----
+#[cfg(test)]
+#[path = "../../checks/05-enum-dispatch.rs"]
+mod tests;

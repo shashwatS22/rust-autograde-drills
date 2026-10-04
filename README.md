@@ -37,7 +37,8 @@ Other commands:
 | `cargo play` | Run `playground/src/main.rs` (experiments, never graded) |
 | `cargo grade <id>` | Grade one exercise once, e.g. `cargo grade 04-for-loops/07-count-digits` |
 | `cargo grade-level 04` | Grade every exercise in level 04 |
-| `cargo progress` | Dashboard of what’s done |
+| `cargo progress` | Dashboard by phase and by level |
+| `cargo warm <NN>` | Pre-build level NN (run once before levels with dependencies) |
 | `cargo solution <id>` | Show reference solution (locked until 3 failed runs; compile errors don’t count) |
 
 Write notes in `NOTES.md`. Read each level’s `README.md` before its exercises.
@@ -94,8 +95,11 @@ Read the message top to bottom once, out loud if it helps, then change one thing
 
 ## Performance (reference machine)
 
-On a typical dev machine with a warm cache, one exercise rebuild + run is about **200–300 ms** after the first build. The first build of a level takes longer while Cargo compiles that crate.
+- **Levels 01–16** (no dependencies): ~**200–300 ms** save → verdict on a warm cache.
+- **Levels 17–48** (with crates): run **`cargo warm NN`** once per level (~30–90 s first time), then ~**300–600 ms** per save.
+
+Capstone projects (`projects/api`, `projects/systems`, `projects/web`) use `cargo test -p …`, not the exercise watcher.
 
 ## Roadmap
 
-See [reference/LEARNING-PLAN.md](reference/LEARNING-PLAN.md) for the full learning path (200 drills + LeetCode + later backend/systems/WASM tracks).
+**553 auto-graded exercises** across 48 levels (Phases 1, 3–6). See [reference/LEARNING-PLAN.md](reference/LEARNING-PLAN.md) and [reference/CURSOR-BUILD-SPEC-PHASES-3-6.md](reference/CURSOR-BUILD-SPEC-PHASES-3-6.md). Phase 2 DSA stays on LeetCode in parallel.

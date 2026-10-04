@@ -1,0 +1,9 @@
+[package]
+name = "sol-25-error-design"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]
+thiserror = { workspace = true }
+anyhow = { workspace = true }

@@ -198,4 +198,19 @@ impl Workspace {
     pub fn exercises_target_dir(&self) -> PathBuf {
         self.root.join("target/exercises")
     }
+
+    pub fn has_lib_crate(&self, level_dir: &str) -> bool {
+        self.level_crate_dir(level_dir).join("src/lib.rs").exists()
+    }
+
+    pub fn first_exercise_in_level(&self, level_dir: &str) -> Option<String> {
+        self.list_exercises_in_level(level_dir)
+            .ok()
+            .and_then(|v| v.into_iter().next())
+    }
+
+    pub fn default_regrade_id(&self, level_dir: &str) -> Option<String> {
+        self.first_exercise_in_level(level_dir)
+            .map(|name| format!("{level_dir}/{name}"))
+    }
 }

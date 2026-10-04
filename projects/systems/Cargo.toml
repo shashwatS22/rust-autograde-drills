@@ -1,0 +1,21 @@
+[package]
+name = "systems"
+edition.workspace = true
+version = "0.1.0"
+publish = false
+
+[[bin]]
+name = "pgrep"
+path = "src/main.rs"
+
+[dependencies]
+clap.workspace = true
+rayon.workspace = true
+anyhow.workspace = true
+
+[dev-dependencies]
+criterion.workspace = true
+
+[[bench]]
+name = "grep_bench"
+harness = false

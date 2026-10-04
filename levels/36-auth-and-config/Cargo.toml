@@ -1,0 +1,17 @@
+[package]
+name = "level-36-auth-and-config"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]
+axum = { workspace = true }
+tokio = { workspace = true }
+tower = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+jsonwebtoken = { workspace = true }
+argon2 = { workspace = true }
+dotenvy = { workspace = true }
+http-body-util = { workspace = true }
+hyper = { workspace = true }

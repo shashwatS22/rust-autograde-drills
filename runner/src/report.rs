@@ -239,12 +239,50 @@ fn celebrate_level(ws: &Workspace, level_dir: &str) {
 }
 
 pub fn print_progress_dashboard(ws: &Workspace) -> anyhow::Result<()> {
+    use crate::phases::PhasesFile;
     use crate::progress::{longest_stuck, ProgressFile};
     let file = ProgressFile::load(&ws.root)?;
     let mut total = 0usize;
     let mut done = 0usize;
     println!("{}", "Progress".bold());
     println!();
+    let phases = PhasesFile::load(&ws.root).ok();
+    if let Some(ref phases) = phases {
+        for phase in &phases.phase {
+            let mut phase_total = 0usize;
+            let mut phase_done = 0usize;
+            for level in ws.list_levels()? {
+                let num = Workspace::level_num(&level);
+                if num < phase.level_start || num > phase.level_end {
+                    continue;
+                }
+                let names = ws.list_exercises_in_level(&level)?;
+                let level_done = names
+                    .iter()
+                    .filter(|n| {
+                        file.exercises
+                            .get(&format!("{level}/{n}"))
+                            .is_some_and(|e| e.status == "pass")
+                    })
+                    .count();
+                phase_total += names.len();
+                phase_done += level_done;
+            }
+            let pct = if phase_total == 0 {
+                0
+            } else {
+                (phase_done * 100) / phase_total
+            };
+            println!(
+                "  {} {} {}/{}",
+                phase.name.bold(),
+                progress_bar(pct),
+                phase_done,
+                phase_total
+            );
+        }
+        println!();
+    }
     for level in ws.list_levels()? {
         let names = ws.list_exercises_in_level(&level)?;
         let level_done = names
@@ -263,7 +301,14 @@ pub fn print_progress_dashboard(ws: &Workspace) -> anyhow::Result<()> {
             (level_done * 100) / names.len()
         };
         let bar = progress_bar(pct);
-        println!("  {} {} {} {}/{}", level, bar, format!("{pct}%").dimmed(), level_done, names.len());
+        println!(
+            "  {} {} {} {}/{}",
+            level,
+            bar,
+            format!("{pct}%").dimmed(),
+            level_done,
+            names.len()
+        );
     }
     println!();
     println!("  Total: {done}/{total}");

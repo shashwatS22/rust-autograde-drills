@@ -51,6 +51,14 @@ impl Default for Config {
     }
 }
 
+#[derive(Debug, Clone, Deserialize, Default)]
+pub struct LevelConfigOverlay {
+    #[serde(default)]
+    pub timeout_ms: Option<u64>,
+    #[serde(default)]
+    pub phase: Option<u32>,
+}
+
 impl Config {
     pub fn load(root: &Path) -> Result<Self> {
         let path = root.join("config.toml");
@@ -59,6 +67,24 @@ impl Config {
         }
         let text = std::fs::read_to_string(&path).with_context(|| format!("read {}", path.display()))?;
         toml::from_str(&text).context("parse config.toml")
+    }
+
+    pub fn for_level(&self, root: &Path, level_dir: &str) -> Self {
+        let mut cfg = self.clone();
+        let path = root.join("levels").join(level_dir).join("level.toml");
+        if !path.exists() {
+            return cfg;
+        }
+        let Ok(text) = std::fs::read_to_string(&path) else {
+            return cfg;
+        };
+        let Ok(overlay) = toml::from_str::<LevelConfigOverlay>(&text) else {
+            return cfg;
+        };
+        if let Some(t) = overlay.timeout_ms {
+            cfg.timeout_ms = t;
+        }
+        cfg
     }
 }
 

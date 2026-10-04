@@ -1,0 +1,12 @@
+[package]
+name = "web"
+edition.workspace = true
+version = "0.1.0"
+publish = false
+
+[dependencies]
+leptos.workspace = true
+axum.workspace = true
+tokio.workspace = true
+serde.workspace = true
+anyhow.workspace = true

@@ -68,10 +68,10 @@ She asked for all three directions — backend, systems, and the browser. The pl
 |---|---|---|---|
 | **1. Rust fundamentals** | 1–5 | 16 levels, 200 drills. Variables → ownership → iterators → structs/enums → `Result`. | All levels green |
 | **2. DSA foundation** | 1–8 (parallel) | Striver Steps 1–3 on LeetCode, in Rust | ~60 problems solved |
-| **3. Core Rust — shared by A, B and C** | 6–9 | Traits, generics, lifetimes, smart pointers, error design, testing, threads, async | `core-drills/` green + 2 small library crates |
-| **4. Track A — Backend services** | 10–14 | Tokio, Axum, serde, SQLx + Postgres, auth, tracing, Docker, deploy | 1 deployed REST API |
-| **5. Track B — Systems Rust** | 15–18 | Threads deep dive, `Send`/`Sync`, `unsafe`, FFI, memory layout, profiling, CLI tooling | 1 real systems tool, benchmarked |
-| **6. Track C — Rust in the browser** | 19–22 | Web fundamentals, WebAssembly, Leptos, server functions | 1 deployed full-stack Rust app |
+| **3. Core Rust — shared by A, B and C** | 6–9 | Levels **17–29** (~140 drills): traits → lifetimes → smart pointers → errors → threads → async | Levels 17–29 green + library projects in README |
+| **4. Track A — Backend services** | 10–14 | Levels **30–36** (~80 drills): serde, Axum, tower, SQLx (SQLite in drills), auth | Levels 30–36 green + **`projects/api`** deployed |
+| **5. Track B — Systems Rust** | 15–18 | Levels **37–43** (~76 drills): rayon, sync, layout, `unsafe`, FFI, perf, clap | Levels 37–43 green + **`projects/systems`** benchmarked |
+| **6. Track C — Rust in the browser** | 19–22 | Levels **44–48** (~54 drills): wasm-bindgen, web-sys, Leptos SSR drills | Levels 44–48 green + **`projects/web`** deployed |
 
 **A note on Phase 6:** it opens with about a week of HTML, CSS and the DOM. She doesn't need to become a frontend developer, but a WASM UI framework is a way of *producing* HTML, and if she doesn't know what a `<div>`, a flexbox, or an event listener is, Leptos becomes memorisation. If you want to compress, cut it to four days and skip CSS grid depth — but don't skip it entirely.
 
@@ -180,7 +180,7 @@ Four things to tell her once, up front:
 
 This is the phase that makes the other three possible. Everything here is used by the backend track, the systems track, and the browser track. Nothing here is optional.
 
-**Setup:** a `core-drills/` crate in the same workspace. Same watcher, same PASS/FAIL loop, same commands. Exercises are a mix of output-graded and test-graded, weighted much more heavily toward test-graded than Phase 1 — by now she should be thinking in return values and types, not in printed lines.
+**Setup:** levels **17–29** in the same repo (`levels/17-traits` … `levels/29-async-tokio`). Same watcher, same PASS/FAIL loop. Run `cargo warm 25` and `cargo warm 29` before those levels. Exercise bank: `reference/CURSOR-BUILD-SPEC-PHASES-3-6.md`.
 
 **Topics, in order:**
 
@@ -208,7 +208,7 @@ This is the phase that makes the other three possible. Everything here is used b
 
 ---
 
-## 7. Phase 4 — Track A: Backend services (outline)
+## 7. Phase 4 — Track A: Backend services (levels 30–36 + `projects/api`)
 
 1. Tokio: the runtime, tasks, `spawn`, async I/O, `tokio::time`
 2. `serde`: `Serialize`/`Deserialize`, `#[serde(rename_all)]`, JSON in and out
@@ -229,7 +229,7 @@ This is the phase that makes the other three possible. Everything here is used b
 
 ---
 
-## 8. Phase 5 — Track B: Systems Rust (outline)
+## 8. Phase 5 — Track B: Systems Rust (levels 37–43 + `projects/systems`)
 
 1. Threads in anger: thread pools, `rayon` for data parallelism, `scope`d threads
 2. Synchronisation: `Mutex` vs `RwLock`, `Condvar`, atomics, what a data race actually is
@@ -250,7 +250,7 @@ This is the phase that makes the other three possible. Everything here is used b
 
 ---
 
-## 9. Phase 6 — Track C: Rust in the browser (outline)
+## 9. Phase 6 — Track C: Rust in the browser (levels 44–48 + `projects/web`)
 
 **Week 1 — web fundamentals (do not skip):**
 1. HTML: semantic structure, forms, attributes, accessibility basics
