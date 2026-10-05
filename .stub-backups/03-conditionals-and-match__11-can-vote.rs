@@ -1,12 +1,10 @@
 //! 03-conditionals-and-match / 11-can-vote
 //!
 //! TASK
-//! Complete `11-can-vote` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `age = 17`, `is_citizen = true`. Print `can vote` only if 18+ **and** a citizen, else `cannot vote`.
 //!
 //! EXPECTED OUTPUT
-//! cannot vote
+//! `cannot vote`
 
 fn main() {
     // ---- GIVEN ----

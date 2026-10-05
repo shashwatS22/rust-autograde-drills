@@ -1,10 +1,10 @@
 //! 15-hashmaps-and-sets / 08-first-non-repeating
 //!
 //! TASK
-//! Complete `08-first-non-repeating` per the level README and spec.
+//! GIVEN `s = "swiss"`. Print the first character that appears exactly once, or `none`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/08-first-non-repeating.txt
+//! `w`
 
 fn main() {
     // Your code below

@@ -1,10 +1,10 @@
 //! 15-hashmaps-and-sets / 02-entry-api
 //!
 //! TASK
-//! Complete `02-entry-api` per the level README and spec.
+//! Same output, but build the map with `*map.entry(c).or_insert(0) += 1;`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/02-entry-api.txt
+//! `a:3 b:1 n:2`
 
 fn main() {
     // Your code below

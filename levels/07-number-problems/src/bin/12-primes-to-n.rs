@@ -1,10 +1,10 @@
 //! 07-number-problems / 12-primes-to-n
 //!
 //! TASK
-//! Complete `12-primes-to-n` per the level README and spec.
+//! GIVEN `n: u32 = 30`. Print every prime from 2 to n, space-separated.
 //!
 //! EXPECTED OUTPUT
-//! See expected/12-primes-to-n.txt
+//! `2 3 5 7 11 13 17 19 23 29`
 
 fn main() {
     // Your code below

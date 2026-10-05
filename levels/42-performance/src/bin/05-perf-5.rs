@@ -1,7 +1,7 @@
 //! 42-performance / 05-perf-5
 //!
 //! TASK
-//! Complete `05-perf-5` (perf 5).
+//! Implement `perf 5` as described in the stub.
 //!
 //! SIGNATURE
 //! fn work() -> i32

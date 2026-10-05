@@ -1,12 +1,10 @@
 //! 01-print-and-variables / 02-name-age
 //!
 //! TASK
-//! Complete `02-name-age` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `name = "Riya"`, `age = 27`. Print `Riya is 27 years old` using an inline format argument: `println!("{name} is {age} years old")`.
 //!
 //! EXPECTED OUTPUT
-//! Riya is 27 years old
+//! `Riya is 27 years old`
 
 fn main() {
     // ---- GIVEN ----

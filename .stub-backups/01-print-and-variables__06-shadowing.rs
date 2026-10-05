@@ -1,14 +1,12 @@
 //! 01-print-and-variables / 06-shadowing
 //!
 //! TASK
-//! Complete `06-shadowing` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! `let x = 5;` print it. Shadow it with `let x = x * 2;` print it. Shadow it again with `let x = "now a word";` print it.
 //!
 //! EXPECTED OUTPUT
-//! 5
+//! `5
 //! 10
-//! now a word
+//! now a word`
 
 fn main() {
     // ---- GIVEN ----

@@ -1,7 +1,7 @@
 //! 21-lifetimes / 06-method
 //!
 //! TASK
-//! Complete `06-method` (method).
+//! Implement `method` as described in the stub.
 //!
 //! SIGNATURE
 //! fn g() -> &'static str

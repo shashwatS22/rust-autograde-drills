@@ -1,11 +1,11 @@
 //! 01-print-and-variables / 03-two-lines
 //!
 //! TASK
-//! Complete `03-two-lines` per the level README and spec.
+//! Print `Line one` then `Line two` using two separate `println!` calls.
 //!
 //! EXPECTED OUTPUT
-//! Line one
-//! Line two
+//! `Line one
+//! Line two`
 
 fn main() {
     // Your code below

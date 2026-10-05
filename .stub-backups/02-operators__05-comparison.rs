@@ -1,13 +1,13 @@
 //! 02-operators / 05-comparison
 //!
 //! TASK
-//! Complete `05-comparison` per the level README and spec.
+//! Print `1 == 1`, `2 != 2`, `3 < 4`, `5 >= 6`, one per line.
 //!
 //! EXPECTED OUTPUT
-//! true
+//! `true
 //! false
 //! true
-//! false
+//! false`
 
 fn main() {
     // Your code below

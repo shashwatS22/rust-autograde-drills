@@ -1,13 +1,11 @@
 //! 02-operators / 12-first-last-digit
 //!
 //! TASK
-//! Complete `12-first-last-digit` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `n: i32 = 4739`. Print its last digit using `%`, then its first digit using integer division by 1000.
 //!
 //! EXPECTED OUTPUT
-//! 9
-//! 4
+//! `9
+//! 4`
 
 fn main() {
     // ---- GIVEN ----

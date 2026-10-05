@@ -1,10 +1,10 @@
 //! 06-patterns / 14-hollow-square
 //!
 //! TASK
-//! Complete `14-hollow-square` per the level README and spec.
+//! 5×5 square, `*` on the border, spaces inside
 //!
 //! EXPECTED OUTPUT
-//! See expected/14-hollow-square.txt
+//! 
 
 fn main() {
     // Your code below

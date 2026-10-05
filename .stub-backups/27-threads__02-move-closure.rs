@@ -1,7 +1,7 @@
 //! 27-threads / 02-move-closure
 //!
 //! TASK
-//! Complete `02-move-closure` (move closure).
+//! Implement `move closure` as described in the stub.
 //!
 //! SIGNATURE
 //! fn moved() -> i32

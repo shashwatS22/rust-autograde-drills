@@ -1,7 +1,7 @@
 //! 27-threads / 05-yield
 //!
 //! TASK
-//! Complete `05-yield` (yield).
+//! Implement `yield` as described in the stub.
 //!
 //! SIGNATURE
 //! fn ids() -> usize

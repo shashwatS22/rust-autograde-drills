@@ -1,10 +1,10 @@
 //! 06-patterns / 04-same-number-triangle
 //!
 //! TASK
-//! Complete `04-same-number-triangle` per the level README and spec.
+//! Row `i` prints the digit `i` repeated `i` times
 //!
 //! EXPECTED OUTPUT
-//! See expected/04-same-number-triangle.txt
+//! 
 
 fn main() {
     // Your code below

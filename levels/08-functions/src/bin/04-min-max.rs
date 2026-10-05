@@ -1,15 +1,14 @@
 //! 08-functions / 04-min-max
 //!
 //! TASK
-//! Complete `04-min-max` per the level README and spec.
+//! `fn min_max(numbers: &[i32]) -> (i32, i32)` returning a tuple. Assume non-empty.
 //!
 //! SIGNATURE
-//! fn min_max(numbers: &[i32]) -> (i32, i32)
+//! fn min_max(numbers: &[i32]) -> (i32, i32)` returning a tuple
 //!
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
-
 fn min_max(numbers: &[i32]) -> (i32, i32) {
     todo!()
 }

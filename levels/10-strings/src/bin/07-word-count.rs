@@ -1,10 +1,10 @@
 //! 10-strings / 07-word-count
 //!
 //! TASK
-//! Complete `07-word-count` per the level README and spec.
+//! GIVEN `s = " the quick  brown fox "`. Print the word count with `split_whitespace`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/07-word-count.txt
+//! `4`
 
 fn main() {
     // Your code below

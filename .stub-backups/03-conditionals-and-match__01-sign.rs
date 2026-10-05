@@ -1,12 +1,10 @@
 //! 03-conditionals-and-match / 01-sign
 //!
 //! TASK
-//! Complete `01-sign` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `n = -14`. Print `positive`, `negative`, or `zero`.
 //!
 //! EXPECTED OUTPUT
-//! negative
+//! `negative`
 
 fn main() {
     // ---- GIVEN ----

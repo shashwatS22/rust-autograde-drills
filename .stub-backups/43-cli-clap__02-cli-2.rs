@@ -1,7 +1,7 @@
 //! 43-cli-clap / 02-cli-2
 //!
 //! TASK
-//! Complete `02-cli-2` (cli 2).
+//! Implement `cli 2` as described in the stub.
 //!
 //! SIGNATURE
 //! fn n() -> i32

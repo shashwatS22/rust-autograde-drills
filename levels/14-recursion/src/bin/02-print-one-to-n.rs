@@ -1,10 +1,14 @@
 //! 14-recursion / 02-print-one-to-n
 //!
 //! TASK
-//! Complete `02-print-one-to-n` per the level README and spec.
+//! GIVEN `n = 5`. Recursively print 1 to n.
 //!
 //! EXPECTED OUTPUT
-//! See expected/02-print-one-to-n.txt
+//! `1
+//! 2
+//! 3
+//! 4
+//! 5`
 
 fn main() {
     // Your code below

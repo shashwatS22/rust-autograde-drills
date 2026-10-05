@@ -1,10 +1,10 @@
 //! 12-iterators-and-closures / 09-sort-strings
 //!
 //! TASK
-//! Complete `09-sort-strings` per the level README and spec.
+//! GIVEN `let mut v = vec!["banana", "apple", "cherry"];`. Print sorted alphabetically, joined.
 //!
 //! EXPECTED OUTPUT
-//! See expected/09-sort-strings.txt
+//! `apple banana cherry`
 
 fn main() {
     // Your code below

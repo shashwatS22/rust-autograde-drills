@@ -1,0 +1,10 @@
+[package]
+name = "kvstore"
+edition.workspace = true
+version = "0.1.0"
+publish = false
+
+[dependencies]
+thiserror.workspace = true
+tokio = { workspace = true, features = ["fs", "rt-multi-thread", "macros"] }
+async-trait = "0.1"

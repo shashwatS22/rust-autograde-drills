@@ -1,7 +1,7 @@
 //! 23-iterators-advanced / 08-zip
 //!
 //! TASK
-//! Complete `08-zip` (zip).
+//! Implement `zip` as described in the stub.
 //!
 //! SIGNATURE
 //! fn zip_sum() -> i32

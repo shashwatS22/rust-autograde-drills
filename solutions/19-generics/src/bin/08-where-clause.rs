@@ -1,5 +1,10 @@
-fn clamp(v: i32, lo: i32, hi: i32) -> i32 { v.clamp(lo, hi) }
-fn small() -> i32 { clamp(10, 0, 5) }
+fn largest<T>(a: T, b: T) -> T
+where
+    T: PartialOrd,
+{
+    if a > b { a } else { b }
+}
+fn pick() -> i32 { largest(3, 9) }
 
 fn main() {}
 

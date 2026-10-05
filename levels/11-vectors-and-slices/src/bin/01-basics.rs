@@ -1,10 +1,12 @@
 //! 11-vectors-and-slices / 01-basics
 //!
 //! TASK
-//! Complete `01-basics` per the level README and spec.
+//! GIVEN `v = vec![10, 20, 30]`. Print `v.len()`, `v[0]`, and the last element.
 //!
 //! EXPECTED OUTPUT
-//! See expected/01-basics.txt
+//! `3
+//! 10
+//! 30`
 
 fn main() {
     // Your code below

@@ -1,7 +1,7 @@
 //! 28-channels-and-sync / 04-barrier
 //!
 //! TASK
-//! Complete `04-barrier` (barrier).
+//! Implement `barrier` as described in the stub.
 //!
 //! SIGNATURE
 //! fn wait() -> usize

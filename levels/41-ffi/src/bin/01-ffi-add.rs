@@ -1,7 +1,7 @@
 //! 41-ffi / 01-ffi-add
 //!
 //! TASK
-//! Call C `add_int` via FFI.
+//! Call C `add_int` from `native/add.c` via FFI.
 //!
 //! SIGNATURE
 //! fn add_via_ffi(a: i32, b: i32) -> i32

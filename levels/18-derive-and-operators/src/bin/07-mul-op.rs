@@ -1,7 +1,7 @@
 //! 18-derive-and-operators / 07-mul-op
 //!
 //! TASK
-//! Complete `07-mul-op` (mul op).
+//! Implement `mul op` as described in the stub.
 //!
 //! SIGNATURE
 //! fn triple() -> i32

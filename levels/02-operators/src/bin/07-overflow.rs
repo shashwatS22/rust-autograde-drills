@@ -1,14 +1,12 @@
 //! 02-operators / 07-overflow
 //!
 //! TASK
-//! Complete `07-overflow` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `a: u8 = 250`. Print `a.checked_add(10)` with `{:?}`, then `a.wrapping_add(10)`, then `a.saturating_add(10)`.
 //!
 //! EXPECTED OUTPUT
-//! None
+//! `None
 //! 4
-//! 255
+//! 255`
 
 fn main() {
     // ---- GIVEN ----

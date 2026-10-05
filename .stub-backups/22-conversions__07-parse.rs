@@ -1,7 +1,7 @@
 //! 22-conversions / 07-parse
 //!
 //! TASK
-//! Complete `07-parse` (parse).
+//! Implement `parse` as described in the stub.
 //!
 //! SIGNATURE
 //! fn p() -> i32

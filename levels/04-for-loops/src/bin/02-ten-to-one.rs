@@ -1,10 +1,13 @@
 //! 04-for-loops / 02-ten-to-one
 //!
 //! TASK
-//! Complete `02-ten-to-one` per the level README and spec.
+//! Print 10 down to 1 using `.rev()`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/02-ten-to-one.txt
+//! `10
+//! 9
+//! …
+//! 1`
 
 fn main() {
     // Your code below

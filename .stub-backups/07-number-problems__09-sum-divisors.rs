@@ -1,10 +1,10 @@
 //! 07-number-problems / 09-sum-divisors
 //!
 //! TASK
-//! Complete `09-sum-divisors` per the level README and spec.
+//! GIVEN `n: u32 = 28`. Print the sum of all divisors including n.
 //!
 //! EXPECTED OUTPUT
-//! See expected/09-sum-divisors.txt
+//! `56`
 
 fn main() {
     // Your code below

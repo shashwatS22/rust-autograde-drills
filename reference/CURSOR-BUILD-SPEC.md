@@ -1,8 +1,10 @@
-# Build Spec — `rust-bootcamp` auto-graded Rust practice repo
+# Build Spec — Phase 1 (`rust-bootcamp` levels 01–16)
 
-**Give this file to Cursor.** It contains everything needed to scaffold the repo: structure, runner implementation, file conventions, and all 200 exercises.
+**Give this file to Cursor for Phase 1.** It covers the runner, file conventions, and **200 exercises in levels 01–16**.
 
-Read §1–§8 fully before writing code. §9 is the exercise bank. §10 is the build order with acceptance criteria — follow it in sequence.
+Phases 3–6 (levels 17–48, 256 drills) are specified separately in [CURSOR-BUILD-SPEC-PHASES-3-6.md](./CURSOR-BUILD-SPEC-PHASES-3-6.md). The full repo target is **48 levels, 456 auto-graded exercises**.
+
+Read §1–§8 fully before writing code. §9 is the Phase 1 exercise bank. §10 is the build order with acceptance criteria — follow it in sequence.
 
 ---
 
@@ -1084,8 +1086,10 @@ Write `README.md` for a complete beginner: how to install Rust with `rustup`, ho
 
 **Acceptance:** someone who has never installed Rust could follow it start to finish.
 
-### Step 12 — Full pass
-Run `cargo verify` across all 16 levels — must be 200/200. Reset progress. Verify `cargo dev` from a clean state starts at level 01. Time a cold-cache first run and a warm-cache edit; record both numbers in the root README.
+### Step 12 — Full pass (Phase 1)
+Run `cargo verify --level` for each of levels 01–16 — must be **200/200**. Reset progress. Verify `cargo dev` from a clean state starts at level 01. Time a cold-cache first run and a warm-cache edit; record both in the root README.
+
+When Phases 3–6 are present, the **repo-wide** gate is **456/456** (`cargo verify` with no filter). Phase 1 exercise crates stay dependency-free; later phases use workspace crates per the phases 3–6 spec and may use longer per-level timeouts.
 
 ---
 

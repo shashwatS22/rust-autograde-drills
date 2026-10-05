@@ -1,7 +1,7 @@
 //! 28-channels-and-sync / 03-condvar
 //!
 //! TASK
-//! Complete `03-condvar` (condvar).
+//! Implement `condvar` as described in the stub.
 //!
 //! SIGNATURE
 //! fn signal() -> i32

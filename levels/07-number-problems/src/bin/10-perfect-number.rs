@@ -1,10 +1,10 @@
 //! 07-number-problems / 10-perfect-number
 //!
 //! TASK
-//! Complete `10-perfect-number` per the level README and spec.
+//! GIVEN `n: u32 = 496`. Print `perfect` if its proper divisors sum to n.
 //!
 //! EXPECTED OUTPUT
-//! See expected/10-perfect-number.txt
+//! `perfect`
 
 fn main() {
     // Your code below

@@ -1,7 +1,7 @@
 //! 27-threads / 03-scoped
 //!
 //! TASK
-//! Complete `03-scoped` (scoped).
+//! Implement `scoped` as described in the stub.
 //!
 //! SIGNATURE
 //! fn sum() -> i32

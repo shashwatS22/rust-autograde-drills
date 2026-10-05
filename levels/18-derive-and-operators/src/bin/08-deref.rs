@@ -1,7 +1,7 @@
 //! 18-derive-and-operators / 08-deref
 //!
 //! TASK
-//! Complete `08-deref` (deref).
+//! Implement `deref` as described in the stub.
 //!
 //! SIGNATURE
 //! fn len() -> usize

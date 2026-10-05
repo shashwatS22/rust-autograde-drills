@@ -1,10 +1,12 @@
 //! 12-iterators-and-closures / 01-for-each
 //!
 //! TASK
-//! Complete `01-for-each` per the level README and spec.
+//! GIVEN `v = vec![10, 20, 30]`. Use `.iter().enumerate().for_each(…)` to print `index: value`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/01-for-each.txt
+//! `0: 10
+//! 1: 20
+//! 2: 30`
 
 fn main() {
     // Your code below

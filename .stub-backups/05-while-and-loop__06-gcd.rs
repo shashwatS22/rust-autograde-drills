@@ -1,10 +1,10 @@
 //! 05-while-and-loop / 06-gcd
 //!
 //! TASK
-//! Complete `06-gcd` per the level README and spec.
+//! GIVEN `a = 48`, `b = 18`. Print the GCD using Euclid's algorithm with `while`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/06-gcd.txt
+//! `6`
 
 fn main() {
     // Your code below

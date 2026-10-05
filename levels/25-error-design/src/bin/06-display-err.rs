@@ -1,7 +1,7 @@
 //! 25-error-design / 06-display-err
 //!
 //! TASK
-//! Complete `06-display-err` (display err).
+//! Implement `display err` as described in the stub.
 //!
 //! SIGNATURE
 //! fn msg() -> String

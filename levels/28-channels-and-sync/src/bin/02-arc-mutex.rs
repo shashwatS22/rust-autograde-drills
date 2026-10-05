@@ -1,7 +1,7 @@
 //! 28-channels-and-sync / 02-arc-mutex
 //!
 //! TASK
-//! Complete `02-arc-mutex` (arc mutex).
+//! Implement `arc mutex` as described in the stub.
 //!
 //! SIGNATURE
 //! fn shared() -> i32

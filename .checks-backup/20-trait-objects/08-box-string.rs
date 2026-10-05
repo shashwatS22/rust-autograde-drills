@@ -1,5 +1,7 @@
 use super::*;
-#[test]
-fn t() {
-    assert_eq!(boxed_str(), "rust")
-}
+    #[test]
+    fn graded() {
+        assert_eq!(boxed_str(), "rust");
+assert_eq!(boxed_str(), "rust");
+assert!(true);
+    }

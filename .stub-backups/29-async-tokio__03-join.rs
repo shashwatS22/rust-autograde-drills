@@ -1,7 +1,7 @@
 //! 29-async-tokio / 03-join
 //!
 //! TASK
-//! Complete `03-join` (join).
+//! Implement `join` as described in the stub.
 //!
 //! SIGNATURE
 //! async fn both() -> (i32, i32)

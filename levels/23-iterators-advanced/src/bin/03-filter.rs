@@ -1,7 +1,7 @@
 //! 23-iterators-advanced / 03-filter
 //!
 //! TASK
-//! Complete `03-filter` (filter).
+//! Implement `filter` as described in the stub.
 //!
 //! SIGNATURE
 //! fn evens(v: &[i32]) -> Vec<i32>

@@ -1,10 +1,11 @@
 //! 09-ownership-and-borrowing / 06-borrow-scopes
 //!
 //! TASK
-//! Complete `06-borrow-scopes` per the level README and spec.
+//! Call `add_excl` twice in sequence, printing in between. Comment on why the two `&mut` borrows are fine sequentially but would be `E0499` simultaneously.
 //!
 //! EXPECTED OUTPUT
-//! See expected/06-borrow-scopes.txt
+//! `hello!
+//! hello!!`
 
 fn main() {
     // Your code below

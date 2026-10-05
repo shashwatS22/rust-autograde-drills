@@ -1,10 +1,10 @@
 //! 11-vectors-and-slices / 10-count-occurrences
 //!
 //! TASK
-//! Complete `10-count-occurrences` per the level README and spec.
+//! GIVEN `v = vec![1, 3, 3, 5, 3]`, `target = 3`. Print how many times it appears.
 //!
 //! EXPECTED OUTPUT
-//! See expected/10-count-occurrences.txt
+//! `3`
 
 fn main() {
     // Your code below

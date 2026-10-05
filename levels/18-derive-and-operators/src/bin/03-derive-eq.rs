@@ -1,7 +1,7 @@
 //! 18-derive-and-operators / 03-derive-eq
 //!
 //! TASK
-//! Complete `03-derive-eq` (derive eq).
+//! Implement `derive eq` as described in the stub.
 //!
 //! SIGNATURE
 //! fn eq_ok() -> bool

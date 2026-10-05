@@ -1,7 +1,7 @@
 //! 45-web-sys-dom / 05-dom-5
 //!
 //! TASK
-//! Complete `05-dom-5` (dom 5).
+//! Implement `dom 5` as described in the stub.
 //!
 //! SIGNATURE
 //! fn stub_html() -> String

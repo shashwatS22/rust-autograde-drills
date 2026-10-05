@@ -1,10 +1,11 @@
 //! 11-vectors-and-slices / 04-sum-average
 //!
 //! TASK
-//! Complete `04-sum-average` per the level README and spec.
+//! GIVEN `v = vec![4, 8, 15, 16, 23, 42]`. Print the sum, then the average to 2 decimals.
 //!
 //! EXPECTED OUTPUT
-//! See expected/04-sum-average.txt
+//! `108
+//! 18.00`
 
 fn main() {
     // Your code below

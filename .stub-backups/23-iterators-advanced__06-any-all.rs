@@ -1,7 +1,7 @@
 //! 23-iterators-advanced / 06-any-all
 //!
 //! TASK
-//! Complete `06-any-all` (any all).
+//! Implement `any all` as described in the stub.
 //!
 //! SIGNATURE
 //! fn all_pos(v: &[i32]) -> bool

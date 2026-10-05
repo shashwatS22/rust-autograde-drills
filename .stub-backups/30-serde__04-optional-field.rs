@@ -1,7 +1,7 @@
 //! 30-serde / 04-optional-field
 //!
 //! TASK
-//! Complete `04-optional-field` (optional field).
+//! Implement `optional field` as described in the stub.
 //!
 //! SIGNATURE
 //! fn round() -> User

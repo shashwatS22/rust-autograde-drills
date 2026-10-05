@@ -1,10 +1,15 @@
 //! 11-vectors-and-slices / 03-two-loops
 //!
 //! TASK
-//! Complete `03-two-loops` per the level README and spec.
+//! GIVEN `v = vec!["a", "b", "c"]`. Print each element with an index loop, then again with `for x in &v`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/03-two-loops.txt
+//! `a
+//! b
+//! c
+//! a
+//! b
+//! c`
 
 fn main() {
     // Your code below

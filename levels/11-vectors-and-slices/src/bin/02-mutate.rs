@@ -1,10 +1,11 @@
 //! 11-vectors-and-slices / 02-mutate
 //!
 //! TASK
-//! Complete `02-mutate` per the level README and spec.
+//! GIVEN `let mut v = vec![2, 3];`. `push(4)`, `insert(0, 1)`, print joined. Then `pop()`, `remove(0)`, print joined.
 //!
 //! EXPECTED OUTPUT
-//! See expected/02-mutate.txt
+//! `1 2 3 4
+//! 2 3`
 
 fn main() {
     // Your code below

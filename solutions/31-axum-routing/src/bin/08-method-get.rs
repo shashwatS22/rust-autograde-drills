@@ -1,7 +1,7 @@
 use axum::{routing::get, Router};
 
 pub fn app() -> Router {
-    Router::new().route("/r8", get(|| async { "ok" }))
+    Router::new().route("/get", get(|| async { "ok" }))
 }
 
 fn main() {}

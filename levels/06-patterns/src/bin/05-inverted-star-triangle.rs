@@ -1,10 +1,10 @@
 //! 06-patterns / 05-inverted-star-triangle
 //!
 //! TASK
-//! Complete `05-inverted-star-triangle` per the level README and spec.
+//! Left-aligned triangle of `*`, rows 5→1
 //!
 //! EXPECTED OUTPUT
-//! See expected/05-inverted-star-triangle.txt
+//! 
 
 fn main() {
     // Your code below

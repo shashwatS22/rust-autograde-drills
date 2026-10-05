@@ -1,7 +1,7 @@
 //! 19-generics / 06-count
 //!
 //! TASK
-//! Complete `06-count` (count).
+//! Implement `count` as described in the stub.
 //!
 //! SIGNATURE
 //! fn count<T>(v: &[T]) -> usize

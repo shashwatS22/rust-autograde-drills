@@ -1,7 +1,7 @@
 //! 28-channels-and-sync / 05-rwlock
 //!
 //! TASK
-//! Complete `05-rwlock` (rwlock).
+//! Implement `rwlock` as described in the stub.
 //!
 //! SIGNATURE
 //! fn read() -> i32

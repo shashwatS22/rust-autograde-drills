@@ -1,10 +1,10 @@
 //! 10-strings / 09-remove-duplicates
 //!
 //! TASK
-//! Complete `09-remove-duplicates` per the level README and spec.
+//! GIVEN `s = "programming"`. Print the string with duplicate characters removed, keeping first occurrences.
 //!
 //! EXPECTED OUTPUT
-//! See expected/09-remove-duplicates.txt
+//! `progamin`
 
 fn main() {
     // Your code below

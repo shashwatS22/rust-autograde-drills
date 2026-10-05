@@ -1,7 +1,7 @@
 //! 29-async-tokio / 07-block-on
 //!
 //! TASK
-//! Complete `07-block-on` (block on).
+//! Implement `block on` as described in the stub.
 //!
 //! SIGNATURE
 //! fn sync() -> i32

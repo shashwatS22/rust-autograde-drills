@@ -1,10 +1,10 @@
 //! 11-vectors-and-slices / 16-missing-number
 //!
 //! TASK
-//! Complete `16-missing-number` per the level README and spec.
+//! GIVEN `v = vec![0, 1, 2, 4, 5]`, `n = 5`. Print the missing number from `0..=n`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/16-missing-number.txt
+//! `3`
 
 fn main() {
     // Your code below

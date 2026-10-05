@@ -1,7 +1,7 @@
 //! 20-trait-objects / 06-count-dyn
 //!
 //! TASK
-//! Complete `06-count-dyn` (count dyn).
+//! Implement `count dyn` as described in the stub.
 //!
 //! SIGNATURE
 //! fn sum(v: &[Box<dyn Id>]) -> u32

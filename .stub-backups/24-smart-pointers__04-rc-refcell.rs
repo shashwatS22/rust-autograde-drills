@@ -1,7 +1,7 @@
 //! 24-smart-pointers / 04-rc-refcell
 //!
 //! TASK
-//! Complete `04-rc-refcell` (rc refcell).
+//! Implement `rc refcell` as described in the stub.
 //!
 //! SIGNATURE
 //! fn combo() -> i32

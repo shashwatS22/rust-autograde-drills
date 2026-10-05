@@ -1,10 +1,13 @@
 //! 10-strings / 13-replace-trim-pad
 //!
 //! TASK
-//! Complete `13-replace-trim-pad` per the level README and spec.
+//! GIVEN `s = "cat bat cat"`. Print `s.replace("cat", "dog")`, then `s.replacen("cat", "dog", 1)`. Then GIVEN `t = "  7  "`, print `t.trim()` and `format!("{:0>5}", t.trim())`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/13-replace-trim-pad.txt
+//! `dog bat dog
+//! dog bat cat
+//! 7
+//! 00007`
 
 fn main() {
     // Your code below

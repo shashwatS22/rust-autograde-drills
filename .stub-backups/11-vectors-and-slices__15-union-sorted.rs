@@ -1,10 +1,10 @@
 //! 11-vectors-and-slices / 15-union-sorted
 //!
 //! TASK
-//! Complete `15-union-sorted` per the level README and spec.
+//! GIVEN `a = vec![1, 2, 3, 4, 6]`, `b = vec![2, 3, 5]`. Print the sorted union, joined.
 //!
 //! EXPECTED OUTPUT
-//! See expected/15-union-sorted.txt
+//! `1 2 3 4 5 6`
 
 fn main() {
     // Your code below

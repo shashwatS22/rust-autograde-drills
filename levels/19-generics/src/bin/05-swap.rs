@@ -1,7 +1,7 @@
 //! 19-generics / 05-swap
 //!
 //! TASK
-//! Complete `05-swap` (swap).
+//! Implement `swap` as described in the stub.
 //!
 //! SIGNATURE
 //! fn swap<T>(a: T, b: T) -> (T, T)

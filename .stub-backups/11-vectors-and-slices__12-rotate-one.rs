@@ -1,10 +1,10 @@
 //! 11-vectors-and-slices / 12-rotate-one
 //!
 //! TASK
-//! Complete `12-rotate-one` per the level README and spec.
+//! GIVEN `v = vec![1, 2, 3, 4, 5]`. Left-rotate by one place. Print joined.
 //!
 //! EXPECTED OUTPUT
-//! See expected/12-rotate-one.txt
+//! `2 3 4 5 1`
 
 fn main() {
     // Your code below

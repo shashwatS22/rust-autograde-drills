@@ -1,10 +1,12 @@
 //! 08-functions / 12-block-expression
 //!
 //! TASK
-//! Complete `12-block-expression` per the level README and spec.
+//! `let x = { let a = 3; let b = 4; a * b };` print `x`. Then inside a new `{ }` block shadow a variable to `"inner"`, print it, and print the outer value `"outer"` after the block closes.
 //!
 //! EXPECTED OUTPUT
-//! See expected/12-block-expression.txt
+//! `12
+//! inner
+//! outer`
 
 fn main() {
     // Your code below

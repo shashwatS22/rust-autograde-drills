@@ -1,7 +1,7 @@
 //! 24-smart-pointers / 02-rc-share
 //!
 //! TASK
-//! Complete `02-rc-share` (rc share).
+//! Implement `rc share` as described in the stub.
 //!
 //! SIGNATURE
 //! fn shared() -> i32

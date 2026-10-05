@@ -1,12 +1,10 @@
 //! 04-for-loops / 07-count-digits
 //!
 //! TASK
-//! Complete `07-count-digits` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `n: u32 = 74821`. Print how many digits it has, using a loop (not `.to_string()`).
 //!
 //! EXPECTED OUTPUT
-//! 5
+//! `5`
 
 fn main() {
     // ---- GIVEN ----

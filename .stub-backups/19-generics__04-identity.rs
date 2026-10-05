@@ -1,7 +1,7 @@
 //! 19-generics / 04-identity
 //!
 //! TASK
-//! Complete `04-identity` (identity).
+//! Implement `identity` as described in the stub.
 //!
 //! SIGNATURE
 //! fn id<T>(x: T) -> T

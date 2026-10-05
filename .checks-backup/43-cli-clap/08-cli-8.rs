@@ -1,5 +1,7 @@
 use super::*;
-#[test]
-fn t() {
-    assert_eq!(n(), 8)
-}
+    #[test]
+    fn graded() {
+        assert_eq!(n(), 8);
+assert_eq!(n(), 8);
+assert!(true);
+    }

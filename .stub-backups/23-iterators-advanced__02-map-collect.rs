@@ -1,7 +1,7 @@
 //! 23-iterators-advanced / 02-map-collect
 //!
 //! TASK
-//! Complete `02-map-collect` (map collect).
+//! Implement `map collect` as described in the stub.
 //!
 //! SIGNATURE
 //! fn double(v: &[i32]) -> Vec<i32>

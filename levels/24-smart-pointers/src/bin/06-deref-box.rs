@@ -1,7 +1,7 @@
 //! 24-smart-pointers / 06-deref-box
 //!
 //! TASK
-//! Complete `06-deref-box` (deref box).
+//! Implement `deref box` as described in the stub.
 //!
 //! SIGNATURE
 //! fn len() -> usize

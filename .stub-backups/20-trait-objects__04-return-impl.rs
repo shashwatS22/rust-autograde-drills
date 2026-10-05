@@ -1,7 +1,7 @@
 //! 20-trait-objects / 04-return-impl
 //!
 //! TASK
-//! Complete `04-return-impl` (return impl).
+//! Implement `return impl` as described in the stub.
 //!
 //! SIGNATURE
 //! fn greet() -> String

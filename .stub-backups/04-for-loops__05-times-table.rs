@@ -1,12 +1,10 @@
 //! 04-for-loops / 05-times-table
 //!
 //! TASK
-//! Complete `05-times-table` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `n = 7`. Print `7 x 1 = 7` through `7 x 10 = 70`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/05-times-table.txt
+//! → from solution
 
 fn main() {
     // ---- GIVEN ----

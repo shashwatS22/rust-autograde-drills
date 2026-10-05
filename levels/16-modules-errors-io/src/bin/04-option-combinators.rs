@@ -1,10 +1,10 @@
 //! 16-modules-errors-io / 04-option-combinators
 //!
 //! TASK
-//! Complete `04-option-combinators` per the level README and spec.
+//! GIVEN `v = vec![1, 2, 3]`. Print `v.get(1)` and `v.get(9)` with `{:?}`, then `v.get(9).copied().unwrap_or(-1)`, then `v.get(1).map(\
 //!
 //! EXPECTED OUTPUT
-//! See expected/04-option-combinators.txt
+//! x\
 
 fn main() {
     // Your code below

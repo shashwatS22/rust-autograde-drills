@@ -1,10 +1,12 @@
 //! 10-strings / 01-str-vs-string
 //!
 //! TASK
-//! Complete `01-str-vs-string` per the level README and spec.
+//! GIVEN `let a: &str = "rust";` and `let b: String = String::from("rust");`. Print `a`, print `b`, print `b == a`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/01-str-vs-string.txt
+//! `rust
+//! rust
+//! true`
 
 fn main() {
     // Your code below

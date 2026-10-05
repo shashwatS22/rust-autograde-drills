@@ -1,7 +1,7 @@
 //! 30-serde / 07-from-value
 //!
 //! TASK
-//! Complete `07-from-value` (from value).
+//! Implement `from value` as described in the stub.
 //!
 //! SIGNATURE
 //! fn round() -> User

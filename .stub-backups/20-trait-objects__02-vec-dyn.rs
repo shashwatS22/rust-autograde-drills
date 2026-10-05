@@ -1,7 +1,7 @@
 //! 20-trait-objects / 02-vec-dyn
 //!
 //! TASK
-//! Complete `02-vec-dyn` (vec dyn).
+//! Implement `vec dyn` as described in the stub.
 //!
 //! SIGNATURE
 //! fn chars() -> String

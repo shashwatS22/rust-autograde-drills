@@ -1,10 +1,10 @@
 //! 05-while-and-loop / 05-armstrong
 //!
 //! TASK
-//! Complete `05-armstrong` per the level README and spec.
+//! GIVEN `n: u32 = 153`. Print `armstrong` if the sum of each digit cubed equals n.
 //!
 //! EXPECTED OUTPUT
-//! See expected/05-armstrong.txt
+//! `armstrong`
 
 fn main() {
     // Your code below

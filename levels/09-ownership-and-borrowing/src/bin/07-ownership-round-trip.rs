@@ -1,10 +1,11 @@
 //! 09-ownership-and-borrowing / 07-ownership-round-trip
 //!
 //! TASK
-//! Complete `07-ownership-round-trip` per the level README and spec.
+//! Write `fn consume(s: String) -> (usize, String)` returning the length **and** the string back. Use it, then print the length and the still-usable string.
 //!
 //! EXPECTED OUTPUT
-//! See expected/07-ownership-round-trip.txt
+//! `5
+//! hello`
 
 fn main() {
     // Your code below

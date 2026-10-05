@@ -1,15 +1,10 @@
 //! 02-operators / 06-logical
 //!
 //! TASK
-//! Complete `06-logical` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `a = true`, `b = false`. Print `a && b`, `a \
 //!
 //! EXPECTED OUTPUT
-//! false
-//! true
-//! false
-//! true
+//! \
 
 fn main() {
     // ---- GIVEN ----

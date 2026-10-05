@@ -6,7 +6,7 @@ use super::*;
         #[tokio::test]
         async fn route_works() {
             let response = app()
-    .oneshot(Request::builder().uri("/r8").body(Body::empty()).unwrap())
+    .oneshot(Request::builder().uri("/get").body(Body::empty()).unwrap())
     .await
     .unwrap();
 assert_eq!(response.status(), StatusCode::OK);

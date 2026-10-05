@@ -1,10 +1,11 @@
 //! 15-hashmaps-and-sets / 07-set-operations
 //!
 //! TASK
-//! Complete `07-set-operations` per the level README and spec.
+//! GIVEN `a = vec![1, 2, 3, 4]`, `b = vec![3, 4, 5]`. Print the union sorted and joined, then the intersection sorted and joined, using `HashSet::union` / `intersection`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/07-set-operations.txt
+//! `1 2 3 4 5
+//! 3 4`
 
 fn main() {
     // Your code below

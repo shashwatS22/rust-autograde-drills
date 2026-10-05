@@ -1,10 +1,10 @@
 //! 09-ownership-and-borrowing / 01-move
 //!
 //! TASK
-//! Complete `01-move` per the level README and spec.
+//! GIVEN `let s1 = String::from("hello");`. Write `let s2 = s1;` and print `s2`. Then add a comment explaining, in your own words, why printing `s1` here would be `E0382`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/01-move.txt
+//! `hello`
 
 fn main() {
     // Your code below

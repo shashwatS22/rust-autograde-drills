@@ -1,7 +1,7 @@
 //! 43-cli-clap / 08-cli-8
 //!
 //! TASK
-//! Complete `08-cli-8` (cli 8).
+//! Implement `cli 8` as described in the stub.
 //!
 //! SIGNATURE
 //! fn n() -> i32

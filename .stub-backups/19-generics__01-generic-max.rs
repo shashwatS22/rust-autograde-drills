@@ -1,7 +1,7 @@
 //! 19-generics / 01-generic-max
 //!
 //! TASK
-//! Complete `01-generic-max` (generic max).
+//! Implement `generic max` as described in the stub.
 //!
 //! SIGNATURE
 //! fn max_i32(a: i32, b: i32) -> i32

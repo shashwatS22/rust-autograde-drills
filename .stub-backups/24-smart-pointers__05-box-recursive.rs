@@ -1,7 +1,7 @@
 //! 24-smart-pointers / 05-box-recursive
 //!
 //! TASK
-//! Complete `05-box-recursive` (box recursive).
+//! Implement `box recursive` as described in the stub.
 //!
 //! SIGNATURE
 //! fn head() -> i32

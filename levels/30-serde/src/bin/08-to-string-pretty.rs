@@ -1,7 +1,7 @@
 //! 30-serde / 08-to-string-pretty
 //!
 //! TASK
-//! Complete `08-to-string-pretty` (to string pretty).
+//! Implement `to string pretty` as described in the stub.
 //!
 //! SIGNATURE
 //! fn round() -> User

@@ -1,7 +1,7 @@
 //! 21-lifetimes / 02-struct-ref
 //!
 //! TASK
-//! Complete `02-struct-ref` (struct ref).
+//! Implement `struct ref` as described in the stub.
 //!
 //! SIGNATURE
 //! fn first_word(s: &str) -> Ex

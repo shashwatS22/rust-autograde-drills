@@ -1,10 +1,10 @@
 //! 11-vectors-and-slices / 08-reverse-in-place
 //!
 //! TASK
-//! Complete `08-reverse-in-place` per the level README and spec.
+//! GIVEN `let mut v = vec![1, 2, 3, 4, 5];`. Reverse it with two indices and `v.swap(i, j)`, no `.reverse()`. Print joined.
 //!
 //! EXPECTED OUTPUT
-//! See expected/08-reverse-in-place.txt
+//! `5 4 3 2 1`
 
 fn main() {
     // Your code below

@@ -1,10 +1,10 @@
 //! 10-strings / 05-palindrome
 //!
 //! TASK
-//! Complete `05-palindrome` per the level README and spec.
+//! GIVEN `s = "racecar"`. Print `true` or `false`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/05-palindrome.txt
+//! `true`
 
 fn main() {
     // Your code below

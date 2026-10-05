@@ -1,10 +1,10 @@
 //! 07-number-problems / 13-nth-prime
 //!
 //! TASK
-//! Complete `13-nth-prime` per the level README and spec.
+//! GIVEN `k = 20`. Print the 20th prime number.
 //!
 //! EXPECTED OUTPUT
-//! See expected/13-nth-prime.txt
+//! `71`
 
 fn main() {
     // Your code below

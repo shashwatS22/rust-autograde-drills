@@ -1,7 +1,7 @@
 //! 21-lifetimes / 08-outlives
 //!
 //! TASK
-//! Complete `08-outlives` (outlives).
+//! Implement `outlives` as described in the stub.
 //!
 //! SIGNATURE
 //! fn choose<'a>(flag: bool, a: &'a str, b: &'a str) -> &'a str

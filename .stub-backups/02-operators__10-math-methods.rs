@@ -1,14 +1,14 @@
 //! 02-operators / 10-math-methods
 //!
 //! TASK
-//! Complete `10-math-methods` per the level README and spec.
+//! Print `(-7i32).abs()`, `2i32.pow(10)`, `144f64.sqrt()`, `4.6f64.round()`, `3.max(9).max(2)`.
 //!
 //! EXPECTED OUTPUT
-//! 7
+//! `7
 //! 1024
 //! 12
 //! 5
-//! 9
+//! 9`
 
 fn main() {
     // Your code below

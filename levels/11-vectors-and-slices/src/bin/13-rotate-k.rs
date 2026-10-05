@@ -1,10 +1,10 @@
 //! 11-vectors-and-slices / 13-rotate-k
 //!
 //! TASK
-//! Complete `13-rotate-k` per the level README and spec.
+//! GIVEN `v = vec![1, 2, 3, 4, 5, 6, 7]`, `k = 3`. Left-rotate by k. Print joined.
 //!
 //! EXPECTED OUTPUT
-//! See expected/13-rotate-k.txt
+//! `4 5 6 7 1 2 3`
 
 fn main() {
     // Your code below

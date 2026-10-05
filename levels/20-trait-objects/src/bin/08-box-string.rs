@@ -1,7 +1,7 @@
 //! 20-trait-objects / 08-box-string
 //!
 //! TASK
-//! Complete `08-box-string` (box string).
+//! Implement `box string` as described in the stub.
 //!
 //! SIGNATURE
 //! fn boxed_str() -> String

@@ -1,7 +1,7 @@
 //! 45-web-sys-dom / 07-dom-7
 //!
 //! TASK
-//! Complete `07-dom-7` (dom 7).
+//! Implement `dom 7` as described in the stub.
 //!
 //! SIGNATURE
 //! fn stub_html() -> String

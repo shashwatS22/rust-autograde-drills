@@ -1,10 +1,10 @@
 //! 13-structs-and-enums / 03-impl-methods
 //!
 //! TASK
-//! Complete `03-impl-methods` per the level README and spec.
+//! `struct Rectangle { width: u32, height: u32 }` with an associated function `new` and a method `area(&self) -> u32`. Build 4×7 and print the area.
 //!
 //! EXPECTED OUTPUT
-//! See expected/03-impl-methods.txt
+//! `28`
 
 fn main() {
     // Your code below

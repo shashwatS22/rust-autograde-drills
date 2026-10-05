@@ -1,10 +1,10 @@
 //! 15-hashmaps-and-sets / 04-value-frequency
 //!
 //! TASK
-//! Complete `04-value-frequency` per the level README and spec.
+//! GIVEN `v = vec![10, 5, 10, 15, 10, 5]`. Print `value:count` sorted by value, space-separated.
 //!
 //! EXPECTED OUTPUT
-//! See expected/04-value-frequency.txt
+//! `5:2 10:3 15:1`
 
 fn main() {
     // Your code below

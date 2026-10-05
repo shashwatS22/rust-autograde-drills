@@ -1,10 +1,10 @@
 //! 13-structs-and-enums / 08-sort-people
 //!
 //! TASK
-//! Complete `08-sort-people` per the level README and spec.
+//! Use `people`. Print names sorted by age ascending, joined by a space.
 //!
 //! EXPECTED OUTPUT
-//! See expected/08-sort-people.txt
+//! `Meera Ada Raman`
 
 fn main() {
     // Your code below

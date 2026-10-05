@@ -1,12 +1,10 @@
 //! 03-conditionals-and-match / 08-match-day
 //!
 //! TASK
-//! Complete `08-match-day` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `day = 6`. Use `match` to print the weekday name (1 = Monday). Include a `_` arm printing `not a day`.
 //!
 //! EXPECTED OUTPUT
-//! Saturday
+//! `Saturday`
 
 fn main() {
     // ---- GIVEN ----

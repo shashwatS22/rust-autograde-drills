@@ -8,4 +8,4 @@ publish.workspace = true
 cc = { workspace = true }
 
 [dependencies]
-cc = { workspace = true }
+

@@ -1,10 +1,11 @@
 //! 13-structs-and-enums / 12-result
 //!
 //! TASK
-//! Complete `12-result` per the level README and spec.
+//! `fn divide(a: i32, b: i32) -> Result<i32, String>` returning `Err` when `b == 0`. `match` both outcomes: print the result of `divide(12, 4)` and the error message of `divide(1, 0)`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/12-result.txt
+//! `3
+//! Cannot divide by zero`
 
 fn main() {
     // Your code below

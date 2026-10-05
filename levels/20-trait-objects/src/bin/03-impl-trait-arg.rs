@@ -1,7 +1,7 @@
 //! 20-trait-objects / 03-impl-trait-arg
 //!
 //! TASK
-//! Complete `03-impl-trait-arg` (impl trait arg).
+//! Implement `impl trait arg` as described in the stub.
 //!
 //! SIGNATURE
 //! fn talk(s: &dyn Speak) -> &str

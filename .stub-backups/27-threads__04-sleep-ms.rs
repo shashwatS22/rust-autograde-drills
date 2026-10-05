@@ -1,7 +1,7 @@
 //! 27-threads / 04-sleep-ms
 //!
 //! TASK
-//! Complete `04-sleep-ms` (sleep ms).
+//! Implement `sleep ms` as described in the stub.
 //!
 //! SIGNATURE
 //! fn ok() -> bool

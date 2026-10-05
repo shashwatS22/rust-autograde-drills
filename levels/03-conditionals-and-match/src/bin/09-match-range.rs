@@ -1,12 +1,10 @@
 //! 03-conditionals-and-match / 09-match-range
 //!
 //! TASK
-//! Complete `09-match-range` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `score = 73`. Redo exercise 6 with `match` and range patterns (`90..=100 => "A"` and so on).
 //!
 //! EXPECTED OUTPUT
-//! C
+//! `C`
 
 fn main() {
     // ---- GIVEN ----

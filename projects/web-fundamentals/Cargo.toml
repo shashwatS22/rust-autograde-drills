@@ -1,0 +1,7 @@
+[package]
+name = "web-fundamentals"
+edition.workspace = true
+version = "0.0.0"
+publish = false
+
+# HTML/CSS mini-builds only — no Rust library target.

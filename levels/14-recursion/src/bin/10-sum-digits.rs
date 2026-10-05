@@ -1,15 +1,14 @@
 //! 14-recursion / 10-sum-digits
 //!
 //! TASK
-//! Complete `10-sum-digits` per the level README and spec.
+//! `fn sum_digits(n: u64) -> u64` recursively.
 //!
 //! SIGNATURE
-//! fn sum_digits(n: u64) -> u64
+//! fn sum_digits(n: u64) -> u64` recursively
 //!
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
-
 fn sum_digits(n: u64) -> u64 {
     todo!()
 }

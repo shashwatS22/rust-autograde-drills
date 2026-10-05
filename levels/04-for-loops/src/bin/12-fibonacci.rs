@@ -1,12 +1,10 @@
 //! 04-for-loops / 12-fibonacci
 //!
 //! TASK
-//! Complete `12-fibonacci` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `n = 10`. Print the first n Fibonacci numbers starting `0, 1`, one per line.
 //!
 //! EXPECTED OUTPUT
-//! See expected/12-fibonacci.txt
+//! → from solution
 
 fn main() {
     // ---- GIVEN ----

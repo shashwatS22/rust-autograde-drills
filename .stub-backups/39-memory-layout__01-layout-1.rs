@@ -1,7 +1,7 @@
 //! 39-memory-layout / 01-layout-1
 //!
 //! TASK
-//! Complete `01-layout-1` (layout 1).
+//! Implement `layout 1` as described in the stub.
 //!
 //! SIGNATURE
 //! fn size() -> usize

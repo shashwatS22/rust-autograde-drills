@@ -1,10 +1,10 @@
 //! 07-number-problems / 02-reverse
 //!
 //! TASK
-//! Complete `02-reverse` per the level README and spec.
+//! GIVEN `n: u32 = 700`. Print reversed as a number (leading zeros dropped).
 //!
 //! EXPECTED OUTPUT
-//! See expected/02-reverse.txt
+//! `7`
 
 fn main() {
     // Your code below

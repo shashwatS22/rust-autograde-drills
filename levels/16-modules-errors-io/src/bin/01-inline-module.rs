@@ -1,10 +1,10 @@
 //! 16-modules-errors-io / 01-inline-module
 //!
 //! TASK
-//! Complete `01-inline-module` per the level README and spec.
+//! Declare `mod greet { pub fn hello(name: &str) -> String { … } }` inside this file and call it.
 //!
 //! EXPECTED OUTPUT
-//! See expected/01-inline-module.txt
+//! `Hello, Ada!`
 
 fn main() {
     // Your code below

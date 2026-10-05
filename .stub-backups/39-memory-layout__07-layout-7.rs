@@ -1,7 +1,7 @@
 //! 39-memory-layout / 07-layout-7
 //!
 //! TASK
-//! Complete `07-layout-7` (layout 7).
+//! Implement `layout 7` as described in the stub.
 //!
 //! SIGNATURE
 //! fn size() -> usize

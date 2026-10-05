@@ -1,10 +1,10 @@
 //! 04-for-loops / 13-fizzbuzz
 //!
 //! TASK
-//! Complete `13-fizzbuzz` per the level README and spec.
+//! Print FizzBuzz for 1 to 20, one per line.
 //!
 //! EXPECTED OUTPUT
-//! See expected/13-fizzbuzz.txt
+//! → from solution
 
 fn main() {
     // Your code below

@@ -1,10 +1,10 @@
 //! 05-while-and-loop / 02-sum-digits-while
 //!
 //! TASK
-//! Complete `02-sum-digits-while` per the level README and spec.
+//! GIVEN `n: u32 = 48291`. Print the digit sum using `while`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/02-sum-digits-while.txt
+//! `24`
 
 fn main() {
     // Your code below

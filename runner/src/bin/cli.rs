@@ -114,6 +114,7 @@ fn main() -> Result<()> {
             }
         }
         "verify-readmes" => verify_readmes(&ws)?,
+        "dsa" => runner::dsa::print_dsa_status(&ws)?,
         "warm" => {
             let nn = args.next().context("usage: warm <NN>")?;
             let level = find_level_by_num(&ws, &nn)?;
@@ -145,7 +146,7 @@ fn main() -> Result<()> {
 
 fn print_help() {
     println!(
-        "Commands: grade, grade-level, progress, solution, reset, reset-checks, gen-expected, verify, verify-readmes, warm"
+        "Commands: grade, grade-level, progress, solution, reset, reset-checks, gen-expected, verify, verify-readmes, warm, dsa"
     );
 }
 

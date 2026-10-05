@@ -1,7 +1,7 @@
 //! 28-channels-and-sync / 06-once
 //!
 //! TASK
-//! Complete `06-once` (once).
+//! Implement `once` as described in the stub.
 //!
 //! SIGNATURE
 //! fn once() -> &'static str

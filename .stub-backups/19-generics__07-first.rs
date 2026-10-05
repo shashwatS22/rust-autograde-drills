@@ -1,7 +1,7 @@
 //! 19-generics / 07-first
 //!
 //! TASK
-//! Complete `07-first` (first).
+//! Implement `first` as described in the stub.
 //!
 //! SIGNATURE
 //! fn first<T: Copy>(v: &[T]) -> Option<T>

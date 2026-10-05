@@ -1,7 +1,7 @@
 //! 28-channels-and-sync / 07-try-lock
 //!
 //! TASK
-//! Complete `07-try-lock` (try lock).
+//! Implement `try lock` as described in the stub.
 //!
 //! SIGNATURE
 //! fn tryl() -> bool

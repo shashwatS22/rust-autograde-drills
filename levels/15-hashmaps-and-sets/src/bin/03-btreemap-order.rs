@@ -1,10 +1,10 @@
 //! 15-hashmaps-and-sets / 03-btreemap-order
 //!
 //! TASK
-//! Complete `03-btreemap-order` per the level README and spec.
+//! Same output again with a `BTreeMap`, **without** sorting afterwards. Comment on why no sort was needed.
 //!
 //! EXPECTED OUTPUT
-//! See expected/03-btreemap-order.txt
+//! `a:3 b:1 n:2`
 
 fn main() {
     // Your code below

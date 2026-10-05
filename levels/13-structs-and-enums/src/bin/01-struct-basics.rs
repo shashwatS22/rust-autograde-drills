@@ -1,10 +1,11 @@
 //! 13-structs-and-enums / 01-struct-basics
 //!
 //! TASK
-//! Complete `01-struct-basics` per the level README and spec.
+//! Define `struct User { name: String, age: u32 }`, build one for Ada/36, print each field.
 //!
 //! EXPECTED OUTPUT
-//! See expected/01-struct-basics.txt
+//! `Ada
+//! 36`
 
 fn main() {
     // Your code below

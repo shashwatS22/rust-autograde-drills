@@ -1,7 +1,7 @@
 //! 25-error-design / 03-map-err
 //!
 //! TASK
-//! Complete `03-map-err` (map err).
+//! Implement `map err` as described in the stub.
 //!
 //! SIGNATURE
 //! fn wrap(s: &str) -> Result<i32, String>

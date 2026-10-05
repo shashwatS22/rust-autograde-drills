@@ -1,7 +1,7 @@
 //! 22-conversions / 08-try-parse
 //!
 //! TASK
-//! Complete `08-try-parse` (try parse).
+//! Implement `try parse` as described in the stub.
 //!
 //! SIGNATURE
 //! fn bad() -> Result<i32, ()>

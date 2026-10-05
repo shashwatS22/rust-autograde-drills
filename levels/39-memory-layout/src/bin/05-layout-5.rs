@@ -1,7 +1,7 @@
 //! 39-memory-layout / 05-layout-5
 //!
 //! TASK
-//! Complete `05-layout-5` (layout 5).
+//! Implement `layout 5` as described in the stub.
 //!
 //! SIGNATURE
 //! fn size() -> usize

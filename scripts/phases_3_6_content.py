@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from phases_3_6_common import Exercise, O, T
+from phases_3_6_common import Exercise, O, T, check_block
 from phases_3_6_content_rest import REST_LEVELS
 
 
@@ -14,7 +14,11 @@ def build_level_17() -> list[Exercise]:
             "fn circle_area(r: f64) -> f64",
             "trait Area { fn area(&self) -> f64; }\nstruct Circle { r: f64 }\nimpl Area for Circle { fn area(&self) -> f64 { todo!() } }\nfn circle_area(r: f64) -> f64 { Circle { r }.area() }",
             "trait Area { fn area(&self) -> f64; }\nstruct Circle { r: f64 }\nimpl Area for Circle { fn area(&self) -> f64 { std::f64::consts::PI * self.r * self.r } }\nfn circle_area(r: f64) -> f64 { Circle { r }.area() }",
-            "use super::*;\n#[test]\nfn t() { assert!((circle_area(1.0) - std::f64::consts::PI).abs() < 1e-6); }",
+            check_block(
+                "assert!((circle_area(1.0) - std::f64::consts::PI).abs() < 1e-6);",
+                "assert!((circle_area(0.0)).abs() < 1e-9);",
+                "assert!(circle_area(2.0) > circle_area(1.0));",
+            ),
         ),
         T(
             "02-default-greet",
@@ -70,31 +74,7 @@ def build_level_17() -> list[Exercise]:
             "trait Equals { fn eq(&self, other: &Self) -> bool; }\nimpl Equals for i32 { fn eq(&self, other: &Self) -> bool { self == other } }\nfn same(a: i32, b: i32) -> bool { Equals::eq(&a, &b) }",
             "use super::*;\n#[test]\nfn t() { assert!(same(2, 2)); }",
         ),
-        T(
-            "09-associated-fn",
-            "`News::headline()`.",
-            "fn headline() -> String",
-            "struct News;\nimpl News { fn headline() -> String { todo!() } }\nfn headline() -> String { News::headline() }",
-            "struct News;\nimpl News { fn headline() -> String { \"Breaking\".into() } }\nfn headline() -> String { News::headline() }",
-            "use super::*;\n#[test]\nfn t() { assert_eq!(headline(), \"Breaking\"); }",
-        ),
-        T(
-            "10-outline-draw",
-            "Trait `Outline`.",
-            "fn shapes() -> String",
-            "trait Outline { fn draw(&self) -> &'static str; }\nstruct Dot;\nimpl Outline for Dot { fn draw(&self) -> &'static str { todo!() } }\nfn shapes() -> String { Dot.draw().into() }",
-            "trait Outline { fn draw(&self) -> &'static str; }\nstruct Dot;\nimpl Outline for Dot { fn draw(&self) -> &'static str { \".\" } }\nfn shapes() -> String { Dot.draw().into() }",
-            "use super::*;\n#[test]\nfn t() { assert_eq!(shapes(), \".\"); }",
-        ),
-        T(
-            "11-chain",
-            "Trait `Twice`.",
-            "fn twice_five() -> i32",
-            "trait Twice { fn double(self) -> i32; }\nimpl Twice for i32 { fn double(self) -> i32 { todo!() } }\nfn twice_five() -> i32 { 5.double() }",
-            "trait Twice { fn double(self) -> i32; }\nimpl Twice for i32 { fn double(self) -> i32 { self * 2 } }\nfn twice_five() -> i32 { 5.double() }",
-            "use super::*;\n#[test]\nfn t() { assert_eq!(twice_five(), 10); }",
-        ),
-    ]
+    ][:8]
 
 
 ALL_LEVELS: list[tuple[str, int, str]] = [("17-traits", 3, "Traits")] + [

@@ -1,10 +1,11 @@
 //! 15-hashmaps-and-sets / 05-high-low-frequency
 //!
 //! TASK
-//! Complete `05-high-low-frequency` per the level README and spec.
+//! Same vector. Print `highest: 10` then `lowest: 15` (ties broken by the smaller value).
 //!
 //! EXPECTED OUTPUT
-//! See expected/05-high-low-frequency.txt
+//! `highest: 10
+//! lowest: 15`
 
 fn main() {
     // Your code below

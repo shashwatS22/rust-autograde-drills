@@ -1,15 +1,15 @@
 //! 19-generics / 08-where-clause
 //!
 //! TASK
-//! Complete `08-where-clause` (where clause).
+//! Implement `where clause` as described in the stub.
 //!
 //! SIGNATURE
-//! fn clamp(v: i32, lo: i32, hi: i32) -> i32
+//! fn largest<T>(a: T, b: T) -> T
 //!
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
-fn clamp(v: i32, lo: i32, hi: i32) -> i32 {
+fn largest<T>(a: T, b: T) -> T {
     todo!()
 }
 

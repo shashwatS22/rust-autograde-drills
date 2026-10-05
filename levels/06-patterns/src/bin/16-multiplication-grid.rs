@@ -1,10 +1,10 @@
 //! 06-patterns / 16-multiplication-grid
 //!
 //! TASK
-//! Complete `16-multiplication-grid` per the level README and spec.
+//! 5×5 multiplication table, each column right-aligned to width 4 with `{:>4}`
 //!
 //! EXPECTED OUTPUT
-//! See expected/16-multiplication-grid.txt
+//! 
 
 fn main() {
     // Your code below

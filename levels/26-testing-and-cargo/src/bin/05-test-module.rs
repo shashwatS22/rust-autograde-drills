@@ -1,7 +1,7 @@
 //! 26-testing-and-cargo / 05-test-module
 //!
 //! TASK
-//! Complete `05-test-module` (test module).
+//! Implement `test module` as described in the stub.
 //!
 //! SIGNATURE
 //! pub fn sq() -> i32

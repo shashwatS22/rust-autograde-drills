@@ -1,15 +1,14 @@
 //! 08-functions / 07-apply-twice
 //!
 //! TASK
-//! Complete `07-apply-twice` per the level README and spec.
+//! `fn apply_twice(f: impl Fn(i32) -> i32, value: i32) -> i32` returning `f(f(value))`.
 //!
 //! SIGNATURE
-//! fn apply_twice(f: impl Fn(i32) -> i32, value: i32) -> i32
+//! fn apply_twice(f: impl Fn(i32) -> i32, value: i32) -> i32` returning `f(f(value))`
 //!
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
-
 fn apply_twice(f: impl Fn(i32) -> i32, value: i32) -> i32 {
     todo!()
 }

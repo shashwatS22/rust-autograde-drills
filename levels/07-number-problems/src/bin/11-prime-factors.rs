@@ -1,10 +1,10 @@
 //! 07-number-problems / 11-prime-factors
 //!
 //! TASK
-//! Complete `11-prime-factors` per the level README and spec.
+//! GIVEN `n: u32 = 360`. Print prime factors with repeats, space-separated.
 //!
 //! EXPECTED OUTPUT
-//! See expected/11-prime-factors.txt
+//! `2 2 2 3 3 5`
 
 fn main() {
     // Your code below

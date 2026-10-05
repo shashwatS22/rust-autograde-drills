@@ -1,12 +1,10 @@
 //! 03-conditionals-and-match / 03-max-of-two
 //!
 //! TASK
-//! Complete `03-max-of-two` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `a = 34`, `b = 34`. Print the larger, or `equal` if they're the same.
 //!
 //! EXPECTED OUTPUT
-//! equal
+//! `equal`
 
 fn main() {
     // ---- GIVEN ----

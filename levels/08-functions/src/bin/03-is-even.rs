@@ -1,15 +1,14 @@
 //! 08-functions / 03-is-even
 //!
 //! TASK
-//! Complete `03-is-even` per the level README and spec.
+//! `fn is_even(n: i32) -> bool`.
 //!
 //! SIGNATURE
-//! fn is_even(n: i32) -> bool
+//! fn is_even(n: i32) -> bool`
 //!
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
-
 fn is_even(n: i32) -> bool {
     todo!()
 }

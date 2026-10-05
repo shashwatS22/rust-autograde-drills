@@ -1,7 +1,7 @@
 //! 43-cli-clap / 07-cli-7
 //!
 //! TASK
-//! Complete `07-cli-7` (cli 7).
+//! Implement `cli 7` as described in the stub.
 //!
 //! SIGNATURE
 //! fn n() -> i32

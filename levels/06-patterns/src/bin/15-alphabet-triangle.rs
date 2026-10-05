@@ -1,10 +1,10 @@
 //! 06-patterns / 15-alphabet-triangle
 //!
 //! TASK
-//! Complete `15-alphabet-triangle` per the level README and spec.
+//! Row `i` prints `A B … ` up to the `i`-th letter, via `(b'A' + k) as char`
 //!
 //! EXPECTED OUTPUT
-//! See expected/15-alphabet-triangle.txt
+//! 
 
 fn main() {
     // Your code below

@@ -1,7 +1,7 @@
 //! 38-sync-primitives / 05-sync-5
 //!
 //! TASK
-//! Complete `05-sync-5` (sync 5).
+//! Implement `sync 5` as described in the stub.
 //!
 //! SIGNATURE
 //! fn m() -> i32

@@ -1,10 +1,10 @@
 //! 16-modules-errors-io / 10-read-file
 //!
 //! TASK
-//! Complete `10-read-file` per the level README and spec.
+//! Read `data/sample.txt` with `std::fs::read_to_string` and print its trimmed contents.
 //!
 //! EXPECTED OUTPUT
-//! See expected/10-read-file.txt
+//! `hello from a file`
 
 fn main() {
     // Your code below

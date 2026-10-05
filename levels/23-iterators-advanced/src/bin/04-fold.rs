@@ -1,7 +1,7 @@
 //! 23-iterators-advanced / 04-fold
 //!
 //! TASK
-//! Complete `04-fold` (fold).
+//! Implement `fold` as described in the stub.
 //!
 //! SIGNATURE
 //! fn fold_sum(v: &[i32]) -> i32

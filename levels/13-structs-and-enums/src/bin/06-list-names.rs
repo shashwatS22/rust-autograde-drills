@@ -1,10 +1,12 @@
 //! 13-structs-and-enums / 06-list-names
 //!
 //! TASK
-//! Complete `06-list-names` per the level README and spec.
+//! Use `people`. Print each person's name on its own line.
 //!
 //! EXPECTED OUTPUT
-//! See expected/06-list-names.txt
+//! `Ada
+//! Raman
+//! Meera`
 
 fn main() {
     // Your code below

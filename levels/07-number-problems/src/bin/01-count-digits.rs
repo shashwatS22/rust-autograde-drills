@@ -1,10 +1,10 @@
 //! 07-number-problems / 01-count-digits
 //!
 //! TASK
-//! Complete `01-count-digits` per the level README and spec.
+//! GIVEN `n: u32 = 946213`. Print digit count.
 //!
 //! EXPECTED OUTPUT
-//! See expected/01-count-digits.txt
+//! `6`
 
 fn main() {
     // Your code below

@@ -1,7 +1,7 @@
 //! 21-lifetimes / 05-elision
 //!
 //! TASK
-//! Complete `05-elision` (elision).
+//! Implement `elision` as described in the stub.
 //!
 //! SIGNATURE
 //! fn first(s: &str) -> &str

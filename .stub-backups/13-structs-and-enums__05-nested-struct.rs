@@ -1,10 +1,10 @@
 //! 13-structs-and-enums / 05-nested-struct
 //!
 //! TASK
-//! Complete `05-nested-struct` per the level README and spec.
+//! `struct Address { city: String }` inside `struct User`. Build one with city `Bareilly` and print `user.address.city`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/05-nested-struct.txt
+//! `Bareilly`
 
 fn main() {
     // Your code below

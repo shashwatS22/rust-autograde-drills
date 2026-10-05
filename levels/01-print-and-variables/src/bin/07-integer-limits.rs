@@ -1,12 +1,12 @@
 //! 01-print-and-variables / 07-integer-limits
 //!
 //! TASK
-//! Complete `07-integer-limits` per the level README and spec.
+//! Print `i32::MAX`, `u8::MAX`, `i64::MIN`, one per line.
 //!
 //! EXPECTED OUTPUT
-//! 2147483647
+//! `2147483647
 //! 255
-//! -9223372036854775808
+//! -9223372036854775808`
 
 fn main() {
     // Your code below

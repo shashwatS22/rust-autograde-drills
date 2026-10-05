@@ -1,7 +1,7 @@
 //! 24-smart-pointers / 08-weak-count
 //!
 //! TASK
-//! Complete `08-weak-count` (weak count).
+//! Implement `weak count` as described in the stub.
 //!
 //! SIGNATURE
 //! fn weak() -> bool

@@ -1,10 +1,10 @@
 //! 10-strings / 04-reverse
 //!
 //! TASK
-//! Complete `04-reverse` per the level README and spec.
+//! GIVEN `s = "bareilly"`. Print it reversed using `.chars().rev()`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/04-reverse.txt
+//! `yllierab`
 
 fn main() {
     // Your code below

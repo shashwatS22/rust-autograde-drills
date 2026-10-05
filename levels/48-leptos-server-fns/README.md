@@ -1,25 +1,6 @@
-# Level 48 — Leptos Server Fns
+# Level 48-leptos-server-fns — Leptos server functions
 
-## What you'll learn
-- topics from Leptos Server Fns
-- test-driven exercises
-- save to grade
-
-## Concepts
-
-Work through exercises in order. If this level has dependencies, run `cargo warm 48` first.
-
-```rust
-fn main() {
-    println!("Type examples from this README into playground with `cargo play`.");
-}
-```
-
-## Common mistakes
-- Skipping compile errors — read them out loud before changing code.
-
-## Before you start
-Run `cargo warm 48` if this level uses external crates (see `level.toml`). Type examples into `playground` with `cargo play`.
+Phase 6 drills. Work through the numbered exercises in order.
 
 ## Exercises
-Work through the exercises in order. Save each file to check it.
+Save each file under `src/bin/` to grade it with `cargo dev`.

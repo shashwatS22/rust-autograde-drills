@@ -1,7 +1,7 @@
 //! 26-testing-and-cargo / 04-should-panic
 //!
 //! TASK
-//! Complete `04-should-panic` (should panic).
+//! Implement `should panic` as described in the stub.
 //!
 //! SIGNATURE
 //! pub fn panics()

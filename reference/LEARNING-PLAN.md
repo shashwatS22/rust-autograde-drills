@@ -9,7 +9,8 @@ There are two documents:
 | File | Who it's for |
 |---|---|
 | `LEARNING-PLAN.md` (this file) | You and her — the roadmap, the routine, what to learn when |
-| `CURSOR-BUILD-SPEC.md` | Hand this to Cursor — it builds the practice repo, all 200 exercises, and the auto-grader |
+| `CURSOR-BUILD-SPEC.md` | Phase 1 build spec (200 exercises, levels 01–16) |
+| `CURSOR-BUILD-SPEC-PHASES-3-6.md` | Phases 3–6 drills (256 exercises, levels 17–48) |
 
 ---
 
@@ -21,7 +22,7 @@ That's the whole loop. No setup friction, no "did I run it right", no waiting fo
 
 **Two parallel tracks run every day:**
 
-- **Track A — Drills (the repo).** 200 auto-graded exercises across 16 levels. This is where she learns the *language*.
+- **Track A — Drills (the repo).** **456** auto-graded exercises across **48** levels (200 in Phase 1, 256 in Phases 3–6). This is where she learns the *language*.
 - **Track B — DSA (LeetCode).** Problems from Striver's A2Z sheet, solved on LeetCode in Rust. This is where she learns to *think*.
 
 Track A always stays ahead of Track B. She never gets a LeetCode problem that needs syntax she hasn't drilled.
@@ -150,6 +151,8 @@ She reads the problem on the Striver sheet, then solves it **on LeetCode in Rust
 
 **Target by end of Phase 1: ~60 problems.** Steps 2 and 3 are the first real algorithmic work — she should still be on those when Phase 3 begins. DSA continues in the background for months; it does not need to finish before the application phases start.
 
+**Repo tooling:** checklists live under [`dsa/`](../dsa/) (one markdown file per section). Unlock rules are in [`dsa/sections.toml`](../dsa/sections.toml). After each level goes green, run **`cargo dsa`** to see which Striver sections are unlocked and where to log progress.
+
 ### Writing Rust on LeetCode
 
 LeetCode gives her a skeleton like this, and it trips up every Rust beginner the first time:
@@ -200,9 +203,9 @@ This is the phase that makes the other three possible. Everything here is used b
 14. **Async** — `async`/`await`, `Future` as a trait, why Rust needs a runtime, Tokio basics, `join!` and `select!`
 15. **Async vs threads** — when each is the right tool; the "don't block the executor" rule
 
-**Practice:** two small library crates, both test-driven.
-1. A generic `Matrix<T>` with operator overloading, iterators, and a real error type.
-2. A tiny key–value store with a `Trait`-based storage backend (in-memory and file-backed), then a threaded version behind `Arc<Mutex<_>>`, then an async version on Tokio. Building the *same* thing three ways is what makes the differences land.
+**Practice:** two small library crates, both test-driven (workspace members):
+1. [`projects/matrix`](../projects/matrix/) — generic `Matrix<T>` with `Add`/`Mul`/`Index`, a hand-written iterator, and `MatrixError`.
+2. [`projects/kvstore`](../projects/kvstore/) — `KvStore` trait, then in-memory, file-backed, `Arc<Mutex<_>>`, and async Tokio backends. Run `cargo test -p matrix -- --ignored` / `cargo test -p kvstore -- --ignored` as you implement.
 
 **Duration:** 3.5–4 weeks full-time. This is the longest non-project phase for a reason.
 
@@ -252,7 +255,7 @@ This is the phase that makes the other three possible. Everything here is used b
 
 ## 9. Phase 6 — Track C: Rust in the browser (levels 44–48 + `projects/web`)
 
-**Week 1 — web fundamentals (do not skip):**
+**Week 1 — web fundamentals (do not skip):** non-graded mini-builds in [`projects/web-fundamentals`](../projects/web-fundamentals/) (profile page, hand-built flexbox layout, DOM to-do, fetch-and-render). Checklist README only — no level renumbering.
 1. HTML: semantic structure, forms, attributes, accessibility basics
 2. CSS: box model, flexbox, grid, positioning, responsive units, one layout built by hand with no framework
 3. The DOM: `querySelector`, event listeners, creating and removing elements
@@ -279,7 +282,7 @@ This is the phase that makes the other three possible. Everything here is used b
 | Gate | Test |
 |---|---|
 | Leave level 09 | Can explain, without notes, why `let s2 = s1;` compiles for `i32` and moves for `String`. Can read an `E0502` or `E0382` and say which rule was broken before reading the `help:` line. |
-| Leave Phase 1 | All 200 drills green. Can write "count vowels in a string" and "find the second largest in a vector" from a blank file, no reference, in under 5 minutes each. |
+| Leave Phase 1 | All **200** Phase 1 drills green (`cargo verify --level` 01–16). Can write "count vowels in a string" and "find the second largest in a vector" from a blank file, no reference, in under 5 minutes each. |
 | Leave Phase 3 | Can write a generic function with a trait bound and a lifetime annotation, from scratch, and explain why each is needed. Can take a function that returns `Option` and rewrite it to return a custom `Result` with a real error type. |
 | Leave Phase 4 | Can add a new authenticated endpoint — route, handler, extractor, query, error path, test — to her own API in one sitting without looking at the other endpoints. |
 | Leave Phase 5 | Can profile a slow function, name the bottleneck, fix it, and show the before/after benchmark. Can explain what invariant a piece of `unsafe` code is upholding. |

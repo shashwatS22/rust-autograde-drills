@@ -1,10 +1,10 @@
 //! 13-structs-and-enums / 07-filter-people
 //!
 //! TASK
-//! Complete `07-filter-people` per the level README and spec.
+//! Use `people`. Print the names of everyone over 30, joined by `", "`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/07-filter-people.txt
+//! `Ada, Raman`
 
 fn main() {
     // Your code below

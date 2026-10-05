@@ -1,7 +1,7 @@
 //! 38-sync-primitives / 02-sync-2
 //!
 //! TASK
-//! Complete `02-sync-2` (sync 2).
+//! Implement `sync 2` as described in the stub.
 //!
 //! SIGNATURE
 //! fn m() -> i32

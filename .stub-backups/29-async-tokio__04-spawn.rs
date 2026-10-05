@@ -1,7 +1,7 @@
 //! 29-async-tokio / 04-spawn
 //!
 //! TASK
-//! Complete `04-spawn` (spawn).
+//! Implement `spawn` as described in the stub.
 //!
 //! SIGNATURE
 //! async fn spawned() -> i32

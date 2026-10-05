@@ -1,13 +1,11 @@
 //! 02-operators / 08-parse
 //!
 //! TASK
-//! Complete `08-parse` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `s = "42"`. Print `format!("{s}8")`, then `s.parse::<i32>().unwrap() + 8`.
 //!
 //! EXPECTED OUTPUT
-//! 428
-//! 50
+//! `428
+//! 50`
 
 fn main() {
     // ---- GIVEN ----

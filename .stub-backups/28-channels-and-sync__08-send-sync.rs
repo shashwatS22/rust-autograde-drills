@@ -1,7 +1,7 @@
 //! 28-channels-and-sync / 08-send-sync
 //!
 //! TASK
-//! Complete `08-send-sync` (send sync).
+//! Implement `send sync` as described in the stub.
 //!
 //! SIGNATURE
 //! fn is_send<T: Send>() -> bool

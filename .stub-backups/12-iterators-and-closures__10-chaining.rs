@@ -1,10 +1,10 @@
 //! 12-iterators-and-closures / 10-chaining
 //!
 //! TASK
-//! Complete `10-chaining` per the level README and spec.
+//! GIVEN `1..=10`. Keep the evens, square them, sum them. Print the result in one chain.
 //!
 //! EXPECTED OUTPUT
-//! See expected/10-chaining.txt
+//! `220`
 
 fn main() {
     // Your code below

@@ -1,7 +1,7 @@
 //! 25-error-design / 04-context
 //!
 //! TASK
-//! Complete `04-context` (context).
+//! Implement `context` as described in the stub.
 //!
 //! SIGNATURE
 //! fn ctx(s: &str) -> anyhow::Result<i32>

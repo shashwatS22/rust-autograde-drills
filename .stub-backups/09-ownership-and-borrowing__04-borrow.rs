@@ -1,10 +1,11 @@
 //! 09-ownership-and-borrowing / 04-borrow
 //!
 //! TASK
-//! Complete `04-borrow` per the level README and spec.
+//! Write `fn length(s: &String) -> usize`. Call it on an owned `String`, print the length, then print the original `String` — proving a borrow didn't consume it.
 //!
 //! EXPECTED OUTPUT
-//! See expected/04-borrow.txt
+//! `5
+//! hello`
 
 fn main() {
     // Your code below

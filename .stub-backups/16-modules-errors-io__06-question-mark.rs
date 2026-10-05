@@ -1,10 +1,11 @@
 //! 16-modules-errors-io / 06-question-mark
 //!
 //! TASK
-//! Complete `06-question-mark` per the level README and spec.
+//! `fn double(s: &str) -> Result<i32, std::num::ParseIntError>` using `?` on the parse. Call with `"21"` and with `"x"`, printing the doubled value and then `could not parse`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/06-question-mark.txt
+//! `42
+//! could not parse`
 
 fn main() {
     // Your code below

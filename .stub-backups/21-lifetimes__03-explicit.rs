@@ -1,7 +1,7 @@
 //! 21-lifetimes / 03-explicit
 //!
 //! TASK
-//! Complete `03-explicit` (explicit).
+//! Implement `explicit` as described in the stub.
 //!
 //! SIGNATURE
 //! fn identity<'a>(x: &'a str) -> &'a str

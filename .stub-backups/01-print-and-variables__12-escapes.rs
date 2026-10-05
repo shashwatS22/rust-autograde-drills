@@ -1,11 +1,11 @@
 //! 01-print-and-variables / 12-escapes
 //!
 //! TASK
-//! Complete `12-escapes` per the level README and spec.
+//! Print exactly `She said "hello" and left.` then on the next line a tab-separated `a	b`.
 //!
 //! EXPECTED OUTPUT
-//! She said "hello" and left.
-//! a	b
+//! `She said "hello" and left.
+//! a	b`
 
 fn main() {
     // Your code below

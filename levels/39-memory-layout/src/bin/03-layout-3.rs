@@ -1,7 +1,7 @@
 //! 39-memory-layout / 03-layout-3
 //!
 //! TASK
-//! Complete `03-layout-3` (layout 3).
+//! Implement `layout 3` as described in the stub.
 //!
 //! SIGNATURE
 //! fn size() -> usize

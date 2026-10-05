@@ -1,7 +1,7 @@
 //! 43-cli-clap / 05-cli-5
 //!
 //! TASK
-//! Complete `05-cli-5` (cli 5).
+//! Implement `cli 5` as described in the stub.
 //!
 //! SIGNATURE
 //! fn n() -> i32

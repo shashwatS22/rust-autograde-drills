@@ -1,12 +1,10 @@
 //! 03-conditionals-and-match / 04-max-of-three
 //!
 //! TASK
-//! Complete `04-max-of-three` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `a = 12`, `b = 45`, `c = 45`. Print the largest value.
 //!
 //! EXPECTED OUTPUT
-//! 45
+//! `45`
 
 fn main() {
     // ---- GIVEN ----

@@ -1,7 +1,7 @@
 //! 39-memory-layout / 04-layout-4
 //!
 //! TASK
-//! Complete `04-layout-4` (layout 4).
+//! Implement `layout 4` as described in the stub.
 //!
 //! SIGNATURE
 //! fn size() -> usize

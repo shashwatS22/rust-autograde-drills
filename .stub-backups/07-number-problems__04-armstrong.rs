@@ -1,10 +1,10 @@
 //! 07-number-problems / 04-armstrong
 //!
 //! TASK
-//! Complete `04-armstrong` per the level README and spec.
+//! GIVEN `n: u32 = 371`. Print `true` or `false`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/04-armstrong.txt
+//! `true`
 
 fn main() {
     // Your code below

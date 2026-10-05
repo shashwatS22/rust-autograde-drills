@@ -1,10 +1,12 @@
 //! 10-strings / 12-slice-and-get
 //!
 //! TASK
-//! Complete `12-slice-and-get` per the level README and spec.
+//! GIVEN `s = "abcdefgh"`. Print `&s[2..5]`, `&s[5..]`, and `s.get(2..5)` with `{:?}`. The README must explain why slicing is by **byte** index and what happens with a non-ASCII string.
 //!
 //! EXPECTED OUTPUT
-//! See expected/12-slice-and-get.txt
+//! `cde
+//! fgh
+//! Some("cde")`
 
 fn main() {
     // Your code below

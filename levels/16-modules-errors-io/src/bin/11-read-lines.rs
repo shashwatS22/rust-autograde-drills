@@ -1,10 +1,10 @@
 //! 16-modules-errors-io / 11-read-lines
 //!
 //! TASK
-//! Complete `11-read-lines` per the level README and spec.
+//! Read `data/numbers.txt`, parse each line as `i32`, print the sum.
 //!
 //! EXPECTED OUTPUT
-//! See expected/11-read-lines.txt
+//! `14`
 
 fn main() {
     // Your code below

@@ -1,13 +1,11 @@
 //! 01-print-and-variables / 05-mut-reassign
 //!
 //! TASK
-//! Complete `05-mut-reassign` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! Declare `let mut count = 10;`. Print it. Reassign to `20`. Print it again.
 //!
 //! EXPECTED OUTPUT
-//! 10
-//! 20
+//! `10
+//! 20`
 
 fn main() {
     // ---- GIVEN ----

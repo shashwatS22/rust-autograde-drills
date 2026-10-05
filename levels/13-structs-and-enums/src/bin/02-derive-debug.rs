@@ -1,10 +1,10 @@
 //! 13-structs-and-enums / 02-derive-debug
 //!
 //! TASK
-//! Complete `02-derive-debug` per the level README and spec.
+//! Add `#[derive(Debug)]` to that struct and print the whole thing with `{:?}`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/02-derive-debug.txt
+//! `User { name: "Ada", age: 36 }`
 
 fn main() {
     // Your code below

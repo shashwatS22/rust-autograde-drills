@@ -1,7 +1,7 @@
 //! 42-performance / 04-perf-4
 //!
 //! TASK
-//! Complete `04-perf-4` (perf 4).
+//! Implement `perf 4` as described in the stub.
 //!
 //! SIGNATURE
 //! fn work() -> i32

@@ -1,10 +1,13 @@
 //! 04-for-loops / 01-one-to-ten
 //!
 //! TASK
-//! Complete `01-one-to-ten` per the level README and spec.
+//! Print 1 to 10, one per line, with `1..=10`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/01-one-to-ten.txt
+//! `1
+//! 2
+//! …
+//! 10`
 
 fn main() {
     // Your code below

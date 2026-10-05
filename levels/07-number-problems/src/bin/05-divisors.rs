@@ -1,10 +1,10 @@
 //! 07-number-problems / 05-divisors
 //!
 //! TASK
-//! Complete `05-divisors` per the level README and spec.
+//! GIVEN `n: u32 = 36`. Print all divisors, space-separated, on one line.
 //!
 //! EXPECTED OUTPUT
-//! See expected/05-divisors.txt
+//! `1 2 3 4 6 9 12 18 36`
 
 fn main() {
     // Your code below

@@ -1,7 +1,7 @@
 //! 30-serde / 02-json-roundtrip
 //!
 //! TASK
-//! Complete `02-json-roundtrip` (json roundtrip).
+//! Implement `json roundtrip` as described in the stub.
 //!
 //! SIGNATURE
 //! fn round() -> User

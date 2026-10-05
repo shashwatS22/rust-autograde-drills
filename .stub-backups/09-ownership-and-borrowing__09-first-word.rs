@@ -1,15 +1,14 @@
 //! 09-ownership-and-borrowing / 09-first-word
 //!
 //! TASK
-//! Complete `09-first-word` per the level README and spec.
+//! `fn first_word(s: &str) -> &str` returning everything up to the first space, or the whole string. Note the returned `&str` borrows from the input — that's why no lifetime annotation is needed.
 //!
 //! SIGNATURE
-//! fn first_word(s: &str) -> &str
+//! fn first_word(s: &str) -> &str` returning everything up to the first space, or the whole string
 //!
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
-
 fn first_word(s: &str) -> &str {
     todo!()
 }

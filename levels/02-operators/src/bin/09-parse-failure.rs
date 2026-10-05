@@ -1,13 +1,11 @@
 //! 02-operators / 09-parse-failure
 //!
 //! TASK
-//! Complete `09-parse-failure` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `s = "abc"`. Print `s.parse::<i32>().is_err()`, then `s.parse::<i32>().unwrap_or(0)`.
 //!
 //! EXPECTED OUTPUT
-//! true
-//! 0
+//! `true
+//! 0`
 
 fn main() {
     // ---- GIVEN ----

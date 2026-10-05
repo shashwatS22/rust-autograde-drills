@@ -1,10 +1,11 @@
 //! 10-strings / 06-count-vowels-consonants
 //!
 //! TASK
-//! Complete `06-count-vowels-consonants` per the level README and spec.
+//! GIVEN `s = "hello world"`. Print `vowels: 3` then `consonants: 7`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/06-count-vowels-consonants.txt
+//! `vowels: 3
+//! consonants: 7`
 
 fn main() {
     // Your code below

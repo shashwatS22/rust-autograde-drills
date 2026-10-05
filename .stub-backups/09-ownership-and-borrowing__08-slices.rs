@@ -1,10 +1,11 @@
 //! 09-ownership-and-borrowing / 08-slices
 //!
 //! TASK
-//! Complete `08-slices` per the level README and spec.
+//! GIVEN `let s = String::from("hello world");`. Print `&s[0..5]` and `&s[6..]`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/08-slices.txt
+//! `hello
+//! world`
 
 fn main() {
     // Your code below

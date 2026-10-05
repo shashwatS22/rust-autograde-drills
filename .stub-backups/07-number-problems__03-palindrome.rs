@@ -1,10 +1,10 @@
 //! 07-number-problems / 03-palindrome
 //!
 //! TASK
-//! Complete `03-palindrome` per the level README and spec.
+//! GIVEN `n: u32 = 1221`. Print `true` or `false`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/03-palindrome.txt
+//! `true`
 
 fn main() {
     // Your code below

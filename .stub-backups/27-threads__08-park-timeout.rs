@@ -1,7 +1,7 @@
 //! 27-threads / 08-park-timeout
 //!
 //! TASK
-//! Complete `08-park-timeout` (park timeout).
+//! Implement `park timeout` as described in the stub.
 //!
 //! SIGNATURE
 //! fn park() -> i32

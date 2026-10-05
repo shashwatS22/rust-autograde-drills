@@ -1,10 +1,10 @@
 //! 06-patterns / 13-butterfly
 //!
 //! TASK
-//! Complete `13-butterfly` per the level README and spec.
+//! Butterfly pattern of `*`, `n = 4`
 //!
 //! EXPECTED OUTPUT
-//! See expected/13-butterfly.txt
+//! 
 
 fn main() {
     // Your code below

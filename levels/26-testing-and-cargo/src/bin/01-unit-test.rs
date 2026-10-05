@@ -1,7 +1,7 @@
 //! 26-testing-and-cargo / 01-unit-test
 //!
 //! TASK
-//! Complete `01-unit-test` (unit test).
+//! Implement `unit test` as described in the stub.
 //!
 //! SIGNATURE
 //! pub fn add(a: i32, b: i32) -> i32

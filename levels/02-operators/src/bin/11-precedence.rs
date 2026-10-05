@@ -1,12 +1,12 @@
 //! 02-operators / 11-precedence
 //!
 //! TASK
-//! Complete `11-precedence` per the level README and spec.
+//! Print `2 + 3 * 4`, then `(2 + 3) * 4`, then `10 - 4 - 3`.
 //!
 //! EXPECTED OUTPUT
-//! 14
+//! `14
 //! 20
-//! 3
+//! 3`
 
 fn main() {
     // Your code below

@@ -1,7 +1,7 @@
 //! 23-iterators-advanced / 01-iter-sum
 //!
 //! TASK
-//! Complete `01-iter-sum` (iter sum).
+//! Implement `iter sum` as described in the stub.
 //!
 //! SIGNATURE
 //! fn sum(v: &[i32]) -> i32

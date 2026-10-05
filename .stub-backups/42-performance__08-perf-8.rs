@@ -1,7 +1,7 @@
 //! 42-performance / 08-perf-8
 //!
 //! TASK
-//! Complete `08-perf-8` (perf 8).
+//! Implement `perf 8` as described in the stub.
 //!
 //! SIGNATURE
 //! fn work() -> i32

@@ -1,7 +1,7 @@
 //! 29-async-tokio / 08-channel
 //!
 //! TASK
-//! Complete `08-channel` (channel).
+//! Implement `channel` as described in the stub.
 //!
 //! SIGNATURE
 //! async fn chan() -> i32

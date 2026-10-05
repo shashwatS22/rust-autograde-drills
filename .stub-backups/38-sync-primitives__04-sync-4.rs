@@ -1,7 +1,7 @@
 //! 38-sync-primitives / 04-sync-4
 //!
 //! TASK
-//! Complete `04-sync-4` (sync 4).
+//! Implement `sync 4` as described in the stub.
 //!
 //! SIGNATURE
 //! fn m() -> i32

@@ -1,12 +1,10 @@
 //! 01-print-and-variables / 08-concat
 //!
 //! TASK
-//! Complete `08-concat` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `first = "Ada"`, `last = "Lovelace"`. Build the full name with `format!` and print it.
 //!
 //! EXPECTED OUTPUT
-//! Ada Lovelace
+//! `Ada Lovelace`
 
 fn main() {
     // ---- GIVEN ----

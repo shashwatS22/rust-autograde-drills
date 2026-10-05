@@ -1,10 +1,10 @@
 //! 05-while-and-loop / 07-to-binary
 //!
 //! TASK
-//! Complete `07-to-binary` per the level README and spec.
+//! GIVEN `n: u32 = 25`. Print its binary form by repeatedly dividing by 2 (no `{:b}`).
 //!
 //! EXPECTED OUTPUT
-//! See expected/07-to-binary.txt
+//! `11001`
 
 fn main() {
     // Your code below

@@ -1,7 +1,7 @@
 //! 25-error-design / 07-question
 //!
 //! TASK
-//! Complete `07-question` (question).
+//! Implement `question` as described in the stub.
 //!
 //! SIGNATURE
 //! fn div(a: i32, b: i32) -> Result<i32, &'static str>

@@ -1,7 +1,7 @@
 //! 27-threads / 07-thread-name
 //!
 //! TASK
-//! Complete `07-thread-name` (thread name).
+//! Implement `thread name` as described in the stub.
 //!
 //! SIGNATURE
 //! fn named() -> bool

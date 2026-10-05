@@ -1,7 +1,7 @@
 //! 18-derive-and-operators / 02-derive-clone
 //!
 //! TASK
-//! Complete `02-derive-clone` (derive clone).
+//! Implement `derive clone` as described in the stub.
 //!
 //! SIGNATURE
 //! fn cloned() -> i32

@@ -1,10 +1,10 @@
 //! 10-strings / 08-title-case
 //!
 //! TASK
-//! Complete `08-title-case` per the level README and spec.
+//! GIVEN `s = "learning rust today"`. Print it with each word capitalised.
 //!
 //! EXPECTED OUTPUT
-//! See expected/08-title-case.txt
+//! `Learning Rust Today`
 
 fn main() {
     // Your code below

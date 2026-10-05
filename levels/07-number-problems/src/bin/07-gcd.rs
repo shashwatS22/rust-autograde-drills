@@ -1,10 +1,10 @@
 //! 07-number-problems / 07-gcd
 //!
 //! TASK
-//! Complete `07-gcd` per the level README and spec.
+//! GIVEN `a = 120`, `b = 45`. Print the GCD.
 //!
 //! EXPECTED OUTPUT
-//! See expected/07-gcd.txt
+//! `15`
 
 fn main() {
     // Your code below

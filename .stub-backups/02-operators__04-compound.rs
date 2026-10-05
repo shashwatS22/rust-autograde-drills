@@ -1,15 +1,13 @@
 //! 02-operators / 04-compound
 //!
 //! TASK
-//! Complete `04-compound` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `let mut total = 100;`. Apply `+= 20`, `-= 30`, `*= 2`, `/= 4` in order, printing after each.
 //!
 //! EXPECTED OUTPUT
-//! 120
+//! `120
 //! 90
 //! 180
-//! 45
+//! 45`
 
 fn main() {
     // ---- GIVEN ----

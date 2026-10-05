@@ -1,7 +1,7 @@
 //! 23-iterators-advanced / 05-find
 //!
 //! TASK
-//! Complete `05-find` (find).
+//! Implement `find` as described in the stub.
 //!
 //! SIGNATURE
 //! fn find(v: &[i32]) -> Option<i32>

@@ -1,7 +1,7 @@
 //! 19-generics / 03-pair
 //!
 //! TASK
-//! Complete `03-pair` (pair).
+//! Implement `pair` as described in the stub.
 //!
 //! SIGNATURE
 //! fn first() -> i32

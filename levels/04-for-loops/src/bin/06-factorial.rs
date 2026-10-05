@@ -1,12 +1,10 @@
 //! 04-for-loops / 06-factorial
 //!
 //! TASK
-//! Complete `06-factorial` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `n: u64 = 6`. Print n factorial using a loop.
 //!
 //! EXPECTED OUTPUT
-//! 720
+//! `720`
 
 fn main() {
     // ---- GIVEN ----

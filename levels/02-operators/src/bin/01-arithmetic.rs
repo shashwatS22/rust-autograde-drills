@@ -1,16 +1,14 @@
 //! 02-operators / 01-arithmetic
 //!
 //! TASK
-//! Complete `01-arithmetic` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `a: i32 = 17`, `b: i32 = 5`. Print sum, difference, product, quotient, remainder — one per line. Note that `a / b` is **integer** division.
 //!
 //! EXPECTED OUTPUT
-//! 22
+//! `22
 //! 12
 //! 85
 //! 3
-//! 2
+//! 2`
 
 fn main() {
     // ---- GIVEN ----

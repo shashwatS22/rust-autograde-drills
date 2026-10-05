@@ -1,10 +1,10 @@
 //! 04-for-loops / 03-evens
 //!
 //! TASK
-//! Complete `03-evens` per the level README and spec.
+//! Print every even number from 2 to 20 using `.step_by(2)`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/03-evens.txt
+//! → from solution
 
 fn main() {
     // Your code below

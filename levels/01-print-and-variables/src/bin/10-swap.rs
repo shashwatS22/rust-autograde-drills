@@ -1,12 +1,10 @@
 //! 01-print-and-variables / 10-swap
 //!
 //! TASK
-//! Complete `10-swap` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `a = 1`, `b = 2`. Swap them with tuple destructuring `let (a, b) = (b, a);`, then print `a=2 b=1`.
 //!
 //! EXPECTED OUTPUT
-//! a=2 b=1
+//! `a=2 b=1`
 
 fn main() {
     // ---- GIVEN ----

@@ -1,7 +1,7 @@
 //! 18-derive-and-operators / 04-derive-ord
 //!
 //! TASK
-//! Complete `04-derive-ord` (derive ord).
+//! Implement `derive ord` as described in the stub.
 //!
 //! SIGNATURE
 //! fn sorted() -> Vec<i32>

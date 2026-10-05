@@ -1,7 +1,7 @@
 //! 39-memory-layout / 08-layout-8
 //!
 //! TASK
-//! Complete `08-layout-8` (layout 8).
+//! Implement `layout 8` as described in the stub.
 //!
 //! SIGNATURE
 //! fn size() -> usize

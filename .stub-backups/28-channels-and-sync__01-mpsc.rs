@@ -1,7 +1,7 @@
 //! 28-channels-and-sync / 01-mpsc
 //!
 //! TASK
-//! Complete `01-mpsc` (mpsc).
+//! Implement `mpsc` as described in the stub.
 //!
 //! SIGNATURE
 //! fn send_recv() -> i32

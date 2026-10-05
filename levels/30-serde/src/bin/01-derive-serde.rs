@@ -1,7 +1,7 @@
 //! 30-serde / 01-derive-serde
 //!
 //! TASK
-//! Complete `01-derive-serde` (derive serde).
+//! Implement `derive serde` as described in the stub.
 //!
 //! SIGNATURE
 //! fn round() -> User

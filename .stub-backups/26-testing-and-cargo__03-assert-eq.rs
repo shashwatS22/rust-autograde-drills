@@ -1,7 +1,7 @@
 //! 26-testing-and-cargo / 03-assert-eq
 //!
 //! TASK
-//! Complete `03-assert-eq` (assert eq).
+//! Implement `assert eq` as described in the stub.
 //!
 //! SIGNATURE
 //! pub fn double(x: i32) -> i32

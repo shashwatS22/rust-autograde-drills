@@ -1,10 +1,10 @@
 //! 06-patterns / 11-diamond
 //!
 //! TASK
-//! Complete `11-diamond` per the level README and spec.
+//! Pyramid on top of inverted pyramid
 //!
 //! EXPECTED OUTPUT
-//! See expected/11-diamond.txt
+//! 
 
 fn main() {
     // Your code below

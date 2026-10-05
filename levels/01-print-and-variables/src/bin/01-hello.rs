@@ -1,10 +1,10 @@
 //! 01-print-and-variables / 01-hello
 //!
 //! TASK
-//! Complete `01-hello` per the level README and spec.
+//! Print exactly `Hello, World!`
 //!
 //! EXPECTED OUTPUT
-//! Hello, World!
+//! `Hello, World!`
 
 fn main() {
     // Your code below

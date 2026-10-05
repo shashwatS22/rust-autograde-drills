@@ -1,15 +1,14 @@
 //! 14-recursion / 04-sum-to-n
 //!
 //! TASK
-//! Complete `04-sum-to-n` per the level README and spec.
+//! `fn sum_to(n: u32) -> u32` returning 1+2+…+n recursively.
 //!
 //! SIGNATURE
-//! fn sum_to(n: u32) -> u32
+//! fn sum_to(n: u32) -> u32` returning 1+2+…+n recursively
 //!
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
-
 fn sum_to(n: u32) -> u32 {
     todo!()
 }

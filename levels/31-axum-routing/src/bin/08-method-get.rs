@@ -1,7 +1,7 @@
 //! 31-axum-routing / 08-method-get
 //!
 //! TASK
-//! Build `app()` with GET `/r8` returning `ok`.
+//! Build `app()` with GET `/get` returning `ok`.
 //!
 //! SIGNATURE
 //! fn app() -> axum::Router
@@ -12,7 +12,7 @@
 use axum::{routing::get, Router};
 
 pub fn app() -> Router {
-    Router::new().route("/r8", get(|| async { "todo" }))
+    Router::new().route("/get", get(|| async { "todo" }))
 }
 
 fn main() {}

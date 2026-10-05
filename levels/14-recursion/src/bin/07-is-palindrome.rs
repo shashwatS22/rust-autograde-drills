@@ -1,15 +1,14 @@
 //! 14-recursion / 07-is-palindrome
 //!
 //! TASK
-//! Complete `07-is-palindrome` per the level README and spec.
+//! `fn is_palindrome(s: &str) -> bool` using two indices into `s.as_bytes()`, recursively.
 //!
 //! SIGNATURE
-//! fn is_palindrome(s: &str) -> bool
+//! fn is_palindrome(s: &str) -> bool` using two indices into `s
 //!
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
-
 fn is_palindrome(s: &str) -> bool {
     todo!()
 }

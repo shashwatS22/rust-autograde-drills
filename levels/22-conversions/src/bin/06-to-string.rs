@@ -1,7 +1,7 @@
 //! 22-conversions / 06-to-string
 //!
 //! TASK
-//! Complete `06-to-string` (to string).
+//! Implement `to string` as described in the stub.
 //!
 //! SIGNATURE
 //! fn s() -> String

@@ -1,15 +1,14 @@
 //! 08-functions / 01-add
 //!
 //! TASK
-//! Complete `01-add` per the level README and spec.
+//! `fn add(a: i32, b: i32) -> i32` returning their sum.
 //!
 //! SIGNATURE
-//! fn add(a: i32, b: i32) -> i32
+//! fn add(a: i32, b: i32) -> i32` returning their sum
 //!
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
-
 fn add(a: i32, b: i32) -> i32 {
     todo!()
 }

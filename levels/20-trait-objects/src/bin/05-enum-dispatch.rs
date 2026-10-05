@@ -1,7 +1,7 @@
 //! 20-trait-objects / 05-enum-dispatch
 //!
 //! TASK
-//! Complete `05-enum-dispatch` (enum dispatch).
+//! Implement `enum dispatch` as described in the stub.
 //!
 //! SIGNATURE
 //! fn sound(p: Pet) -> &'static str

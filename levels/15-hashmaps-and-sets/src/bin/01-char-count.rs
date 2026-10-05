@@ -1,10 +1,10 @@
 //! 15-hashmaps-and-sets / 01-char-count
 //!
 //! TASK
-//! Complete `01-char-count` per the level README and spec.
+//! GIVEN `s = "banana"`. Count characters into a `HashMap<char, u32>`. Collect the pairs into a `Vec`, sort by character, print `char:count` space-separated.
 //!
 //! EXPECTED OUTPUT
-//! See expected/01-char-count.txt
+//! `a:3 b:1 n:2`
 
 fn main() {
     // Your code below

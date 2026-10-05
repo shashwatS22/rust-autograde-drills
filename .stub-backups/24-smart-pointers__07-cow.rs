@@ -1,7 +1,7 @@
 //! 24-smart-pointers / 07-cow
 //!
 //! TASK
-//! Complete `07-cow` (cow).
+//! Implement `cow` as described in the stub.
 //!
 //! SIGNATURE
 //! fn cow() -> usize

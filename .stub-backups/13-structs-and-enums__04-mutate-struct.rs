@@ -1,10 +1,10 @@
 //! 13-structs-and-enums / 04-mutate-struct
 //!
 //! TASK
-//! Complete `04-mutate-struct` per the level README and spec.
+//! `let mut u = User { … };` set `u.age = 37;` and print it. Comment on why the binding needed `mut`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/04-mutate-struct.txt
+//! `37`
 
 fn main() {
     // Your code below

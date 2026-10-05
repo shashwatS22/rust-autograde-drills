@@ -1,12 +1,10 @@
 //! 03-conditionals-and-match / 06-grade
 //!
 //! TASK
-//! Complete `06-grade` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `marks = 73`. Print grade: 90+ `A`, 75+ `B`, 60+ `C`, 40+ `D`, else `F`.
 //!
 //! EXPECTED OUTPUT
-//! C
+//! `C`
 
 fn main() {
     // ---- GIVEN ----

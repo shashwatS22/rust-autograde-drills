@@ -1,15 +1,14 @@
 //! 14-recursion / 05-factorial
 //!
 //! TASK
-//! Complete `05-factorial` per the level README and spec.
+//! `fn factorial(n: u64) -> u64`. `factorial(0)` must return 1.
 //!
 //! SIGNATURE
-//! fn factorial(n: u64) -> u64
+//! fn factorial(n: u64) -> u64`
 //!
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
-
 fn factorial(n: u64) -> u64 {
     todo!()
 }

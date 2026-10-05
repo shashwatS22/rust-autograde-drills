@@ -1,12 +1,10 @@
 //! 04-for-loops / 04-sum-to-n
 //!
 //! TASK
-//! Complete `04-sum-to-n` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `n = 100`. Print the sum of 1 to n with an accumulator.
 //!
 //! EXPECTED OUTPUT
-//! 5050
+//! `5050`
 
 fn main() {
     // ---- GIVEN ----

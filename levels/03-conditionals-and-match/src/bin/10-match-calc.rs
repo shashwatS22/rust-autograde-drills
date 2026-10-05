@@ -1,12 +1,10 @@
 //! 03-conditionals-and-match / 10-match-calc
 //!
 //! TASK
-//! Complete `10-match-calc` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `a = 12`, `b = 4`, `op: char = '/'`. `match` on `op`, handle `+ - * /` and a default.
 //!
 //! EXPECTED OUTPUT
-//! 3
+//! `3`
 
 fn main() {
     // ---- GIVEN ----

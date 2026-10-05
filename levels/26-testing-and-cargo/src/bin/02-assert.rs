@@ -1,7 +1,7 @@
 //! 26-testing-and-cargo / 02-assert
 //!
 //! TASK
-//! Complete `02-assert` (assert).
+//! Implement `assert` as described in the stub.
 //!
 //! SIGNATURE
 //! pub fn truth() -> bool

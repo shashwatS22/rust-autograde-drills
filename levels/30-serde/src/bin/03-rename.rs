@@ -1,7 +1,7 @@
 //! 30-serde / 03-rename
 //!
 //! TASK
-//! Complete `03-rename` (rename).
+//! Implement `rename` as described in the stub.
 //!
 //! SIGNATURE
 //! fn round() -> User

@@ -1,5 +1,7 @@
 use super::*;
-#[test]
-fn t() {
-    assert!(stub_html().contains("2"))
-}
+    #[test]
+    fn graded() {
+        assert!(stub_html().contains("2"));
+assert!(stub_html().contains("2"));
+assert!(true);
+    }

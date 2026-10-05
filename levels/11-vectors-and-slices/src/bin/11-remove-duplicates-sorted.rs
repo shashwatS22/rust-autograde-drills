@@ -1,10 +1,10 @@
 //! 11-vectors-and-slices / 11-remove-duplicates-sorted
 //!
 //! TASK
-//! Complete `11-remove-duplicates-sorted` per the level README and spec.
+//! GIVEN `v = vec![1, 1, 2, 2, 2, 3, 3]`. Print the unique values joined.
 //!
 //! EXPECTED OUTPUT
-//! See expected/11-remove-duplicates-sorted.txt
+//! `1 2 3`
 
 fn main() {
     // Your code below

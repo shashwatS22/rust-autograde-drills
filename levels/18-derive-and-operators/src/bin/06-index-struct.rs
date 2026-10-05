@@ -1,7 +1,7 @@
 //! 18-derive-and-operators / 06-index-struct
 //!
 //! TASK
-//! Complete `06-index-struct` (index struct).
+//! Implement `index struct` as described in the stub.
 //!
 //! SIGNATURE
 //! fn second() -> i32

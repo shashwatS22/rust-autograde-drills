@@ -1,7 +1,7 @@
 //! 21-lifetimes / 07-both-refs
 //!
 //! TASK
-//! Complete `07-both-refs` (both refs).
+//! Implement `both refs` as described in the stub.
 //!
 //! SIGNATURE
 //! fn both<'a>(a: &'a str, b: &'a str) -> (&'a str, &'a str)

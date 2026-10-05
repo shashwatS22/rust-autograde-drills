@@ -1,7 +1,7 @@
 //! 26-testing-and-cargo / 08-bench-harness
 //!
 //! TASK
-//! Complete `08-bench-harness` (bench harness).
+//! Implement `bench harness` as described in the stub.
 //!
 //! SIGNATURE
 //! pub fn work() -> u32

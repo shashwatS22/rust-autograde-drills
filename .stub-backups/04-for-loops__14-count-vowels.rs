@@ -1,12 +1,10 @@
 //! 04-for-loops / 14-count-vowels
 //!
 //! TASK
-//! Complete `14-count-vowels` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `s = "learning rust is fun"`. Loop over `s.chars()` and print the vowel count.
 //!
 //! EXPECTED OUTPUT
-//! 6
+//! `6`
 
 fn main() {
     // ---- GIVEN ----

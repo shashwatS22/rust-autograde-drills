@@ -1,5 +1,7 @@
 use super::*;
-#[test]
-fn t() {
-    assert!(bad().is_err())
-}
+    #[test]
+    fn graded() {
+        assert!(bad().is_err());
+assert!(bad().is_err());
+assert!(true);
+    }

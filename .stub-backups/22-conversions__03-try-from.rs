@@ -1,7 +1,7 @@
 //! 22-conversions / 03-try-from
 //!
 //! TASK
-//! Complete `03-try-from` (try from).
+//! Implement `try from` as described in the stub.
 //!
 //! SIGNATURE
 //! fn parse() -> Result<i32, std::num::TryFromIntError>

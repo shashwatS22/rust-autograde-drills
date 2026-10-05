@@ -1,7 +1,7 @@
 //! 20-trait-objects / 07-filter-trait
 //!
 //! TASK
-//! Complete `07-filter-trait` (filter trait).
+//! Implement `filter trait` as described in the stub.
 //!
 //! SIGNATURE
 //! fn count(v: &[i32]) -> usize

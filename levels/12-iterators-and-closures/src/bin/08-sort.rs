@@ -1,10 +1,10 @@
 //! 12-iterators-and-closures / 08-sort
 //!
 //! TASK
-//! Complete `08-sort` per the level README and spec.
+//! GIVEN `let mut v = vec![10, 9, 100, 2];`. Print it sorted ascending with `.sort()`, then descending with `.sort_by(
 //!
 //! EXPECTED OUTPUT
-//! See expected/08-sort.txt
+//! a, b
 
 fn main() {
     // Your code below

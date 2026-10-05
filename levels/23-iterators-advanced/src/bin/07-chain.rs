@@ -1,7 +1,7 @@
 //! 23-iterators-advanced / 07-chain
 //!
 //! TASK
-//! Complete `07-chain` (chain).
+//! Implement `chain` as described in the stub.
 //!
 //! SIGNATURE
 //! fn chain() -> Vec<i32>

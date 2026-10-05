@@ -1,10 +1,10 @@
 //! 05-while-and-loop / 04-palindrome-number
 //!
 //! TASK
-//! Complete `04-palindrome-number` per the level README and spec.
+//! GIVEN `n: u32 = 12321`. Print `palindrome` or `not palindrome`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/04-palindrome-number.txt
+//! `palindrome`
 
 fn main() {
     // Your code below

@@ -1,7 +1,7 @@
 //! 25-error-design / 08-combine
 //!
 //! TASK
-//! Complete `08-combine` (combine).
+//! Implement `combine` as described in the stub.
 //!
 //! SIGNATURE
 //! fn both(a: Result<i32, ()>, b: Result<i32, ()>) -> Result<i32, ()>

@@ -1,10 +1,10 @@
 //! 05-while-and-loop / 03-reverse-while
 //!
 //! TASK
-//! Complete `03-reverse-while` per the level README and spec.
+//! GIVEN `n: u32 = 9081`. Print it reversed using `while`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/03-reverse-while.txt
+//! `1809`
 
 fn main() {
     // Your code below

@@ -1,7 +1,7 @@
 //! 30-serde / 05-vec-json
 //!
 //! TASK
-//! Complete `05-vec-json` (vec json).
+//! Implement `vec json` as described in the stub.
 //!
 //! SIGNATURE
 //! fn round() -> User

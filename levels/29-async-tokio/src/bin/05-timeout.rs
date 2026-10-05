@@ -1,7 +1,7 @@
 //! 29-async-tokio / 05-timeout
 //!
 //! TASK
-//! Complete `05-timeout` (timeout).
+//! Implement `timeout` as described in the stub.
 //!
 //! SIGNATURE
 //! async fn fast() -> i32

@@ -1,7 +1,7 @@
 //! 26-testing-and-cargo / 06-cfg-test
 //!
 //! TASK
-//! Complete `06-cfg-test` (cfg test).
+//! Implement `cfg test` as described in the stub.
 //!
 //! SIGNATURE
 //! pub fn prod() -> i32

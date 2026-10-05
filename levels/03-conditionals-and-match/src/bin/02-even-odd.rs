@@ -1,12 +1,10 @@
 //! 03-conditionals-and-match / 02-even-odd
 //!
 //! TASK
-//! Complete `02-even-odd` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `n = 27`. Print `even` or `odd` using `if`/`else`.
 //!
 //! EXPECTED OUTPUT
-//! odd
+//! `odd`
 
 fn main() {
     // ---- GIVEN ----

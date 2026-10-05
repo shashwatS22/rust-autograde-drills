@@ -1,7 +1,7 @@
 //! 38-sync-primitives / 08-sync-8
 //!
 //! TASK
-//! Complete `08-sync-8` (sync 8).
+//! Implement `sync 8` as described in the stub.
 //!
 //! SIGNATURE
 //! fn m() -> i32

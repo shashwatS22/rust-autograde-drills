@@ -45,7 +45,7 @@ LEVEL_DEPS: dict[str, list[str]] = {
         "hyper",
     ],
     "37-rayon-and-pools": ["rayon"],
-    "41-ffi": ["cc"],
+    "41-ffi": [],
     "43-cli-clap": ["clap"],
     "44-wasm-bindgen": ["wasm-bindgen"],
     "45-web-sys-dom": ["wasm-bindgen", "web-sys", "js-sys"],
@@ -222,23 +222,68 @@ def write_build_spec_md(levels_with_exercises) -> None:
     out = ROOT / "reference" / "CURSOR-BUILD-SPEC-PHASES-3-6.md"
     parts = [
         "# Phases 3–6 exercise bank (levels 17–48)\n",
-        "Concise index of scaffolded drills. See each level README for learner-facing text.\n",
+        "\n256 auto-graded drills (**8 per level**). Phase 1 lives in "
+        "[CURSOR-BUILD-SPEC.md](./CURSOR-BUILD-SPEC.md). "
+        "Learner-facing copy is in each level README and exercise `//!` header.\n",
     ]
     for level_dir, phase, title, exercises in levels_with_exercises:
         parts.append(f"\n## Level {level_dir} — {title} (phase {phase})\n\n")
-        parts.append("| File | Grading | Task |\n|---|---|---|\n")
+        parts.append("| File | Grading | Task | Expected / signature | Checks contract |\n")
+        parts.append("|---|---|---|---|---|\n")
         for ex in exercises:
             mode = "[T]" if ex.test_graded else "output"
             task = ex.task.replace("|", "\\|")
-            parts.append(f"| `{ex.name}` | {mode} | {task} |\n")
+            sig = (ex.signature or ex.expected_hint or "—").replace("|", "\\|")
+            contract = (ex.checks_contract or "3+ assertions incl. edge case").replace("|", "\\|")
+            parts.append(f"| `{ex.name}` | {mode} | {task} | `{sig}` | {contract} |\n")
     out.write_text("".join(parts), encoding="utf-8")
 
 
+def prune_level(level_dir: str, keep_names: set[str]) -> None:
+    for sub, ext in [
+        ("src/bin", ".rs"),
+        ("checks", ".rs"),
+        ("expected", ".txt"),
+    ]:
+        d = ROOT / "levels" / level_dir / sub
+        if not d.is_dir():
+            continue
+        for f in d.glob(f"*{ext}"):
+            if f.stem not in keep_names:
+                f.unlink()
+    sol_bin = ROOT / "solutions" / level_dir / "src" / "bin"
+    if sol_bin.is_dir():
+        for f in sol_bin.glob("*.rs"):
+            if f.stem not in keep_names:
+                f.unlink()
+    for backup_root in (ROOT / ".stub-backups", ROOT / ".checks-backup"):
+        prefix = f"{level_dir}__"
+        for f in backup_root.glob(f"{prefix}*"):
+            name = f.name[len(prefix) :].removesuffix(".rs")
+            if name not in keep_names:
+                f.unlink()
+
+
 def main() -> int:
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--prune-only", action="store_true", help="Delete exercises not in manifest")
+    parser.add_argument("--skip-verify", action="store_true")
+    args = parser.parse_args()
+
     os.chdir(ROOT)
     _, levels_with_exercises = _import_content()
 
+    if args.prune_only:
+        for level_dir, _, _, exercises in levels_with_exercises:
+            prune_level(level_dir, {ex.name for ex in exercises})
+        rebuild_checks_lock()
+        print("Pruned orphan exercise files.")
+        return 0
+
     for level_dir, phase, title, exercises in levels_with_exercises:
+        prune_level(level_dir, {ex.name for ex in exercises})
         lv_root = ROOT / "levels" / level_dir
         sol_root = ROOT / "solutions" / level_dir
         lv_root.mkdir(parents=True, exist_ok=True)
@@ -274,6 +319,8 @@ def main() -> int:
         cwd=ROOT,
         check=True,
     )
+    if args.skip_verify:
+        return 0
     proc = subprocess.run(
         ["cargo", "run", "--release", "-p", "runner", "--bin", "cli", "--", "verify"],
         cwd=ROOT,

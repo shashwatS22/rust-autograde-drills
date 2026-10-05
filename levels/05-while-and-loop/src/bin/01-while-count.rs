@@ -1,10 +1,14 @@
 //! 05-while-and-loop / 01-while-count
 //!
 //! TASK
-//! Complete `01-while-count` per the level README and spec.
+//! GIVEN `n = 5`. Print 1 to n using a `while` loop.
 //!
 //! EXPECTED OUTPUT
-//! See expected/01-while-count.txt
+//! `1
+//! 2
+//! 3
+//! 4
+//! 5`
 
 fn main() {
     // Your code below

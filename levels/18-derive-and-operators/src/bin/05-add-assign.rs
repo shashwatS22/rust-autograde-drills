@@ -1,7 +1,7 @@
 //! 18-derive-and-operators / 05-add-assign
 //!
 //! TASK
-//! Complete `05-add-assign` (add assign).
+//! Implement `add assign` as described in the stub.
 //!
 //! SIGNATURE
 //! fn bump() -> i32

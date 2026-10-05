@@ -1,7 +1,7 @@
 //! 27-threads / 01-spawn-join
 //!
 //! TASK
-//! Complete `01-spawn-join` (spawn join).
+//! Implement `spawn join` as described in the stub.
 //!
 //! SIGNATURE
 //! fn doubled() -> i32

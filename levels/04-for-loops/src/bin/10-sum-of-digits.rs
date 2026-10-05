@@ -1,12 +1,10 @@
 //! 04-for-loops / 10-sum-of-digits
 //!
 //! TASK
-//! Complete `10-sum-of-digits` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `n: u32 = 9375`. Print the sum of its digits.
 //!
 //! EXPECTED OUTPUT
-//! 24
+//! `24`
 
 fn main() {
     // ---- GIVEN ----

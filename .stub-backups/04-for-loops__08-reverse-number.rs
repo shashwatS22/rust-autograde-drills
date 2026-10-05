@@ -1,12 +1,10 @@
 //! 04-for-loops / 08-reverse-number
 //!
 //! TASK
-//! Complete `08-reverse-number` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `n: u32 = 12345`. Print the number reversed, as a number.
 //!
 //! EXPECTED OUTPUT
-//! 54321
+//! `54321`
 
 fn main() {
     // ---- GIVEN ----

@@ -1,15 +1,14 @@
 //! 08-functions / 06-optional-arg
 //!
 //! TASK
-//! Complete `06-optional-arg` per the level README and spec.
+//! `fn greet_with(name: &str, greeting: Option<&str>) -> String`. `None` means `"Hello"`. Rust has no default parameters — this is how you get them.
 //!
 //! SIGNATURE
-//! fn greet_with(name: &str, greeting: Option<&str>) -> String
+//! fn greet_with(name: &str, greeting: Option<&str>) -> String`
 //!
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
-
 fn greet_with(name: &str, greeting: Option<&str>) -> String {
     todo!()
 }

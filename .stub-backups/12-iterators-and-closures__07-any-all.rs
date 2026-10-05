@@ -1,10 +1,11 @@
 //! 12-iterators-and-closures / 07-any-all
 //!
 //! TASK
-//! Complete `07-any-all` per the level README and spec.
+//! GIVEN `v = vec![2, 4, 6, 7]`. Print `.any(is odd)` then `.all(is even)`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/07-any-all.txt
+//! `true
+//! false`
 
 fn main() {
     // Your code below

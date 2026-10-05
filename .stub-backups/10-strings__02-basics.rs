@@ -1,10 +1,12 @@
 //! 10-strings / 02-basics
 //!
 //! TASK
-//! Complete `02-basics` per the level README and spec.
+//! GIVEN `s = "Rustacean"`. Print `s.len()`, uppercase, lowercase.
 //!
 //! EXPECTED OUTPUT
-//! See expected/02-basics.txt
+//! `9
+//! RUSTACEAN
+//! rustacean`
 
 fn main() {
     // Your code below

@@ -1,12 +1,10 @@
 //! 03-conditionals-and-match / 12-fizzbuzz-one
 //!
 //! TASK
-//! Complete `12-fizzbuzz-one` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `n = 15`. Use `match (n % 3, n % 5)` to print `FizzBuzz`, `Fizz`, `Buzz`, or the number.
 //!
 //! EXPECTED OUTPUT
-//! FizzBuzz
+//! `FizzBuzz`
 
 fn main() {
     // ---- GIVEN ----

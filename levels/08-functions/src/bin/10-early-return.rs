@@ -1,10 +1,12 @@
 //! 08-functions / 10-early-return
 //!
 //! TASK
-//! Complete `10-early-return` per the level README and spec.
+//! `fn classify(n: i32) -> &'static str` using early `return` for the negative and zero cases. Call with `-5`, `0`, `7` and print each.
 //!
 //! EXPECTED OUTPUT
-//! See expected/10-early-return.txt
+//! `negative
+//! zero
+//! positive`
 
 fn main() {
     // Your code below

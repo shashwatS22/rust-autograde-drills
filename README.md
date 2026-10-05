@@ -102,4 +102,4 @@ Capstone projects (`projects/api`, `projects/systems`, `projects/web`) use `carg
 
 ## Roadmap
 
-**553 auto-graded exercises** across 48 levels (Phases 1, 3–6). See [reference/LEARNING-PLAN.md](reference/LEARNING-PLAN.md) and [reference/CURSOR-BUILD-SPEC-PHASES-3-6.md](reference/CURSOR-BUILD-SPEC-PHASES-3-6.md). Phase 2 DSA stays on LeetCode in parallel.
+**456 auto-graded exercises** across 48 levels (200 in Phase 1, 256 in Phases 3–6). See [reference/LEARNING-PLAN.md](reference/LEARNING-PLAN.md), [reference/CURSOR-BUILD-SPEC.md](reference/CURSOR-BUILD-SPEC.md) (Phase 1), and [reference/CURSOR-BUILD-SPEC-PHASES-3-6.md](reference/CURSOR-BUILD-SPEC-PHASES-3-6.md). Track B DSA: LeetCode + [`cargo dsa`](dsa/sections.toml) unlock hints. Library capstones: `projects/matrix`, `projects/kvstore`. Web HTML/CSS/DOM: `projects/web-fundamentals/`.

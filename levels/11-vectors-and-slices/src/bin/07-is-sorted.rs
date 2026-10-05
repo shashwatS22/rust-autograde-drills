@@ -1,10 +1,10 @@
 //! 11-vectors-and-slices / 07-is-sorted
 //!
 //! TASK
-//! Complete `07-is-sorted` per the level README and spec.
+//! GIVEN `v = vec![1, 2, 2, 5, 9]`. Print `true` if non-decreasing. Write the loop yourself.
 //!
 //! EXPECTED OUTPUT
-//! See expected/07-is-sorted.txt
+//! `true`
 
 fn main() {
     // Your code below

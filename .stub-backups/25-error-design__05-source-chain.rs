@@ -1,7 +1,7 @@
 //! 25-error-design / 05-source-chain
 //!
 //! TASK
-//! Complete `05-source-chain` (source chain).
+//! Implement `source chain` as described in the stub.
 //!
 //! SIGNATURE
 //! fn err() -> Box<dyn Error>

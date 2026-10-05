@@ -1,7 +1,7 @@
 //! 22-conversions / 04-as-ref
 //!
 //! TASK
-//! Complete `04-as-ref` (as ref).
+//! Implement `as ref` as described in the stub.
 //!
 //! SIGNATURE
 //! fn len(s: impl AsRef<str>) -> usize

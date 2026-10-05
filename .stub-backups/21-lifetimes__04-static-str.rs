@@ -1,7 +1,7 @@
 //! 21-lifetimes / 04-static-str
 //!
 //! TASK
-//! Complete `04-static-str` (static str).
+//! Implement `static str` as described in the stub.
 //!
 //! SIGNATURE
 //! fn msg() -> &'static str

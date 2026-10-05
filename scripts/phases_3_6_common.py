@@ -27,6 +27,39 @@ class Exercise:
     check: str | None = None
     given: str = ""
     expected_hint: str = ""
+    checks_contract: str = ""
+
+
+def _assert_stmt(line: str) -> str:
+    s = line.strip()
+    if not s:
+        return s
+    if not s.endswith(";"):
+        s += ";"
+    return s
+
+
+def check_block(*assertions: str, async_test: bool = False) -> str:
+    body = "\n    ".join(_assert_stmt(a) for a in assertions if a.strip())
+    if async_test:
+        return dedent(
+            f"""
+            use super::*;
+            #[tokio::test]
+            async fn graded() {{
+                {body}
+            }}
+            """
+        ).strip()
+    return dedent(
+        f"""
+        use super::*;
+        #[test]
+        fn graded() {{
+            {body}
+        }}
+        """
+    ).strip()
 
 
 def T(

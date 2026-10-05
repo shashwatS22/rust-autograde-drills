@@ -1,12 +1,10 @@
 //! 04-for-loops / 09-power
 //!
 //! TASK
-//! Complete `09-power` per the level README and spec.
-//!
-//! DO NOT CHANGE the GIVEN values.
+//! GIVEN `base: u64 = 3`, `exp = 5`. Compute `base^exp` with a loop (no `.pow()`).
 //!
 //! EXPECTED OUTPUT
-//! 243
+//! `243`
 
 fn main() {
     // ---- GIVEN ----

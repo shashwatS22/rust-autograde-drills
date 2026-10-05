@@ -1,7 +1,7 @@
 //! 21-lifetimes / 01-longest
 //!
 //! TASK
-//! Complete `01-longest` (longest).
+//! Implement `longest` as described in the stub.
 //!
 //! SIGNATURE
 //! fn longest<'a>(a: &'a str, b: &'a str) -> &'a str

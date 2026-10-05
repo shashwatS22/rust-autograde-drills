@@ -1,7 +1,7 @@
 //! 22-conversions / 05-deref-coerce
 //!
 //! TASK
-//! Complete `05-deref-coerce` (deref coerce).
+//! Implement `deref coerce` as described in the stub.
 //!
 //! SIGNATURE
 //! fn upper(s: &str) -> String

@@ -1,7 +1,7 @@
 //! 22-conversions / 01-from-into
 //!
 //! TASK
-//! Complete `01-from-into` (from into).
+//! Implement `from into` as described in the stub.
 //!
 //! SIGNATURE
 //! fn wrap() -> i32

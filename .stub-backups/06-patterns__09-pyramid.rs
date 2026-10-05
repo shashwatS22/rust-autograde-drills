@@ -1,10 +1,10 @@
 //! 06-patterns / 09-pyramid
 //!
 //! TASK
-//! Complete `09-pyramid` per the level README and spec.
+//! Centred pyramid of `*`, 5 rows
 //!
 //! EXPECTED OUTPUT
-//! See expected/09-pyramid.txt
+//! 
 
 fn main() {
     // Your code below

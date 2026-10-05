@@ -1,10 +1,10 @@
 //! 07-number-problems / 06-is-prime
 //!
 //! TASK
-//! Complete `06-is-prime` per the level README and spec.
+//! GIVEN `n: u32 = 97`. Print `prime` or `not prime`. Loop only while `i * i <= n`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/06-is-prime.txt
+//! `prime`
 
 fn main() {
     // Your code below

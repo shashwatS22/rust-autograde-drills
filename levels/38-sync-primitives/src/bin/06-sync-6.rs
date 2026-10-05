@@ -1,7 +1,7 @@
 //! 38-sync-primitives / 06-sync-6
 //!
 //! TASK
-//! Complete `06-sync-6` (sync 6).
+//! Implement `sync 6` as described in the stub.
 //!
 //! SIGNATURE
 //! fn m() -> i32

@@ -1,7 +1,7 @@
 //! 26-testing-and-cargo / 07-doc-test
 //!
 //! TASK
-//! Complete `07-doc-test` (doc test).
+//! Implement `doc test` as described in the stub.
 //!
 //! SIGNATURE
 //! pub fn plus(a: i32, b: i32) -> i32

@@ -1,7 +1,7 @@
 //! 22-conversions / 02-into
 //!
 //! TASK
-//! Complete `02-into` (into).
+//! Implement `into` as described in the stub.
 //!
 //! SIGNATURE
 //! fn m() -> u32

@@ -1,7 +1,7 @@
 //! 24-smart-pointers / 01-box-heap
 //!
 //! TASK
-//! Complete `01-box-heap` (box heap).
+//! Implement `box heap` as described in the stub.
 //!
 //! SIGNATURE
 //! fn boxed() -> i32

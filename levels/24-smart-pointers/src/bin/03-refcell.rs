@@ -1,7 +1,7 @@
 //! 24-smart-pointers / 03-refcell
 //!
 //! TASK
-//! Complete `03-refcell` (refcell).
+//! Implement `refcell` as described in the stub.
 //!
 //! SIGNATURE
 //! fn mutate() -> i32

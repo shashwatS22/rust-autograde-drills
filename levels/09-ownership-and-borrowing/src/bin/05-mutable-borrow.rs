@@ -1,10 +1,10 @@
 //! 09-ownership-and-borrowing / 05-mutable-borrow
 //!
 //! TASK
-//! Complete `05-mutable-borrow` per the level README and spec.
+//! Write `fn add_excl(s: &mut String)` that pushes `'!'`. Call it and print the result.
 //!
 //! EXPECTED OUTPUT
-//! See expected/05-mutable-borrow.txt
+//! `hello!`
 
 fn main() {
     // Your code below

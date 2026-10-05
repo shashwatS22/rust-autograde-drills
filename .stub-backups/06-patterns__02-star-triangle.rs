@@ -1,10 +1,10 @@
 //! 06-patterns / 02-star-triangle
 //!
 //! TASK
-//! Complete `02-star-triangle` per the level README and spec.
+//! Left-aligned right triangle of `*`, rows 1→5
 //!
 //! EXPECTED OUTPUT
-//! See expected/02-star-triangle.txt
+//! 
 
 fn main() {
     // Your code below

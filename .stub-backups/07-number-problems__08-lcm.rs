@@ -1,10 +1,10 @@
 //! 07-number-problems / 08-lcm
 //!
 //! TASK
-//! Complete `08-lcm` per the level README and spec.
+//! GIVEN `a = 12`, `b = 18`. Print the LCM using `(a * b) / gcd`.
 //!
 //! EXPECTED OUTPUT
-//! See expected/08-lcm.txt
+//! `36`
 
 fn main() {
     // Your code below

@@ -1,7 +1,7 @@
 //! 27-threads / 06-panic-catch
 //!
 //! TASK
-//! Complete `06-panic-catch` (panic catch).
+//! Implement `panic catch` as described in the stub.
 //!
 //! SIGNATURE
 //! fn caught() -> bool

@@ -1,10 +1,10 @@
 //! 04-for-loops / 11-squares
 //!
 //! TASK
-//! Complete `11-squares` per the level README and spec.
+//! Print the square of every number 1 to 8, one per line.
 //!
 //! EXPECTED OUTPUT
-//! See expected/11-squares.txt
+//! → from solution
 
 fn main() {
     // Your code below

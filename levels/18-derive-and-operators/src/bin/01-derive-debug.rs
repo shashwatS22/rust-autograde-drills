@@ -1,7 +1,7 @@
 //! 18-derive-and-operators / 01-derive-debug
 //!
 //! TASK
-//! Complete `01-derive-debug` (derive debug).
+//! Implement `derive debug` as described in the stub.
 //!
 //! SIGNATURE
 //! fn show() -> String

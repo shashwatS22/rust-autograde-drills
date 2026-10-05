@@ -1,7 +1,7 @@
 //! 29-async-tokio / 06-select
 //!
 //! TASK
-//! Complete `06-select` (select).
+//! Implement `select` as described in the stub.
 //!
 //! SIGNATURE
 //! async fn pick() -> i32

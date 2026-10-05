@@ -1,7 +1,7 @@
 //! 30-serde / 06-enum-json
 //!
 //! TASK
-//! Complete `06-enum-json` (enum json).
+//! Implement `enum json` as described in the stub.
 //!
 //! SIGNATURE
 //! fn round() -> User

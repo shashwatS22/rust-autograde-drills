@@ -1,7 +1,7 @@
 //! 43-cli-clap / 04-cli-4
 //!
 //! TASK
-//! Complete `04-cli-4` (cli 4).
+//! Implement `cli 4` as described in the stub.
 //!
 //! SIGNATURE
 //! fn n() -> i32

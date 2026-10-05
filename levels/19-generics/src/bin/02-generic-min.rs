@@ -1,7 +1,7 @@
 //! 19-generics / 02-generic-min
 //!
 //! TASK
-//! Complete `02-generic-min` (generic min).
+//! Implement `generic min` as described in the stub.
 //!
 //! SIGNATURE
 //! fn min_i32(a: i32, b: i32) -> i32

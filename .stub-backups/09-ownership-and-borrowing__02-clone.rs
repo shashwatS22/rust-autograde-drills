@@ -1,10 +1,11 @@
 //! 09-ownership-and-borrowing / 02-clone
 //!
 //! TASK
-//! Complete `02-clone` per the level README and spec.
+//! Same start, but `let s2 = s1.clone();`. Print both. Comment on what `clone` actually cost.
 //!
 //! EXPECTED OUTPUT
-//! See expected/02-clone.txt
+//! `hello
+//! hello`
 
 fn main() {
     // Your code below
