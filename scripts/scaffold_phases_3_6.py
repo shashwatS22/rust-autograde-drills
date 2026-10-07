@@ -208,22 +208,31 @@ def rebuild_checks_lock() -> None:
 
 
 def write_readme(level_dir: str, title: str, phase: int) -> None:
+    if str(SCRIPTS) not in sys.path:
+        sys.path.insert(0, str(SCRIPTS))
+    from level_readmes import LEVEL_README_BODY
+
     path = ROOT / "levels" / level_dir / "README.md"
-    path.write_text(
+    header = (
         f"# Level {level_dir} — {title}\n\n"
-        f"Phase {phase} drills. Work through the numbered exercises in order.\n\n"
-        "## Exercises\n"
-        "Save each file under `src/bin/` to grade it with `cargo dev`.\n",
-        encoding="utf-8",
+        f"Phase {phase} drills. Work through the numbered exercises in order.\n"
     )
+    body = LEVEL_README_BODY.get(level_dir, "")
+    if not body.strip():
+        body = (
+            "\n## What you'll learn\n"
+            f"- Concepts in **{title}** (see exercises and `reference/BUILD-SPEC-PHASES-3-6.md`)\n"
+        )
+    footer = "\n## Exercises\nSave each file under `src/bin/` to grade it with `cargo dev`.\n"
+    path.write_text(header + body + footer, encoding="utf-8")
 
 
 def write_build_spec_md(levels_with_exercises) -> None:
-    out = ROOT / "reference" / "CURSOR-BUILD-SPEC-PHASES-3-6.md"
+    out = ROOT / "reference" / "BUILD-SPEC-PHASES-3-6.md"
     parts = [
         "# Phases 3–6 exercise bank (levels 17–48)\n",
         "\n256 auto-graded drills (**8 per level**). Phase 1 lives in "
-        "[CURSOR-BUILD-SPEC.md](./CURSOR-BUILD-SPEC.md). "
+        "[BUILD-SPEC.md](./BUILD-SPEC.md). "
         "Learner-facing copy is in each level README and exercise `//!` header.\n",
     ]
     for level_dir, phase, title, exercises in levels_with_exercises:

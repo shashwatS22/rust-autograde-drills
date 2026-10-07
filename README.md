@@ -1,47 +1,41 @@
-# rust-bootcamp
+# rust-autograde-drills
 
-Auto-graded Rust drills: open an exercise, write code, save — the terminal shows **PASS**, **FAIL**, or **DOESN'T COMPILE** immediately.
+**456 auto-graded Rust exercises** from fundamentals through backend and browser stacks: **Axum**, **Tokio**, **Serde**, **SQLx**, **Tower/tracing**, auth (argon2/JWT), **Rayon**, **unsafe/FFI**, **Leptos**, and **wasm-bindgen** — plus capstone projects under `projects/`.
 
-## Install Rust (first time only)
+Open a drill under `levels/`, write code, **save**; the watcher shows **PASS**, **FAIL**, or **DOESN'T COMPILE** immediately (stdout diff or compiler output).
 
-1. Open a terminal.
-2. Run:
+**Author:** [Shashwat Sharma](https://github.com/shashwatS22) · **License:** [MIT](LICENSE)
 
-```bash
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
-
-3. Follow the prompts (defaults are fine).
-4. Restart the terminal, then check:
+## Clone & run
 
 ```bash
-rustc --version
-cargo --version
-```
-
-You want Rust **1.90** or newer (this repo pins it via `rust-toolchain.toml`).
-
-## Get started
-
-```bash
-cd rust-bootcamp   # this folder
+git clone https://github.com/shashwatS22/rust-autograde-drills.git
+cd rust-autograde-drills
 cargo dev
 ```
 
-Leave that running. Open any file under `levels/<level>/src/bin/`, write your code, and **save**. The watcher grades that file automatically.
+Leave `cargo dev` running. Open any file under `levels/<level>/src/bin/`, implement the task, and **save**. The watcher grades that file automatically.
 
-Other commands:
+### Requirements
+
+- Rust **1.90+** ([rustup](https://rustup.rs/)); this repo pins the toolchain via `rust-toolchain.toml`.
+
+## Commands
 
 | Command | What it does |
 |---|---|
+| `cargo dev` | File watcher — grade on save (main learning loop) |
 | `cargo play` | Run `playground/src/main.rs` (experiments, never graded) |
 | `cargo grade <id>` | Grade one exercise once, e.g. `cargo grade 04-for-loops/07-count-digits` |
 | `cargo grade-level 04` | Grade every exercise in level 04 |
 | `cargo progress` | Dashboard by phase and by level |
 | `cargo warm <NN>` | Pre-build level NN (run once before levels with dependencies) |
-| `cargo solution <id>` | Show reference solution (locked until 3 failed runs; compile errors don’t count) |
+| `cargo solution <id>` | Reference solution (locked until 3 failed runs; compile errors don’t count) |
+| `cargo reset <id>` | Restore stub and clear progress for one exercise (`yes` to confirm) |
+| `cargo reset <NN>` | Reset an entire level |
+| `cargo verify` | Grade all **456** solution binaries (maintainer / CI check) |
 
-Write notes in `NOTES.md`. Read each level’s `README.md` before its exercises.
+Write personal notes in `NOTES.md` (gitignored). Read each level’s `README.md` before its exercises.
 
 ## What PASS looks like
 
@@ -100,6 +94,16 @@ Read the message top to bottom once, out loud if it helps, then change one thing
 
 Capstone projects (`projects/api`, `projects/systems`, `projects/web`) use `cargo test -p …`, not the exercise watcher.
 
-## Roadmap
+## Curriculum map
 
-**456 auto-graded exercises** across 48 levels (200 in Phase 1, 256 in Phases 3–6). See [reference/LEARNING-PLAN.md](reference/LEARNING-PLAN.md), [reference/CURSOR-BUILD-SPEC.md](reference/CURSOR-BUILD-SPEC.md) (Phase 1), and [reference/CURSOR-BUILD-SPEC-PHASES-3-6.md](reference/CURSOR-BUILD-SPEC-PHASES-3-6.md). Track B DSA: LeetCode + [`cargo dsa`](dsa/sections.toml) unlock hints. Library capstones: `projects/matrix`, `projects/kvstore`. Web HTML/CSS/DOM: `projects/web-fundamentals/`.
+| Phases | Levels | Drills | Topics (high level) |
+|--------|--------|--------|---------------------|
+| 1 | 01–16 | 200 | Syntax, ownership, collections, modules |
+| 3 | 17–29 | 104 | Traits, async, threads, errors |
+| 4 | 30–36 | 56 | Serde, Axum, Tower, SQLx, auth |
+| 5 | 37–43 | 56 | Rayon, layout, unsafe, FFI, CLI |
+| 6 | 44–48 | 40 | wasm-bindgen, Leptos, DOM-shaped drills |
+
+Full maintainer specs: [reference/BUILD-SPEC.md](reference/BUILD-SPEC.md) (Phase 1), [reference/BUILD-SPEC-PHASES-3-6.md](reference/BUILD-SPEC-PHASES-3-6.md) (Phases 3–6). Learner roadmap: [reference/LEARNING-PLAN.md](reference/LEARNING-PLAN.md).
+
+Track B DSA: LeetCode + [`cargo dsa`](dsa/sections.toml). Library capstones: `projects/matrix`, `projects/kvstore`. Web fundamentals: `projects/web-fundamentals/`.

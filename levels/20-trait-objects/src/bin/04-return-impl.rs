@@ -1,15 +1,15 @@
 //! 20-trait-objects / 04-return-impl
 //!
 //! TASK
-//! Implement `return impl` as described in the stub.
+//! Return `impl Greet` from a factory function.
 //!
 //! SIGNATURE
-//! fn greet() -> String
+//! fn make_greeter() -> impl Greet
 //!
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
-fn greet() -> String {
+fn make_greeter() -> impl Greet {
     todo!()
 }
 

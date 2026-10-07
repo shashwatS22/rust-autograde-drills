@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Restore Phase 1 exercise //! headers from reference/CURSOR-BUILD-SPEC.md §9."""
+"""Restore Phase 1 exercise //! headers from reference/BUILD-SPEC.md §9."""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-SPEC = ROOT / "reference" / "CURSOR-BUILD-SPEC.md"
+SPEC = ROOT / "reference" / "BUILD-SPEC.md"
 
 
 def parse_spec() -> list[tuple[str, str, str, str, bool]]:

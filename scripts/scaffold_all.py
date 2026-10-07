@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Scaffold all 200 exercises from CURSOR-BUILD-SPEC §9. Run from repo root."""
+"""Scaffold all 200 exercises from BUILD-SPEC §9. Run from repo root."""
 
 from __future__ import annotations
 

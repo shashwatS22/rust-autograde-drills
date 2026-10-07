@@ -8,7 +8,12 @@ pub fn banner(cfg: &Config) {
     if cfg.clear_screen {
         print!("\x1B[2J\x1B[H");
     }
-    println!("{}", "rust-bootcamp".bold().cyan());
+    println!("{}", "rust-autograde-drills".bold().cyan());
+    println!(
+        "{}",
+        "Rust basics → Axum, Tokio, SQLx, Leptos, wasm, … (save to grade)"
+            .dimmed()
+    );
     println!();
 }
 

@@ -1,17 +1,15 @@
 //! 29-async-tokio / 05-timeout
 //!
 //! TASK
-//! Implement `timeout` as described in the stub.
+//! Use `tokio::time::timeout`; test with `pause` + `advance`.
 //!
 //! SIGNATURE
-//! async fn fast() -> i32
+//! async fn timeout_fires() -> bool
 //!
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
-async fn fast() -> i32 {
-    todo!()
-}
+async fn timeout_fires() -> bool { todo!() }
 
 fn main() {}
 

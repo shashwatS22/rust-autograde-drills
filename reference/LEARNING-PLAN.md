@@ -9,14 +9,14 @@ There are two documents:
 | File | Who it's for |
 |---|---|
 | `LEARNING-PLAN.md` (this file) | You and her — the roadmap, the routine, what to learn when |
-| `CURSOR-BUILD-SPEC.md` | Phase 1 build spec (200 exercises, levels 01–16) |
-| `CURSOR-BUILD-SPEC-PHASES-3-6.md` | Phases 3–6 drills (256 exercises, levels 17–48) |
+| `BUILD-SPEC.md` | Phase 1 build spec (200 exercises, levels 01–16) |
+| `BUILD-SPEC-PHASES-3-6.md` | Phases 3–6 drills (256 exercises, levels 17–48) |
 
 ---
 
 ## 1. The core idea
 
-She gets one repo (`rust-bootcamp`) running locally. It's a Cargo workspace with a file watcher. She opens an exercise file, writes code, hits save, and the terminal immediately tells her **PASS** or **FAIL** with a line-by-line diff against the expected output — or, when it doesn't compile, the compiler's own error rendered in full colour.
+She gets one repo (`rust-autograde-drills`) running locally. It's a Cargo workspace with a file watcher. She opens an exercise file, writes code, hits save, and the terminal immediately tells her **PASS** or **FAIL** with a line-by-line diff against the expected output — or, when it doesn't compile, the compiler's own error rendered in full colour.
 
 That's the whole loop. No setup friction, no "did I run it right", no waiting for feedback. Save → verdict → fix → save. Measured on a tiny no-dependency exercise crate, a changed file rebuilds and runs in about 200–250 ms, so the verdict lands before she's looked away from the screen.
 
@@ -69,10 +69,10 @@ She asked for all three directions — backend, systems, and the browser. The pl
 |---|---|---|---|
 | **1. Rust fundamentals** | 1–5 | 16 levels, 200 drills. Variables → ownership → iterators → structs/enums → `Result`. | All levels green |
 | **2. DSA foundation** | 1–8 (parallel) | Striver Steps 1–3 on LeetCode, in Rust | ~60 problems solved |
-| **3. Core Rust — shared by A, B and C** | 6–9 | Levels **17–29** (~140 drills): traits → lifetimes → smart pointers → errors → threads → async | Levels 17–29 green + library projects in README |
-| **4. Track A — Backend services** | 10–14 | Levels **30–36** (~80 drills): serde, Axum, tower, SQLx (SQLite in drills), auth | Levels 30–36 green + **`projects/api`** deployed |
-| **5. Track B — Systems Rust** | 15–18 | Levels **37–43** (~76 drills): rayon, sync, layout, `unsafe`, FFI, perf, clap | Levels 37–43 green + **`projects/systems`** benchmarked |
-| **6. Track C — Rust in the browser** | 19–22 | Levels **44–48** (~54 drills): wasm-bindgen, web-sys, Leptos SSR drills | Levels 44–48 green + **`projects/web`** deployed |
+| **3. Core Rust — shared by A, B and C** | 6–9 | Levels **17–29** (**104** drills): traits → lifetimes → smart pointers → errors → threads → async | Levels 17–29 green + library projects in README |
+| **4. Track A — Backend services** | 10–14 | Levels **30–36** (**56** drills): serde, Axum, tower, SQLx (SQLite in drills), auth | Levels 30–36 green + **`projects/api`** deployed |
+| **5. Track B — Systems Rust** | 15–18 | Levels **37–43** (**56** drills): rayon, sync, layout, `unsafe`, FFI, perf, clap | Levels 37–43 green + **`projects/systems`** benchmarked |
+| **6. Track C — Rust in the browser** | 19–22 | Levels **44–48** (**40** drills): wasm-bindgen, web-sys, Leptos SSR drills | Levels 44–48 green + **`projects/web`** deployed |
 
 **A note on Phase 6:** it opens with about a week of HTML, CSS and the DOM. She doesn't need to become a frontend developer, but a WASM UI framework is a way of *producing* HTML, and if she doesn't know what a `<div>`, a flexbox, or an event listener is, Leptos becomes memorisation. If you want to compress, cut it to four days and skip CSS grid depth — but don't skip it entirely.
 
@@ -82,7 +82,7 @@ She asked for all three directions — backend, systems, and the browser. The pl
 
 ## 4. Phase 1 in detail — the 16 levels
 
-Each level in the repo has a `README.md` you write once (Cursor drafts it) covering the concept, then the exercises. Here's what each level teaches and what it unlocks.
+Each level in the repo has a `README.md` covering the concept, then the exercises. Here's what each level teaches and what it unlocks.
 
 | # | Level | Drills | Concepts taught | Unlocks on LeetCode |
 |---|---|---|---|---|
@@ -105,7 +105,7 @@ Each level in the repo has a `README.md` you write once (Cursor drafts it) cover
 
 **Total: 200 exercises.**
 
-The full exercise list — every file name, task, fixed inputs, and expected output — is in `CURSOR-BUILD-SPEC.md` § 9.
+The full exercise list — every file name, task, fixed inputs, and expected output — is in `BUILD-SPEC.md` § 9.
 
 ### Suggested pacing (full-time)
 
@@ -183,7 +183,7 @@ Four things to tell her once, up front:
 
 This is the phase that makes the other three possible. Everything here is used by the backend track, the systems track, and the browser track. Nothing here is optional.
 
-**Setup:** levels **17–29** in the same repo (`levels/17-traits` … `levels/29-async-tokio`). Same watcher, same PASS/FAIL loop. Run `cargo warm 25` and `cargo warm 29` before those levels. Exercise bank: `reference/CURSOR-BUILD-SPEC-PHASES-3-6.md`.
+**Setup:** levels **17–29** in the same repo (`levels/17-traits` … `levels/29-async-tokio`). Same watcher, same PASS/FAIL loop. Run `cargo warm 25` and `cargo warm 29` before those levels. Exercise bank: `reference/BUILD-SPEC-PHASES-3-6.md`.
 
 **Topics, in order:**
 

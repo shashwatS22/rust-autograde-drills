@@ -1,7 +1,7 @@
 //! 26-testing-and-cargo / 05-test-module
 //!
 //! TASK
-//! Implement `test module` as described in the stub.
+//! Keep helpers in a private module, expose one function.
 //!
 //! SIGNATURE
 //! pub fn sq() -> i32
@@ -9,9 +9,8 @@
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
-pub fn sq() -> i32 {
-    todo!()
-}
+mod math { pub fn sq(x: i32) -> i32 { todo!() } }
+pub fn sq() -> i32 { math::sq(3) }
 
 fn main() {}
 

@@ -8,4 +8,5 @@
 
 fn main() {
     // Your code below
+    println!("Hello, World!");
 }

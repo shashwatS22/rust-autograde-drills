@@ -1,5 +1,18 @@
 /target
 progress.json
 progress.json.bak
+progress.json.tmp
 __pycache__/
 *.pyc
+
+# OS & editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local secrets / notes (optional learner copy)
+.env
+.env.*
+NOTES.md

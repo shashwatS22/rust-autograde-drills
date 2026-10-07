@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
-#[derive(Serialize, Deserialize, PartialEq, Debug)]
-struct User { name: String, age: u32 }
-fn round() -> User { let u = User { name: "a".into(), age: 1 }; let j = serde_json::to_string(&u).unwrap(); serde_json::from_str(&j).unwrap() }
+#[derive(Serialize, Deserialize, Debug, PartialEq)]
+enum Msg { Ping, Pong }
+fn kind() -> String { serde_json::to_string(&Msg::Ping).unwrap() }
 
 fn main() {}
 

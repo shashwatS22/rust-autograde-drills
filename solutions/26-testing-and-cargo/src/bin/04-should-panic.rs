@@ -1,4 +1,4 @@
-pub fn panics() { panic!("no"); }
+pub fn divide(a: i32, b: i32) -> i32 { if b == 0 { panic!("zero"); } a / b }
 
 fn main() {}
 

@@ -1,17 +1,15 @@
 //! 26-testing-and-cargo / 04-should-panic
 //!
 //! TASK
-//! Implement `should panic` as described in the stub.
+//! Function that panics on invalid input; check uses `catch_unwind`.
 //!
 //! SIGNATURE
-//! pub fn panics()
+//! pub fn divide(a: i32, b: i32) -> i32
 //!
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
-pub fn panics() {
-    todo!()
-}
+pub fn divide(a: i32, b: i32) -> i32 { todo!() }
 
 fn main() {}
 

@@ -1,5 +1,5 @@
-mod m { pub fn sq(x: i32) -> i32 { x * x } }
-pub fn sq() -> i32 { m::sq(3) }
+mod math { pub fn sq(x: i32) -> i32 { x * x } }
+pub fn sq() -> i32 { math::sq(3) }
 
 fn main() {}
 

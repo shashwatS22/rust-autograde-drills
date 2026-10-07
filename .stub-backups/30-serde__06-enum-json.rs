@@ -1,20 +1,18 @@
 //! 30-serde / 06-enum-json
 //!
 //! TASK
-//! Implement `enum json` as described in the stub.
+//! Externally tagged enum in JSON.
 //!
 //! SIGNATURE
-//! fn round() -> User
+//! fn kind() -> String
 //!
 //! This exercise is graded by the checks at the bottom of the file, not by
 //! printed output. Leave `main` empty.
 //!
 use serde::{Deserialize, Serialize};
-#[derive(Serialize, Deserialize, PartialEq, Debug)]
-struct User { name: String, age: u32 }
-fn round() -> User {
-    todo!()
-}
+#[derive(Serialize, Deserialize, Debug, PartialEq)]
+enum Msg { Ping, Pong }
+fn kind() -> String { todo!() }
 
 fn main() {}
 
