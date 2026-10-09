@@ -3,6 +3,9 @@
 //! TASK
 //! Create a signal and `set` a new value.
 //!
+//! CONCEPT
+//! create_signal returns (getter, setter); set updates reactive state.
+//!
 //! SIGNATURE
 //! fn after_set() -> i32
 //!

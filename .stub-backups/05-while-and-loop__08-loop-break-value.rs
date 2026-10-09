@@ -3,6 +3,9 @@
 //! TASK
 //! Use `loop` with a counter. `break` out **returning** the first number whose square exceeds 50, assign it to a variable, and print it.
 //!
+//! CONCEPT
+//! loop { ... break value; } can exit with a value. That value becomes the loop expression's result.
+//!
 //! EXPECTED OUTPUT
 //! `8`
 

@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `generic max` as described in the stub.
 //!
+//! CONCEPT
+//! fn max<T: PartialOrd>(a: T, b: T) shares one function across types that can be compared.
+//!
 //! SIGNATURE
 //! fn max_i32(a: i32, b: i32) -> i32
 //!

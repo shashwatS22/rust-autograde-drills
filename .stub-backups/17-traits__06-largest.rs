@@ -3,6 +3,9 @@
 //! TASK
 //! `largest` with trait bound.
 //!
+//! CONCEPT
+//! Generic code uses trait bounds: fn largest<T: PartialOrd> works for any comparable T.
+//!
 //! SIGNATURE
 //! fn largest_i32(v: &[i32]) -> i32
 //!

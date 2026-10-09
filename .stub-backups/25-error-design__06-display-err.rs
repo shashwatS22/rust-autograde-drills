@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `display err` as described in the stub.
 //!
+//! CONCEPT
+//! Display is for humans; write clear messages in your error type's fmt implementation.
+//!
 //! SIGNATURE
 //! fn msg() -> String
 //!

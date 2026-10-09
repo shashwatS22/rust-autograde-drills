@@ -3,6 +3,9 @@
 //! TASK
 //! Expose `wasm_add` with `#[wasm_bindgen]`; test via a native wrapper.
 //!
+//! CONCEPT
+//! #[wasm_bindgen] exports Rust functions to JavaScript in WASM builds.
+//!
 //! SIGNATURE
 //! fn run_add() -> i32
 //!

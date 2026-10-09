@@ -3,6 +3,9 @@
 //! TASK
 //! Function graded with `assert_eq!` in checks.
 //!
+//! CONCEPT
+//! Tests in #[cfg(test)] modules use assert_eq! to compare expected and actual values.
+//!
 //! SIGNATURE
 //! pub fn add(a: i32, b: i32) -> i32
 //!

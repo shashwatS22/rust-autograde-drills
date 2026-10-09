@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `refcell` as described in the stub.
 //!
+//! CONCEPT
+//! RefCell<T> enforces borrow rules at runtime with borrow() and borrow_mut().
+//!
 //! SIGNATURE
 //! fn mutate() -> i32
 //!

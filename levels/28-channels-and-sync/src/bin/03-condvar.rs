@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `condvar` as described in the stub.
 //!
+//! CONCEPT
+//! Condvar lets threads wait for a condition and get notified when state changes.
+//!
 //! SIGNATURE
 //! fn signal() -> i32
 //!

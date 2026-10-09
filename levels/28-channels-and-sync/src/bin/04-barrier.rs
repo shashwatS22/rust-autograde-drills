@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `barrier` as described in the stub.
 //!
+//! CONCEPT
+//! Barrier synchronizes N threads so all reach the same point before any continue.
+//!
 //! SIGNATURE
 //! fn wait() -> usize
 //!

@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `move closure` as described in the stub.
 //!
+//! CONCEPT
+//! move || { ... } on spawn transfers captured variables into the new thread.
+//!
 //! SIGNATURE
 //! fn moved() -> i32
 //!

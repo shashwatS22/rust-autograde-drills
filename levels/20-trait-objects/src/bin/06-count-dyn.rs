@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `count dyn` as described in the stub.
 //!
+//! CONCEPT
+//! Trait objects let you count or filter heterogeneous values through one vtable.
+//!
 //! SIGNATURE
 //! fn sum(v: &[Box<dyn Id>]) -> u32
 //!

@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `iter sum` as described in the stub.
 //!
+//! CONCEPT
+//! Iterator::sum consumes the iterator and adds numeric items; define the item type if needed.
+//!
 //! SIGNATURE
 //! fn sum(v: &[i32]) -> i32
 //!

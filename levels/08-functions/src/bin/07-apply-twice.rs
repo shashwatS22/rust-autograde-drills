@@ -3,6 +3,9 @@
 //! TASK
 //! `fn apply_twice(f: impl Fn(i32) -> i32, value: i32) -> i32` returning `f(f(value))`.
 //!
+//! CONCEPT
+//! impl Fn(i32) -> i32 means any callable that takes i32 and returns i32, including closures and function pointers.
+//!
 //! SIGNATURE
 //! fn apply_twice(f: impl Fn(i32) -> i32, value: i32) -> i32` returning `f(f(value))`
 //!

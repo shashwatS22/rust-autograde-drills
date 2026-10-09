@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `thread name` as described in the stub.
 //!
+//! CONCEPT
+//! ThreadBuilder::name sets a label visible in debuggers and panic messages.
+//!
 //! SIGNATURE
 //! fn named() -> bool
 //!

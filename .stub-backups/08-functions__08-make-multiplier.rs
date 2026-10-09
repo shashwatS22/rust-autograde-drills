@@ -3,6 +3,9 @@
 //! TASK
 //! `fn make_multiplier(n: i32) -> impl Fn(i32) -> i32`.
 //!
+//! CONCEPT
+//! impl Fn(i32) -> i32 as a return type means the function returns a closure. The closure can capture n from the enclosing scope.
+//!
 //! SIGNATURE
 //! fn make_multiplier(n: i32) -> impl Fn(i32) -> i32`
 //!

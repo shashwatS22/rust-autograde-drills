@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `rwlock` as described in the stub.
 //!
+//! CONCEPT
+//! RwLock allows many readers or one writer, good for read-heavy shared state.
+//!
 //! SIGNATURE
 //! fn read() -> i32
 //!

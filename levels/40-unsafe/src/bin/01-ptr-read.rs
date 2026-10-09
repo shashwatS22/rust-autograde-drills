@@ -3,6 +3,9 @@
 //! TASK
 //! Read a `u8` through a raw pointer (stack value must stay valid).
 //!
+//! CONCEPT
+//! unsafe blocks allow raw pointer reads; the pointed-to value must stay valid for the read.
+//!
 //! SIGNATURE
 //! fn read_byte() -> u8
 //!

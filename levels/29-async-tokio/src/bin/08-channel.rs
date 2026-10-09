@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `channel` as described in the stub.
 //!
+//! CONCEPT
+//! tokio::sync::mpsc is an async channel: send and recv are .await points.
+//!
 //! SIGNATURE
 //! async fn chan() -> i32
 //!

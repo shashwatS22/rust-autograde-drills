@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `join` as described in the stub.
 //!
+//! CONCEPT
+//! join! or JoinHandle waits for multiple futures to complete.
+//!
 //! SIGNATURE
 //! async fn both() -> (i32, i32)
 //!

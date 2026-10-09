@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `vec dyn` as described in the stub.
 //!
+//! CONCEPT
+//! Vec<Box<dyn Trait>> stores different concrete types that share one trait.
+//!
 //! SIGNATURE
 //! fn chars() -> String
 //!

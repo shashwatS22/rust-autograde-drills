@@ -3,6 +3,9 @@
 //! TASK
 //! GIVEN `score = 73`. Redo exercise 6 with `match` and range patterns (`90..=100 => "A"` and so on).
 //!
+//! CONCEPT
+//! Range patterns like 90..=100 match inclusive numeric ranges in a match arm.
+//!
 //! EXPECTED OUTPUT
 //! `C`
 

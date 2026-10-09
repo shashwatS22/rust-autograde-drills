@@ -3,6 +3,9 @@
 //! TASK
 //! GIVEN `n = -14`. Print `positive`, `negative`, or `zero`.
 //!
+//! CONCEPT
+//! if / else if / else run different code based on a bool condition. Only one branch runs.
+//!
 //! EXPECTED OUTPUT
 //! `negative`
 

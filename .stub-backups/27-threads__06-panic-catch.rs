@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `panic catch` as described in the stub.
 //!
+//! CONCEPT
+//! catch_unwind runs a closure and returns Result, catching panics on that thread.
+//!
 //! SIGNATURE
 //! fn caught() -> bool
 //!

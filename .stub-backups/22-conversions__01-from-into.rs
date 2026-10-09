@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `from into` as described in the stub.
 //!
+//! CONCEPT
+//! From and Into convert between types. impl From<A> for B gives you Into<B> for A automatically.
+//!
 //! SIGNATURE
 //! fn wrap() -> i32
 //!

@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `outlives` as described in the stub.
 //!
+//! CONCEPT
+//! choose returns one of two references with the same 'a: both must live equally long.
+//!
 //! SIGNATURE
 //! fn choose<'a>(flag: bool, a: &'a str, b: &'a str) -> &'a str
 //!

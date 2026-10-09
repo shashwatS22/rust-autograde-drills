@@ -3,6 +3,9 @@
 //! TASK
 //! Async fn returning 7.
 //!
+//! CONCEPT
+//! async fn returns a Future; nothing runs until you .await or block_on it on a runtime.
+//!
 //! SIGNATURE
 //! async fn seven() -> i32
 //!

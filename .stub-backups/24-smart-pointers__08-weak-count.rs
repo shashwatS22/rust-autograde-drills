@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `weak count` as described in the stub.
 //!
+//! CONCEPT
+//! Weak breaks Rc cycles: upgrade() returns Option<Rc> if the strong count is still nonzero.
+//!
 //! SIGNATURE
 //! fn weak() -> bool
 //!

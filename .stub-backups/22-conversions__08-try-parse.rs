@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `try parse` as described in the stub.
 //!
+//! CONCEPT
+//! TryFrom and parse both surface parse failures as Result instead of panicking.
+//!
 //! SIGNATURE
 //! fn bad() -> Result<i32, ()>
 //!

@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `count` as described in the stub.
 //!
+//! CONCEPT
+//! Count items matching a predicate with generics over slice-like inputs.
+//!
 //! SIGNATURE
 //! fn count<T>(v: &[T]) -> usize
 //!

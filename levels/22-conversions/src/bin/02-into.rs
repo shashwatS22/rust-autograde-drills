@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `into` as described in the stub.
 //!
+//! CONCEPT
+//! into() uses the Into trait to convert to the target type at the call site.
+//!
 //! SIGNATURE
 //! fn m() -> u32
 //!

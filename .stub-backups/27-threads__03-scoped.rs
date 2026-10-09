@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `scoped` as described in the stub.
 //!
+//! CONCEPT
+//! scoped threads borrow from the parent stack because they are joined before scope ends.
+//!
 //! SIGNATURE
 //! fn sum() -> i32
 //!

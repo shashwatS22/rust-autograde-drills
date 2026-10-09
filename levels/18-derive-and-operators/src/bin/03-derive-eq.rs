@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `derive eq` as described in the stub.
 //!
+//! CONCEPT
+//! Derive PartialEq and Eq for structural equality with == on all fields.
+//!
 //! SIGNATURE
 //! fn eq_ok() -> bool
 //!

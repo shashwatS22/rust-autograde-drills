@@ -3,6 +3,9 @@
 //! TASK
 //! `fn add(a: i32, b: i32) -> i32` returning their sum.
 //!
+//! CONCEPT
+//! fn names a function; parameters have types; -> i32 is the return type. The last expression without a semicolon is the return value.
+//!
 //! SIGNATURE
 //! fn add(a: i32, b: i32) -> i32` returning their sum
 //!

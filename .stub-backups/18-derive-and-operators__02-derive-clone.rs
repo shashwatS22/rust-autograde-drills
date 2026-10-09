@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `derive clone` as described in the stub.
 //!
+//! CONCEPT
+//! Derive Clone to get .clone() for types whose fields are all Clone.
+//!
 //! SIGNATURE
 //! fn cloned() -> i32
 //!

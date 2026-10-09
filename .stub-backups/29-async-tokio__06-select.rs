@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `select` as described in the stub.
 //!
+//! CONCEPT
+//! select! waits on the first future to finish among several branches.
+//!
 //! SIGNATURE
 //! async fn pick() -> i32
 //!

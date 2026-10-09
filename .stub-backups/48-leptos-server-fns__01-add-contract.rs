@@ -3,6 +3,9 @@
 //! TASK
 //! Serde request/response pair (server-fn shape).
 //!
+//! CONCEPT
+//! Server functions serialize request and response with Serde for the wire format.
+//!
 //! SIGNATURE
 //! fn handle(req: AddReq) -> AddResp
 //!

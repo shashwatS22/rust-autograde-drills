@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `box recursive` as described in the stub.
 //!
+//! CONCEPT
+//! Recursive structs need Box (or Rc) so the size is known; direct self-embedding is infinite size.
+//!
 //! SIGNATURE
 //! fn head() -> i32
 //!

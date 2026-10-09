@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `box heap` as described in the stub.
 //!
+//! CONCEPT
+//! Box<T> allocates T on the heap when you need owned indirection or recursive types.
+//!
 //! SIGNATURE
 //! fn boxed() -> i32
 //!

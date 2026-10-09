@@ -3,6 +3,9 @@
 //! TASK
 //! Sum 0..10 with `into_par_iter()`.
 //!
+//! CONCEPT
+//! rayon par_iter splits work across a thread pool for CPU-bound loops.
+//!
 //! SIGNATURE
 //! fn par_sum() -> i32
 //!

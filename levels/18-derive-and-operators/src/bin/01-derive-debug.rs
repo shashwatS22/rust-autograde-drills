@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `derive debug` as described in the stub.
 //!
+//! CONCEPT
+//! #[derive(Debug)] generates Debug so {:?} works. Fill in todo!() in manual impls only where the stub asks.
+//!
 //! SIGNATURE
 //! fn show() -> String
 //!

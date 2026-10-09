@@ -4,10 +4,16 @@
 from __future__ import annotations
 
 import re
-import shutil
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+SCRIPTS = Path(__file__).resolve().parent
+if str(SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS))
+
+from concept_header import build_header, patch_header_only  # noqa: E402
+
 SPEC = ROOT / "reference" / "BUILD-SPEC.md"
 
 
@@ -52,53 +58,6 @@ def parse_spec() -> list[tuple[str, str, str, str, bool]]:
     return rows
 
 
-def build_header(
-    level_dir: str, name: str, task: str, expected: str, test_graded: bool
-) -> list[str]:
-    lines = [
-        f"//! {level_dir} / {name}",
-        "//!",
-        "//! TASK",
-        f"//! {task}",
-        "//!",
-    ]
-    if test_graded:
-        sig = expected.split(".", 1)[0] if expected.startswith("fn ") else expected
-        lines.extend(
-            [
-                "//! SIGNATURE",
-                f"//! {sig}",
-                "//!",
-                "//! This exercise is graded by the checks at the bottom of the file, not by",
-                "//! printed output. Leave `main` empty.",
-                "//!",
-            ]
-        )
-    else:
-        lines.append("//! EXPECTED OUTPUT")
-        for el in expected.split("\n"):
-            lines.append(f"//! {el}")
-        lines.append("")
-    return lines
-
-
-def patch_stub(path: Path, header_lines: list[str]) -> None:
-    text = path.read_text(encoding="utf-8")
-    if not text.startswith("//!"):
-        raise SystemExit(f"unexpected stub format: {path}")
-    rest_start = 0
-    for i, line in enumerate(text.splitlines()):
-        if not line.startswith("//!") and line.strip():
-            rest_start = i
-            break
-    else:
-        rest_start = len(text.splitlines())
-    rest = "\n".join(text.splitlines()[rest_start:])
-    if rest and not rest.startswith("\n"):
-        rest = "\n" + rest
-    path.write_text("\n".join(header_lines) + rest, encoding="utf-8")
-
-
 def main() -> int:
     rows = parse_spec()
     backup = ROOT / ".stub-backups"
@@ -109,10 +68,11 @@ def main() -> int:
             print(f"skip missing {stub}")
             continue
         header = build_header(level_dir, name, task, expected, test_graded)
-        patch_stub(stub, header)
+        patch_header_only(stub, header)
         dest = backup / f"{level_dir}__{name}.rs"
-        shutil.copy2(stub, dest)
-    print(f"Updated {len(rows)} Phase 1 stubs.")
+        if dest.exists():
+            patch_header_only(dest, header)
+    print(f"Updated {len(rows)} Phase 1 stub headers.")
     return 0
 
 

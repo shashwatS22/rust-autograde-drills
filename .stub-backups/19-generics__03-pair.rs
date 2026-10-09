@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `pair` as described in the stub.
 //!
+//! CONCEPT
+//! Structs can have generic fields, like Pair<T>, so one definition works for many T.
+//!
 //! SIGNATURE
 //! fn first() -> i32
 //!

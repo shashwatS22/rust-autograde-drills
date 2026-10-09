@@ -3,6 +3,9 @@
 //! TASK
 //! Trait with default method.
 //!
+//! CONCEPT
+//! Traits can provide default method bodies. Types override only what they need.
+//!
 //! SIGNATURE
 //! fn greeting() -> String
 //!

@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `swap` as described in the stub.
 //!
+//! CONCEPT
+//! Generics on functions let you swap two values of the same type T without copying trait objects.
+//!
 //! SIGNATURE
 //! fn swap<T>(a: T, b: T) -> (T, T)
 //!

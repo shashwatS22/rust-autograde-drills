@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `mpsc` as described in the stub.
 //!
+//! CONCEPT
+//! mpsc channels send messages between threads; the sender clone shares one receiver.
+//!
 //! SIGNATURE
 //! fn send_recv() -> i32
 //!

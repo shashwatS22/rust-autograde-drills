@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `box string` as described in the stub.
 //!
+//! CONCEPT
+//! Box<String> moves the string to the heap; deref coercions often let you use &str methods.
+//!
 //! SIGNATURE
 //! fn boxed_str() -> String
 //!

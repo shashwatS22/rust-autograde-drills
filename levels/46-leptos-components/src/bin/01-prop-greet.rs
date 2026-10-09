@@ -3,6 +3,9 @@
 //! TASK
 //! Component with a prop (function argument).
 //!
+//! CONCEPT
+//! Leptos components are functions; typed props are regular parameters on the function.
+//!
 //! SIGNATURE
 //! fn render() -> String
 //!

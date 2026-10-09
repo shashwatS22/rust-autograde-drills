@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `try from` as described in the stub.
 //!
+//! CONCEPT
+//! TryFrom returns Result when conversion can fail, unlike infallible From.
+//!
 //! SIGNATURE
 //! fn parse() -> Result<i32, std::num::TryFromIntError>
 //!

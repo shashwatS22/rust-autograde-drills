@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `derive ord` as described in the stub.
 //!
+//! CONCEPT
+//! Derive PartialOrd and Ord to compare values and sort collections of this type.
+//!
 //! SIGNATURE
 //! fn sorted() -> Vec<i32>
 //!

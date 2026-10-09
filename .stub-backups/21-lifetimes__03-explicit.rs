@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `explicit` as described in the stub.
 //!
+//! CONCEPT
+//! Write 'a on both parameters and the return when the compiler cannot prove they match.
+//!
 //! SIGNATURE
 //! fn identity<'a>(x: &'a str) -> &'a str
 //!

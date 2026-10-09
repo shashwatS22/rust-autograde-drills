@@ -3,6 +3,9 @@
 //! TASK
 //! Parse `--n` with clap.
 //!
+//! CONCEPT
+//! Derive Parser on a struct to define CLI flags and positional arguments.
+//!
 //! SIGNATURE
 //! fn parse_n(args: &[&str]) -> i32
 //!

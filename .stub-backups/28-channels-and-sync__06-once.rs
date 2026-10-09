@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `once` as described in the stub.
 //!
+//! CONCEPT
+//! Once ensures initialization code runs exactly one time across threads.
+//!
 //! SIGNATURE
 //! fn once() -> &'static str
 //!

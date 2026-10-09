@@ -3,6 +3,9 @@
 //! TASK
 //! GIVEN `n = 100`. Print the sum of 1 to n with an accumulator.
 //!
+//! CONCEPT
+//! An accumulator is a mut variable you update each loop iteration, for example sum += i.
+//!
 //! EXPECTED OUTPUT
 //! `5050`
 

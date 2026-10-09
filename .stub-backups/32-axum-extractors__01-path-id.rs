@@ -3,6 +3,9 @@
 //! TASK
 //! Extract `{id}` with `Path`.
 //!
+//! CONCEPT
+//! Path<T> extractor parses dynamic URL segments into typed values.
+//!
 //! SIGNATURE
 //! fn app() -> axum::Router
 //!

@@ -3,6 +3,9 @@
 //! TASK
 //! `fn multiply(a: i32, b: i32) -> i32`, written with **no** `return` keyword and no semicolon on the last line.
 //!
+//! CONCEPT
+//! Omitting return and the final semicolon makes the last expression the return value. A semicolon on that line would return () instead.
+//!
 //! SIGNATURE
 //! fn multiply(a: i32, b: i32) -> i32`, written with **no** `return` keyword and no semicolon on the last line
 //!

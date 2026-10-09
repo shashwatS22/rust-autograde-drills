@@ -3,6 +3,9 @@
 //! TASK
 //! Return `AppError::NotFound` as 404 via `IntoResponse`.
 //!
+//! CONCEPT
+//! Implement IntoResponse on your error type to map variants to status codes and bodies.
+//!
 //! SIGNATURE
 //! fn app() -> axum::Router
 //!

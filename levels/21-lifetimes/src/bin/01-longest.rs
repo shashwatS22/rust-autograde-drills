@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `longest` as described in the stub.
 //!
+//! CONCEPT
+//! Lifetime annotations like 'a tie two references: the returned &str cannot outlive the shorter input.
+//!
 //! SIGNATURE
 //! fn longest<'a>(a: &'a str, b: &'a str) -> &'a str
 //!

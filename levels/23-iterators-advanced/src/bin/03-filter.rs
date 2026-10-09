@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `filter` as described in the stub.
 //!
+//! CONCEPT
+//! filter keeps elements where the closure returns true; lazy until collect or for_each.
+//!
 //! SIGNATURE
 //! fn evens(v: &[i32]) -> Vec<i32>
 //!

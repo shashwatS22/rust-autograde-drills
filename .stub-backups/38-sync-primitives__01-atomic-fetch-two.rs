@@ -3,6 +3,9 @@
 //! TASK
 //! Two threads `fetch_add` into one `AtomicUsize`.
 //!
+//! CONCEPT
+//! AtomicUsize fetch_add is lock-free addition safe to share across threads.
+//!
 //! SIGNATURE
 //! fn parallel_add() -> usize
 //!

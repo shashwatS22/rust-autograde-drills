@@ -3,6 +3,9 @@
 //! TASK
 //! Define `struct User { name: String, age: u32 }`, build one for Ada/36, print each field.
 //!
+//! CONCEPT
+//! struct groups named fields into one type. Use dot syntax to read fields after you build a value.
+//!
 //! EXPECTED OUTPUT
 //! `Ada
 //! 36`

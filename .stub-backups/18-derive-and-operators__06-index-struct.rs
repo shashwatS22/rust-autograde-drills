@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `index struct` as described in the stub.
 //!
+//! CONCEPT
+//! Index and IndexMut let your type use square-bracket indexing like a collection.
+//!
 //! SIGNATURE
 //! fn second() -> i32
 //!

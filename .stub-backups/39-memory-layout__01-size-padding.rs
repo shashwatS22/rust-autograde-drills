@@ -3,6 +3,9 @@
 //! TASK
 //! Struct size includes alignment padding.
 //!
+//! CONCEPT
+//! std::mem::size_of includes alignment padding between struct fields.
+//!
 //! SIGNATURE
 //! fn padded_size() -> usize
 //!

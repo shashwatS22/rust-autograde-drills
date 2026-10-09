@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `impl trait arg` as described in the stub.
 //!
+//! CONCEPT
+//! impl Trait in argument position is static dispatch sugar; dyn Trait is for runtime polymorphism.
+//!
 //! SIGNATURE
 //! fn talk(s: &dyn Speak) -> &str
 //!

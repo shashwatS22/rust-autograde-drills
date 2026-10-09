@@ -3,6 +3,9 @@
 //! TASK
 //! `fn sum_to(n: u32) -> u32` returning 1+2+…+n recursively.
 //!
+//! CONCEPT
+//! Recursive functions return a value; the base case returns directly, other cases combine smaller results.
+//!
 //! SIGNATURE
 //! fn sum_to(n: u32) -> u32` returning 1+2+…+n recursively
 //!

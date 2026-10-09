@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `combine` as described in the stub.
 //!
+//! CONCEPT
+//! Combine multiple Result values with ? and early returns, or map/and_then for control flow.
+//!
 //! SIGNATURE
 //! fn both(a: Result<i32, ()>, b: Result<i32, ()>) -> Result<i32, ()>
 //!

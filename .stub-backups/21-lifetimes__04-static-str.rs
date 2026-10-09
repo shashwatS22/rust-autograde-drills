@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `static str` as described in the stub.
 //!
+//! CONCEPT
+//! 'static means the reference lives for the entire program, like string literals.
+//!
 //! SIGNATURE
 //! fn msg() -> &'static str
 //!

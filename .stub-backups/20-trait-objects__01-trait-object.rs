@@ -3,6 +3,9 @@
 //! TASK
 //! Return `Box<dyn Displayable>`.
 //!
+//! CONCEPT
+//! Box<dyn Trait> is heap-allocated trait object: one type that erases the concrete type behind the trait.
+//!
 //! SIGNATURE
 //! fn boxed() -> String
 //!

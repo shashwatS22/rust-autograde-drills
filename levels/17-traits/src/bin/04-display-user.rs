@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `Display` for `User`.
 //!
+//! CONCEPT
+//! Display formats values for end users via fmt. write! into the Formatter, like println! but for custom types.
+//!
 //! SIGNATURE
 //! fn format_user() -> String
 //!

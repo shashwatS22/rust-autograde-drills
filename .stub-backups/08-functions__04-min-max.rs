@@ -3,6 +3,9 @@
 //! TASK
 //! `fn min_max(numbers: &[i32]) -> (i32, i32)` returning a tuple. Assume non-empty.
 //!
+//! CONCEPT
+//! &[i32] is a slice reference: a view into array or vector elements without taking ownership.
+//!
 //! SIGNATURE
 //! fn min_max(numbers: &[i32]) -> (i32, i32)` returning a tuple
 //!

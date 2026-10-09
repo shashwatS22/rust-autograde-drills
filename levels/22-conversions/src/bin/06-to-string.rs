@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `to string` as described in the stub.
 //!
+//! CONCEPT
+//! ToString (or Display) builds an owned String from a formattable value.
+//!
 //! SIGNATURE
 //! fn s() -> String
 //!

@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `rc share` as described in the stub.
 //!
+//! CONCEPT
+//! Rc<T> is reference-counted shared ownership for single-threaded code.
+//!
 //! SIGNATURE
 //! fn shared() -> i32
 //!

@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `try lock` as described in the stub.
 //!
+//! CONCEPT
+//! try_lock returns immediately with Err if the mutex is already held.
+//!
 //! SIGNATURE
 //! fn tryl() -> bool
 //!

@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `filter trait` as described in the stub.
 //!
+//! CONCEPT
+//! Filter a collection of trait objects with a predicate on shared trait methods.
+//!
 //! SIGNATURE
 //! fn count(v: &[i32]) -> usize
 //!

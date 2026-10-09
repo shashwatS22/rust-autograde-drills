@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `map collect` as described in the stub.
 //!
+//! CONCEPT
+//! map then collect builds a new collection from transformed items.
+//!
 //! SIGNATURE
 //! fn double(v: &[i32]) -> Vec<i32>
 //!

@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `elision` as described in the stub.
 //!
+//! CONCEPT
+//! Lifetime elision rules let you omit 'a on simple functions; the compiler fills them in.
+//!
 //! SIGNATURE
 //! fn first(s: &str) -> &str
 //!

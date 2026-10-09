@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `enum dispatch` as described in the stub.
 //!
+//! CONCEPT
+//! Enums can implement traits by matching on variants, an alternative to dyn for known sets of types.
+//!
 //! SIGNATURE
 //! fn sound(p: Pet) -> &'static str
 //!

@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `cow` as described in the stub.
 //!
+//! CONCEPT
+//! Cow is either borrowed or owned; clone-on-write avoids allocating until mutation.
+//!
 //! SIGNATURE
 //! fn cow() -> usize
 //!

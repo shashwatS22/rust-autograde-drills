@@ -3,6 +3,9 @@
 //! TASK
 //! GIVEN `let mut v = vec![1, 2, 3, 4, 5];`. Reverse it with two indices and `v.swap(i, j)`, no `.reverse()`. Print joined.
 //!
+//! CONCEPT
+//! Two indices moving toward the center with swap reverse a vector without extra memory.
+//!
 //! EXPECTED OUTPUT
 //! `5 4 3 2 1`
 

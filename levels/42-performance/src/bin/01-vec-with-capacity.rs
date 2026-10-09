@@ -3,6 +3,9 @@
 //! TASK
 //! Preallocate with `Vec::with_capacity`.
 //!
+//! CONCEPT
+//! Vec::with_capacity(n) avoids repeated reallocations when you know the final size.
+//!
 //! SIGNATURE
 //! fn cap_len() -> usize
 //!

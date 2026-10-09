@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `first` as described in the stub.
 //!
+//! CONCEPT
+//! Return Option<&T> from a generic slice when the collection might be empty.
+//!
 //! SIGNATURE
 //! fn first<T: Copy>(v: &[T]) -> Option<T>
 //!

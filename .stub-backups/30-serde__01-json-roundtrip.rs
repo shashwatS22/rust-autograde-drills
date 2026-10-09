@@ -3,6 +3,9 @@
 //! TASK
 //! Derive Serialize/Deserialize and round-trip JSON.
 //!
+//! CONCEPT
+//! #[derive(Serialize, Deserialize)] lets serde_json turn structs into JSON strings and back.
+//!
 //! SIGNATURE
 //! fn round() -> String
 //!

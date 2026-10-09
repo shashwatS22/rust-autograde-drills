@@ -3,6 +3,9 @@
 //! TASK
 //! Define `AppError` with thiserror.
 //!
+//! CONCEPT
+//! thiserror derives Error with Display and source for enum variants with fields.
+//!
 //! SIGNATURE
 //! fn parse_port(s: &str) -> Result<u16, AppError>
 //!

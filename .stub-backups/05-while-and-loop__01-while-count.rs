@@ -3,6 +3,9 @@
 //! TASK
 //! GIVEN `n = 5`. Print 1 to n using a `while` loop.
 //!
+//! CONCEPT
+//! while repeats while its condition is true. You must change something inside or the loop never ends.
+//!
 //! EXPECTED OUTPUT
 //! `1
 //! 2

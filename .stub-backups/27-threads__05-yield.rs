@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `yield` as described in the stub.
 //!
+//! CONCEPT
+//! yield_now hints the scheduler to run another thread; useful in tight spin loops.
+//!
 //! SIGNATURE
 //! fn ids() -> usize
 //!

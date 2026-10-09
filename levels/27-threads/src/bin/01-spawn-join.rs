@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `spawn join` as described in the stub.
 //!
+//! CONCEPT
+//! thread::spawn starts OS threads; JoinHandle::join waits and returns the thread's Result.
+//!
 //! SIGNATURE
 //! fn doubled() -> i32
 //!

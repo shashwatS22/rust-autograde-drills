@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `source chain` as described in the stub.
 //!
+//! CONCEPT
+//! Error::source links errors in a chain for nested failures.
+//!
 //! SIGNATURE
 //! fn err() -> Box<dyn Error>
 //!

@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `both refs` as described in the stub.
 //!
+//! CONCEPT
+//! When two inputs share 'a, the result must not outlive either borrowed value.
+//!
 //! SIGNATURE
 //! fn both<'a>(a: &'a str, b: &'a str) -> (&'a str, &'a str)
 //!

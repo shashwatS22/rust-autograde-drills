@@ -3,8 +3,13 @@
 //! TASK
 //! GIVEN `a = 1`, `b = 2`. Swap them with tuple destructuring `let (a, b) = (b, a);`, then print `a=2 b=1`.
 //!
+//! CONCEPT
+//! let (a, b) = (b, a) uses a tuple on the right and destructuring on the left to swap two values without a temporary variable.
+//!
 //! EXPECTED OUTPUT
 //! `a=2 b=1`
+
+use std::println;
 
 fn main() {
     // ---- GIVEN ----
@@ -13,4 +18,6 @@ fn main() {
     // ---------------
 
     // Your code below
+    let (a,b) = (b,a);
+    println!("a={} b={}",a,b);
 }

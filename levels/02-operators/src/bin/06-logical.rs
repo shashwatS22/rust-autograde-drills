@@ -13,4 +13,8 @@ fn main() {
     // ---------------
 
     // Your code below
+    println!("{}", a && b);
+    println!("{}", a || b);
+    println!("{}", !a);
+    println!("{}", !b);
 }

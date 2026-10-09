@@ -13,4 +13,7 @@ fn main() {
     // ---------------
 
     // Your code below
+    println!("{}",n%10 );
+    println!("{}",n/1000 );
+
 }

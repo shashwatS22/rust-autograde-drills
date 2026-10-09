@@ -11,6 +11,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+SCRIPTS = Path(__file__).resolve().parent
 
 LEVELS: list[tuple[str, str, list[str]]] = [
     (
@@ -414,7 +415,12 @@ def write_stub(level_dir: str, name: str, path: Path) -> None:
     if not meta:
         raise KeyError(f"missing stub {level_dir}/{name}")
     task, given, extra_doc, do_not_change = meta
+    if str(SCRIPTS) not in sys.path:
+        sys.path.insert(0, str(SCRIPTS))
+    from concept_header import concept_doc_lines
+
     lines = [f"//! {level_dir} / {name}", "//!", "//! TASK", f"//! {task}", "//!"]
+    lines.extend(concept_doc_lines(level_dir, name))
     if extra_doc:
         lines.extend(["//!", f"//! {extra_doc}", "//!"])
     if do_not_change:

@@ -12,9 +12,11 @@ publish = false
 debug = 0
 incremental = true
 opt-level = 0
+# Default is 256, which keeps many LLVM modules alive at once.
+codegen-units = 1
 
 [workspace.dependencies]
-tokio = { version = "1.48", features = ["full", "test-util"] }
+tokio = { version = "1.48", default-features = false, features = ["rt-multi-thread", "macros", "sync", "time", "net", "io-util", "test-util"] }
 axum = { version = "0.8", features = ["macros"] }
 tower = { version = "0.5", features = ["util"] }
 tower-http = { version = "0.6", features = ["trace", "cors"] }

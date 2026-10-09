@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `deref coerce` as described in the stub.
 //!
+//! CONCEPT
+//! Deref coercion turns &String into &str at call sites when a function expects &str.
+//!
 //! SIGNATURE
 //! fn upper(s: &str) -> String
 //!

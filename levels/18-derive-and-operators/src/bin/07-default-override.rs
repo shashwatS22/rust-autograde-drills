@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `Default` with non-zero field values.
 //!
+//! CONCEPT
+//! Default provides Default::default(). Override it when zeroed fields are not the right initial state.
+//!
 //! SIGNATURE
 //! fn default() -> Self
 //!

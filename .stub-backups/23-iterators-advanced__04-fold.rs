@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `fold` as described in the stub.
 //!
+//! CONCEPT
+//! fold is the general reduce: carry an accumulator through every item.
+//!
 //! SIGNATURE
 //! fn fold_sum(v: &[i32]) -> i32
 //!

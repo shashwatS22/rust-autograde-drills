@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `spawn` as described in the stub.
 //!
+//! CONCEPT
+//! tokio::spawn runs a future on the runtime concurrently with the caller.
+//!
 //! SIGNATURE
 //! async fn spawned() -> i32
 //!

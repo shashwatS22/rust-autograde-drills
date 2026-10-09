@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `rc refcell` as described in the stub.
 //!
+//! CONCEPT
+//! Rc<RefCell<T>> combines shared ownership with interior mutability.
+//!
 //! SIGNATURE
 //! fn combo() -> i32
 //!

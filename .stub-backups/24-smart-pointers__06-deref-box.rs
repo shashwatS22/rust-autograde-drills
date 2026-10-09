@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `deref box` as described in the stub.
 //!
+//! CONCEPT
+//! Deref on Box lets *box and method calls forward to the inner T.
+//!
 //! SIGNATURE
 //! fn len() -> usize
 //!

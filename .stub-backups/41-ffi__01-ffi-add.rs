@@ -3,6 +3,9 @@
 //! TASK
 //! Call C `add_int` from `native/add.c` via FFI.
 //!
+//! CONCEPT
+//! extern "C" links to C functions; follow the exact ABI and keep pointers valid across the boundary.
+//!
 //! SIGNATURE
 //! fn add_via_ffi(a: i32, b: i32) -> i32
 //!

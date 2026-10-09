@@ -3,6 +3,9 @@
 //! TASK
 //! Hash a password with `argon2`.
 //!
+//! CONCEPT
+//! argon2 hashes passwords with a salt; never store plain text passwords.
+//!
 //! SIGNATURE
 //! fn hash_password(pwd: &str) -> String
 //!

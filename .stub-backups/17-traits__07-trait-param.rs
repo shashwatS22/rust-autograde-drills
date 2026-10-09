@@ -3,6 +3,9 @@
 //! TASK
 //! Function taking `impl Summary`.
 //!
+//! CONCEPT
+//! impl Trait as a parameter accepts any type implementing that trait without naming a generic type parameter.
+//!
 //! SIGNATURE
 //! fn announce(s: &str) -> String
 //!

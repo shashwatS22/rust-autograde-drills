@@ -3,6 +3,9 @@
 //! TASK
 //! Add `#[derive(Debug)]` to that struct and print the whole thing with `{:?}`.
 //!
+//! CONCEPT
+//! #[derive(Debug)] auto-implements {:?} printing for structs.
+//!
 //! EXPECTED OUTPUT
 //! `User { name: "Ada", age: 36 }`
 

@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `sleep ms` as described in the stub.
 //!
+//! CONCEPT
+//! thread::sleep pauses the current thread for a Duration.
+//!
 //! SIGNATURE
 //! fn ok() -> bool
 //!

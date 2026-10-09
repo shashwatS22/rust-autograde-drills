@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `as ref` as described in the stub.
 //!
+//! CONCEPT
+//! AsRef<T> lets you accept anything that cheaply converts to a reference, like &str from String.
+//!
 //! SIGNATURE
 //! fn len(s: impl AsRef<str>) -> usize
 //!

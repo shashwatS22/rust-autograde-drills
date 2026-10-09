@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `arc mutex` as described in the stub.
 //!
+//! CONCEPT
+//! Arc shares ownership across threads; Mutex<T> protects inner data with lock().
+//!
 //! SIGNATURE
 //! fn shared() -> i32
 //!

@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `identity` as described in the stub.
 //!
+//! CONCEPT
+//! The identity function returns its argument unchanged; generics preserve the input type.
+//!
 //! SIGNATURE
 //! fn id<T>(x: T) -> T
 //!

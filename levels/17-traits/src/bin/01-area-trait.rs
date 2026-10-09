@@ -3,6 +3,9 @@
 //! TASK
 //! Trait `Area` for `Circle`.
 //!
+//! CONCEPT
+//! A trait is a shared behavior. impl Area for Circle fills in trait methods for a specific type.
+//!
 //! SIGNATURE
 //! fn circle_area(r: f64) -> f64
 //!

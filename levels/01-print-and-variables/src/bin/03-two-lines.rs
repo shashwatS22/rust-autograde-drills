@@ -9,4 +9,7 @@
 
 fn main() {
     // Your code below
+    println!("Line one");
+    println!("Line two");
+
 }

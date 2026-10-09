@@ -3,6 +3,9 @@
 //! TASK
 //! Build `app()` with GET `/` returning `ok`.
 //!
+//! CONCEPT
+//! Router::new().route(path, get(handler)) wires HTTP paths to async handler functions.
+//!
 //! SIGNATURE
 //! fn app() -> axum::Router
 //!

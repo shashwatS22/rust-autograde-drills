@@ -3,6 +3,9 @@
 //! TASK
 //! `fn greet(name: &str) -> String` returning `"Hello, Ada!"` style.
 //!
+//! CONCEPT
+//! &str is a borrowed string slice. The caller keeps the string; the function only reads it.
+//!
 //! SIGNATURE
 //! fn greet(name: &str) -> String` returning `"Hello, Ada!"` style
 //!

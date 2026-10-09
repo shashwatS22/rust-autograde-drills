@@ -1,0 +1,28 @@
+{
+  "files.watcherExclude": {
+    "**/target/**": true
+  },
+  "rust-analyzer.checkOnSave": false,
+  "rust-analyzer.check.workspace": false,
+  "rust-analyzer.check.extraArgs": ["--jobs", "2"],
+  "rust-analyzer.cargo.allTargets": false,
+  "rust-analyzer.cargo.targetDir": true,
+  "rust-analyzer.cachePriming.enable": false,
+  "rust-analyzer.files.exclude": [
+    "solutions",
+    "target",
+    ".checks-backup",
+    ".stub-backups"
+  ],
+  "rust-analyzer.cargo.buildScripts.overrideCommand": [
+    "cargo",
+    "check",
+    "--quiet",
+    "--message-format=json",
+    "--keep-going",
+    "-p",
+    "runner",
+    "--jobs",
+    "2"
+  ]
+}

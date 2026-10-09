@@ -3,6 +3,9 @@
 //! TASK
 //! GIVEN `let v = vec![1, 2, 3];`. Write `fn total(v: &[i32]) -> i32`. Call it, print the total, then print `v` joined by spaces — proving `&[i32]` borrowed rather than moved.
 //!
+//! CONCEPT
+//! &[i32] borrows a vector's elements without moving the Vec, so you can use the vector after the call.
+//!
 //! EXPECTED OUTPUT
 //! `6
 //! 1 2 3`

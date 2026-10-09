@@ -9,5 +9,10 @@
 //! 243001`
 
 fn main() {
-    // Your code below
+    println!(
+        r#"12 Park Road
+Bareilly
+243001
+    "#
+    );
 }

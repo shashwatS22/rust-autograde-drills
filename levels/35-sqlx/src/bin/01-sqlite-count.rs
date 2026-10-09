@@ -3,6 +3,9 @@
 //! TASK
 //! Create an in-memory SQLite table `users`, insert one row, and return `COUNT(*)`.
 //!
+//! CONCEPT
+//! sqlx connects to SQLite and runs query! or query_as! with compile-time checked SQL.
+//!
 //! SIGNATURE
 //! async fn count_users() -> Result<i64, sqlx::Error>
 //!

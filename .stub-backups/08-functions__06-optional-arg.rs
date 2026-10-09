@@ -3,6 +3,9 @@
 //! TASK
 //! `fn greet_with(name: &str, greeting: Option<&str>) -> String`. `None` means `"Hello"`. Rust has no default parameters — this is how you get them.
 //!
+//! CONCEPT
+//! Option<&str> is either Some(value) or None. It replaces default parameters: match or unwrap to pick a fallback.
+//!
 //! SIGNATURE
 //! fn greet_with(name: &str, greeting: Option<&str>) -> String`
 //!

@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `method` as described in the stub.
 //!
+//! CONCEPT
+//! Methods can return references tied to &self with the same lifetime as the impl block.
+//!
 //! SIGNATURE
 //! fn g() -> &'static str
 //!

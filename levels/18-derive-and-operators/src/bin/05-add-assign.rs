@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `add assign` as described in the stub.
 //!
+//! CONCEPT
+//! The AddAssign trait (or derive) enables += on your type when the stub implements operator traits.
+//!
 //! SIGNATURE
 //! fn bump() -> i32
 //!

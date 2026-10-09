@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `Iterator` by hand for a small counter.
 //!
+//! CONCEPT
+//! Implement Iterator with type Item and fn next(&mut self) -> Option<Item> for custom sequences.
+//!
 //! SIGNATURE
 //! fn collect_counter() -> Vec<u32>
 //!

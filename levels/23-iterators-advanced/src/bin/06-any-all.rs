@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `any all` as described in the stub.
 //!
+//! CONCEPT
+//! any checks if at least one item matches; all requires every item to match.
+//!
 //! SIGNATURE
 //! fn all_pos(v: &[i32]) -> bool
 //!

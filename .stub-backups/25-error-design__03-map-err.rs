@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `map err` as described in the stub.
 //!
+//! CONCEPT
+//! map_err transforms the Err side of Result without touching Ok.
+//!
 //! SIGNATURE
 //! fn wrap(s: &str) -> Result<i32, String>
 //!

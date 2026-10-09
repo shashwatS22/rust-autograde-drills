@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `where clause` as described in the stub.
 //!
+//! CONCEPT
+//! where T: Trait syntax splits complex bounds onto their own line for readability.
+//!
 //! SIGNATURE
 //! fn largest<T>(a: T, b: T) -> T
 //!

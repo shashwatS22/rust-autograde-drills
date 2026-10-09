@@ -3,6 +3,9 @@
 //! TASK
 //! In-memory `create_element` (maps to `web_sys`).
 //!
+//! CONCEPT
+//! web-sys bindings mirror browser DOM APIs; drills use the same shapes in native tests.
+//!
 //! SIGNATURE
 //! fn tag_name() -> String
 //!

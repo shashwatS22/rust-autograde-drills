@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `struct ref` as described in the stub.
 //!
+//! CONCEPT
+//! A struct holding &str needs a lifetime parameter on the struct: struct Excerpt<'a> { part: &'a str }.
+//!
 //! SIGNATURE
 //! fn first_word(s: &str) -> Ex
 //!

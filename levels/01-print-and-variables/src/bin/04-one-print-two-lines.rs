@@ -3,10 +3,15 @@
 //! TASK
 //! Print the same two lines using **one** `println!` and `\n`.
 //!
+//! CONCEPT
+//! The escape \n inside a string starts a new line. One println! can print several lines by putting \n between the parts.
+//!
 //! EXPECTED OUTPUT
 //! `Line one
 //! Line two`
 
 fn main() {
     // Your code below
+    println!("Line one\nLine two");
+    
 }

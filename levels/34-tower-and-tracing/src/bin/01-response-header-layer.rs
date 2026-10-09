@@ -3,6 +3,9 @@
 //! TASK
 //! Add a response header with `tower::util::MapResponseLayer`.
 //!
+//! CONCEPT
+//! Tower layers wrap services; MapResponseLayer transforms responses as they pass through.
+//!
 //! SIGNATURE
 //! fn app() -> axum::Router
 //!

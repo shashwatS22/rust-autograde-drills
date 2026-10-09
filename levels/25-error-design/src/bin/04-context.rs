@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `context` as described in the stub.
 //!
+//! CONCEPT
+//! anyhow::Context adds .context("message") to attach context when propagating errors.
+//!
 //! SIGNATURE
 //! fn ctx(s: &str) -> anyhow::Result<i32>
 //!

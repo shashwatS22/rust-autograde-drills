@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `block on` as described in the stub.
 //!
+//! CONCEPT
+//! block_on runs an async block on the current runtime from synchronous code (tests only here).
+//!
 //! SIGNATURE
 //! fn sync() -> i32
 //!

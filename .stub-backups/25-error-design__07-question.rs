@@ -3,6 +3,9 @@
 //! TASK
 //! Implement `question` as described in the stub.
 //!
+//! CONCEPT
+//! The ? operator propagates Err; the function signature must use a compatible error type.
+//!
 //! SIGNATURE
 //! fn div(a: i32, b: i32) -> Result<i32, &'static str>
 //!

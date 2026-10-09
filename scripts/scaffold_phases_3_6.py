@@ -94,6 +94,10 @@ def level_toml(level_dir: str, phase: int) -> str:
 
 
 def write_stub(ex: Exercise, level_dir: str, path: Path) -> None:
+    if str(SCRIPTS) not in sys.path:
+        sys.path.insert(0, str(SCRIPTS))
+    from concept_header import concept_doc_lines
+
     lines = [
         f"//! {level_dir} / {ex.name}",
         "//!",
@@ -101,6 +105,7 @@ def write_stub(ex: Exercise, level_dir: str, path: Path) -> None:
         f"//! {ex.task}",
         "//!",
     ]
+    lines.extend(concept_doc_lines(level_dir, ex.name))
     if ex.test_graded:
         lines.extend(
             [
